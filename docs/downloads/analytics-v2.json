@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "generatedAt": "2026-08-17T00:00:00.000Z",
   "dataCutoff": "2026-08-17",
-  "headline": "Canonical data coverage is strong for planning geometry and evidence provenance, but primary deeds, RERA progress, utility activation and risk geometry remain unavailable.",
+  "headline": "Canonical data now includes reviewed ACE Terra document-declared RERA facts; primary deeds, utility activation and risk geometry remain unavailable.",
   "inventory": {
     "evidenceRecords": 201,
     "sources": 241,
@@ -106,7 +106,7 @@
     {
       "id": "up-rera-progress",
       "status": "SOURCE_VERIFIED_MANUAL_ACCESS_REQUIRED",
-      "blocker": "QPR discovery/capture is automated for the verified public project session, but document privacy/content extraction and every other target still require review. CAPTCHA-bound fallback searches remain human-only. OC/CC must remain NOT_AVAILABLE where the official row states NA."
+      "blocker": "ACE Terra has reviewed document-declared facts; every other target still requires capture and review. CAPTCHA-bound fallback searches remain human-only. Inventory, title, ratings and recommendations remain forbidden, and OC/CC remains NOT_AVAILABLE where the official row states NA."
     },
     {
       "id": "igrsup-deeds",
@@ -155,7 +155,7 @@
     }
   ],
   "derivedDatasets": {
-    "reraProgressRecords": 0,
+    "reraProgressRecords": 18,
     "deedRecords": 0,
     "utilityObservations": 0,
     "riskFeatures": 0

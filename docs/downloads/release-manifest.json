@@ -3,8 +3,8 @@
   "generatedAt": "2026-08-16T17:18:30+00:00",
   "policy": "GeoJSON plot layers are distributed as a separate immutable asset bundle. Static code and small evidence files remain in the site bundle.",
   "staticBundle": {
-    "files": 450,
-    "bytes": 47794036,
+    "files": 457,
+    "bytes": 47962521,
     "entries": [
       {
         "path": ".gitattributes",
@@ -23,13 +23,13 @@
       },
       {
         "path": ".gitignore",
-        "bytes": 842,
-        "sha256": "67853ebd400b6ca79b957bf4f175c70fba7287ff1d6585c7c577781981470eea"
+        "bytes": 986,
+        "sha256": "0ae9781e960c7e87d08ffc3cc8b14fae9279b0ea201170406929f7539e33d349"
       },
       {
         "path": "assets/app.js",
-        "bytes": 122283,
-        "sha256": "d9edc7c5c46861f5087500bfbe991c63e716ffe1149723ef83d7742ef7b2db04"
+        "bytes": 126093,
+        "sha256": "92d7a11aa71f49cefec7f376a8da02308d765dd185d519b530eb1c46bc44fca2"
       },
       {
         "path": "assets/calculator.js",
@@ -103,13 +103,23 @@
       },
       {
         "path": "data/acquisition/registry.json",
-        "bytes": 8019,
-        "sha256": "92070c4219f441c3240a8674e5486dc42ecbceda09a483fd9ab5acc79cd0e7b7"
+        "bytes": 8075,
+        "sha256": "3a4cc8038b864846b6dc56535e6b39c4098b76e15b78289226b215eb45aa0f35"
+      },
+      {
+        "path": "data/acquisition/rera-fact-taxonomy.json",
+        "bytes": 2439,
+        "sha256": "da55e4602763e274f169e54876a2abb6c9366c46ec754d3df38236734ffcd40d"
       },
       {
         "path": "data/acquisition/rera-progress-schema.json",
-        "bytes": 1214,
-        "sha256": "41c9335d8260973a15c3355708daa34aff88a2b907f36934c9f6e21e3e7b8506"
+        "bytes": 2517,
+        "sha256": "97ffe4d2b22a0b171c9141e5205dc4d888cad4c7fe19a0a0d8d06d7f18023ff6"
+      },
+      {
+        "path": "data/acquisition/rera-review-decisions/ace-rera-agency-poc-20260819-v2.json",
+        "bytes": 3105,
+        "sha256": "280b7624e4b6385e27fcd3859fa477452c852c1eb850e982ec6f1d3c342a3ee9"
       },
       {
         "path": "data/acquisition/risk-overlay-schema.json",
@@ -124,12 +134,12 @@
       {
         "path": "data/acquisition/up-rera-five-target-identity-variance-ledger.json",
         "bytes": 6335,
-        "sha256": "cb137b82bd00a2ef0b505be5a4ed4507c2b621d17556d031ab71467cd0a2f263"
+        "sha256": "9429a66f52317b3bdae18eb05c80b93f2c647d5e1d09d0b570bfca092981792b"
       },
       {
         "path": "data/acquisition/up-rera-manual-batch.json",
-        "bytes": 5146,
-        "sha256": "05120d0f8d5a02842ae01526b3de987212f1655f3b684d5bb725b4887af8c02b"
+        "bytes": 5297,
+        "sha256": "c82c8e88bf5bd99c542c879f8e186f6b4689dd303b2a4b5c24d4bfd35745b547"
       },
       {
         "path": "data/acquisition/utility-observation-schema.json",
@@ -188,13 +198,13 @@
       },
       {
         "path": "data/analytics-v2.js",
-        "bytes": 5737,
-        "sha256": "fc996705591d4315de6018de4ab0cad19c489de5cd1c99a41ed91a07b28633c5"
+        "bytes": 5720,
+        "sha256": "20bebf5571299d67549d6dedbed77623e58b5ea42d688aaa44177dd4c6f45a09"
       },
       {
         "path": "data/analytics-v2.json",
-        "bytes": 7564,
-        "sha256": "761282b7c097698040276058ee3fe07b87e382eeba4e22f82da28213ab30ced8"
+        "bytes": 7547,
+        "sha256": "0a8021987b07dd4717ca82963e007d2c2c6162c6256fd66fd17561b4c6fef31f"
       },
       {
         "path": "data/builders/builder-schema.json",
@@ -253,8 +263,8 @@
       },
       {
         "path": "data/derived/rera-progress.json",
-        "bytes": 345,
-        "sha256": "0d865483d818c6337200e10b371caf7696546ba3c3d4b4a2ddd49de2acce1186"
+        "bytes": 24151,
+        "sha256": "ecc86640ff3e9fa60ac8f5b4c5942e0f9d60e69df3849e83276a34b7e552da20"
       },
       {
         "path": "data/derived/revenue-parcel-crosswalk.json",
@@ -1583,13 +1593,13 @@
       },
       {
         "path": "docs/workstreams/11-static-deployment.md",
-        "bytes": 6850,
-        "sha256": "01e5e9888563106a0b017246b4cd188a7d559c82b005cd2634d1f7846e365c8b"
+        "bytes": 8431,
+        "sha256": "d91226720a9d5cb3a3e6c456687c6c6ef34d498a765b59e59ec1db265eeb7ebb"
       },
       {
         "path": "docs/workstreams/12-external-blockers.md",
-        "bytes": 5755,
-        "sha256": "8bacd9bdf0b21e2fb519b8101e804727322ba9d8b22e959d264527bed2bd6619"
+        "bytes": 6013,
+        "sha256": "9d4fdf0f0366e7d19c01fc249f35027586b424234e5982ad449409a00a959544"
       },
       {
         "path": "docs/workstreams/13-builder-legal-entity-evidence.md",
@@ -1612,6 +1622,11 @@
         "sha256": "089e270c4c55898ee312e4acecf2d62874925f2ce288f6bee866c43576a1d79d"
       },
       {
+        "path": "docs/workstreams/14-up-rera-ai-review.md",
+        "bytes": 5399,
+        "sha256": "f8c86050095cf5fb5e5445ff662826830f06decf83a4ad83ad854845797bfedb"
+      },
+      {
         "path": "docs/workstreams/README.md",
         "bytes": 1922,
         "sha256": "d4d804ad8d117d7e3c121e3bf8f68597165dae3f4c72118eda6f428728ea0b54"
@@ -1628,8 +1643,8 @@
       },
       {
         "path": "downloads/analytics-v2.json",
-        "bytes": 7564,
-        "sha256": "761282b7c097698040276058ee3fe07b87e382eeba4e22f82da28213ab30ced8"
+        "bytes": 7547,
+        "sha256": "0a8021987b07dd4717ca82963e007d2c2c6162c6256fd66fd17561b4c6fef31f"
       },
       {
         "path": "downloads/clusters.csv",
@@ -1713,8 +1728,8 @@
       },
       {
         "path": "downloads/rera-progress.json",
-        "bytes": 345,
-        "sha256": "0d865483d818c6337200e10b371caf7696546ba3c3d4b4a2ddd49de2acce1186"
+        "bytes": 24151,
+        "sha256": "ecc86640ff3e9fa60ac8f5b4c5942e0f9d60e69df3849e83276a34b7e552da20"
       },
       {
         "path": "downloads/rera-yeida-plot-mapping.csv",
@@ -1743,8 +1758,8 @@
       },
       {
         "path": "HANDOFF.md",
-        "bytes": 23184,
-        "sha256": "9245b128a3d0e7faf6ae8edcf148cbba6b2b046f37215bac3eb0e84c9188ac66"
+        "bytes": 25435,
+        "sha256": "043f4865df288866b9610ebb8d76906f578ceea4b1bb937daa7c4ed3eeec1558"
       },
       {
         "path": "index.html",
@@ -1858,8 +1873,8 @@
       },
       {
         "path": "scripts/build-analytics-v2.js",
-        "bytes": 7216,
-        "sha256": "44943ac4288aaef24cc8e4efbc841032bed17751692e44d1d67b61f37ac1fa9e"
+        "bytes": 7407,
+        "sha256": "285cae7ee18dc254475608d1f90a2b8df642d7ad166bcaa6a07f22e86fb52347"
       },
       {
         "path": "scripts/build-builder-evidence-queue.js",
@@ -1868,8 +1883,8 @@
       },
       {
         "path": "scripts/build-db-import.js",
-        "bytes": 13148,
-        "sha256": "f2a9c6b33745562b2caf169f8086364f1dce7e70e6690fe53693301fbeae0d64"
+        "bytes": 13217,
+        "sha256": "e03fa7c630e1d2f57deb50dc84233f968a72aca5733c1864c98ba395e21a170b"
       },
       {
         "path": "scripts/build-entity-plot-ledger.js",
@@ -1888,8 +1903,8 @@
       },
       {
         "path": "scripts/build-release-manifest.js",
-        "bytes": 2476,
-        "sha256": "da3927caba4c2f5b997458fe4a290e48d3ad914b9d9fcb61044dfd4b7e6d658e"
+        "bytes": 2541,
+        "sha256": "bc4fe1b217f9640cdb18be2139cdf2628dc556b7381735d506475185e3c22930"
       },
       {
         "path": "scripts/build-rera-manual-batch.js",
@@ -1968,8 +1983,13 @@
       },
       {
         "path": "scripts/lib/acquisition-promotion.js",
-        "bytes": 20964,
-        "sha256": "839ebbd8e2ab5b2e00479a7b81200aa6b9b770175a33aacd86bf9db1cb552a2b"
+        "bytes": 21580,
+        "sha256": "8a5ade2c4c46b2bb7fc9ec782c69c9dadb92261e90fad4d6cfa8ffb1ce53c879"
+      },
+      {
+        "path": "scripts/lib/canonical-file.js",
+        "bytes": 1139,
+        "sha256": "f348f60e3f338a071a718f7a4bf62ea6dabbae54646b1c880e86fc99defe87a9"
       },
       {
         "path": "scripts/lib/db-readiness.js",
@@ -1998,13 +2018,18 @@
       },
       {
         "path": "scripts/package-static-release.js",
-        "bytes": 22522,
-        "sha256": "90d2fae62bcab55668e00d6a8af64af6d2e59f4b59fd894afb9952d95dab87ba"
+        "bytes": 21796,
+        "sha256": "f6d8844a57ce7f396faed82c421012bb9ca094cc2e5ec180473cc7c0b5299a9b"
       },
       {
         "path": "scripts/rederive-execution-stages.py",
         "bytes": 1366,
         "sha256": "722f2268897060faa977d70c7a53bed9488b2f1727a54e9ce5cfa62d500f11b4"
+      },
+      {
+        "path": "scripts/rera_ai_review.py",
+        "bytes": 56651,
+        "sha256": "76f6c0f93f9210dab61eaa13f122257ed06c0021af2694a78687aa9bbf0a5668"
       },
       {
         "path": "scripts/rera_assisted_acquisition.py",
@@ -2015,6 +2040,11 @@
         "path": "scripts/restore-gis-assets.ps1",
         "bytes": 1085,
         "sha256": "aa9354025e83120ab55bd083dd17e120a1dfaf0c7babd22fefc2b74adfd41193"
+      },
+      {
+        "path": "scripts/run-rera-agency-review.ps1",
+        "bytes": 4162,
+        "sha256": "235b1592644814850cc464c67a73e927a5a773faa08d9fc3a9e9738116903b8b"
       },
       {
         "path": "scripts/snapshot-data.js",
@@ -2042,6 +2072,11 @@
         "sha256": "3332859df0167edd85e6181884f6c030d9685a12a2ac72fb2025f60ab865bfe1"
       },
       {
+        "path": "scripts/test_rera_ai_review.py",
+        "bytes": 26702,
+        "sha256": "e3e439e947bcbf8176c1b34addf12a93279a593204512cb081381976e5ef99f8"
+      },
+      {
         "path": "scripts/test_rera_assisted_acquisition.py",
         "bytes": 17460,
         "sha256": "081c9b369bfce166d0b1e4445d83208f363b6c6245b45f931c58a6201fa6954a"
@@ -2058,8 +2093,8 @@
       },
       {
         "path": "scripts/test-browser.py",
-        "bytes": 61096,
-        "sha256": "4fb1b9e3526a46b47afa42b53540a7d57dca7891ce7d4f3520fb7e2300328e80"
+        "bytes": 66114,
+        "sha256": "5767460daa0e05330b6460bb05f41dbe7678a015e14a25092f58e717e1d33b0b"
       },
       {
         "path": "scripts/test-builder-evidence-queue.js",
@@ -2113,13 +2148,13 @@
       },
       {
         "path": "scripts/validate-acquisitions.js",
-        "bytes": 2200,
-        "sha256": "0ff3ad2287d482de892cff3e6c45509b5e52ee449c77d34a9f9a07b80df06f3b"
+        "bytes": 3820,
+        "sha256": "90e955a67b1863c6948fcc0d9458b61e570ed5fd694b1842bbf95360a7b7908a"
       },
       {
         "path": "scripts/validate-analytics-v2.js",
-        "bytes": 2035,
-        "sha256": "8bfb681036084172fe507244b1f968475dff0f1b6bd393f36e31646ba372f87b"
+        "bytes": 2502,
+        "sha256": "2559673b00353e6450206650dc805366d2d5f65dea16019f39085bf0ac665fd2"
       },
       {
         "path": "scripts/validate-builder-evidence-queue.js",
@@ -2138,8 +2173,8 @@
       },
       {
         "path": "scripts/validate-db-parity.js",
-        "bytes": 33634,
-        "sha256": "ab065342a59bfc3ac9bfe89388e0b6c9efc047c4e865dc898faa8ba4622f9fbb"
+        "bytes": 33740,
+        "sha256": "84db8a3135c7af8167136f177332e305168c630d21a26f412d1aa4975d0e41c2"
       },
       {
         "path": "scripts/validate-entity-plot-ledger.js",
@@ -2218,8 +2253,8 @@
       },
       {
         "path": "scripts/verify-release.ps1",
-        "bytes": 5766,
-        "sha256": "d9b9f79ee05f5ef8355a0977502ae93a03c79077cdaee0a2e4a9a96768a3c287"
+        "bytes": 5850,
+        "sha256": "f612781e41cf671b7849bcd155bdaf11d72daab55182f8cb4d4f07a3cd18487a"
       },
       {
         "path": "scripts/yeida_rti_package.py",
@@ -2238,23 +2273,23 @@
       },
       {
         "path": "tests/acquisition-promotion.test.js",
-        "bytes": 15346,
-        "sha256": "c099764d429efe0bc43be92310108ce4f8b76643efca7555605a27ad8a2208d0"
+        "bytes": 17955,
+        "sha256": "b31c19bbfa6fd988df5117d7968c2d753355131a9732039cdbe16cd5624ee540"
       },
       {
         "path": "tests/db-readiness.test.js",
-        "bytes": 15308,
-        "sha256": "0c1065f6cf867304774244f4179639ace6312367440e01497aaa75f053f8b078"
+        "bytes": 16208,
+        "sha256": "618fec38923006f8c54db4d659aa31f8d979b3bcac4685c8057e8e2c02b0cc56"
       },
       {
         "path": "tests/pages-deployment-policy.test.js",
-        "bytes": 12228,
-        "sha256": "d2d766f99653f8c442b5e82c5e04d3afa3c615e387206e93e000532fb4c525f2"
+        "bytes": 12720,
+        "sha256": "858f17f0d7d31f3d783bf17ff6c8eb71e3073688bceca5c961299ea8f18300cb"
       },
       {
         "path": "TODO.md",
-        "bytes": 8871,
-        "sha256": "2987a7b67463cb3617e67e674ea5b49e98ec0c0589651270a23d675976f1f4f5"
+        "bytes": 9133,
+        "sha256": "d515220fc20a3a4be68388d681833489d4db409d598733b824b4dff1183ac522"
       }
     ]
   },

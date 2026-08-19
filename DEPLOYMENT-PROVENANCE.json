@@ -2,12 +2,12 @@
   "schemaVersion": 1,
   "kind": "realtyproof.pagesDeployment",
   "sourceVisibility": "private",
-  "sourceCommit": "e80247923375c47b8b0e6a614cfcc38b8ba27655",
-  "workflowRunId": 32242211541,
-  "workflowRunUrl": "https://github.com/nadeemqwerty/realtyproof-ai/actions/runs/32242211541",
-  "artifactId": 9361288235,
-  "artifactName": "realtyproof-static-site-static-20260816-99b5216dea359d2f",
-  "releaseId": "static-20260816-99b5216dea359d2f",
-  "contentDigest": "4e0469b3f0bb8e4b29e4a8c8908811654639f329506900b221037411dea5b819",
-  "approvalReference": "user-chat-2026-08-19T15:05:01+05:30"
+  "sourceCommit": "11b378591f6d76d7df6e473e986f1458747bbdae",
+  "workflowRunId": 32293940948,
+  "workflowRunUrl": "https://github.com/nadeemqwerty/realtyproof-ai/actions/runs/32293940948",
+  "artifactId": 9380534538,
+  "artifactName": "realtyproof-static-site-static-20260816-c0f1aca3d1329b10",
+  "releaseId": "static-20260816-c0f1aca3d1329b10",
+  "contentDigest": "81ba9fe90e7f621cb34f703501255d5641189a95e1db66d5c99eaf30255ef957",
+  "approvalReference": "user-complete-all-2026-08-20T00:14:56.783+05:30"
 }
