@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "kind": "realtyproof.deploymentVerification",
+  "releaseId": "static-20260816-99b5216dea359d2f",
+  "contentDigest": "4e0469b3f0bb8e4b29e4a8c8908811654639f329506900b221037411dea5b819",
+  "verifiedBranchCommit": "7146fe5f3a4abffa0e3dd2aaba76e3cddf09608c",
+  "workflowRunId": 32243951656
+}
