@@ -30,6 +30,11 @@ jobs:
           [[ "$active_digest" == "$content_digest" ]]
           [[ "$(jq -er '.releaseId' "$release_path")" == "$release_id" ]]
           [[ "$(jq -er '.staticArtifact.hash' "$release_path")" == "$content_digest" ]]
+          prior_id="$(jq -er '.prior.releaseId' docs/downloads/active-release.json)"
+          prior_path="docs/downloads/releases/${prior_id}/release.json"
+          test -f "$prior_path"
+          [[ "$(jq -er '.releaseId' "$prior_path")" == "$prior_id" ]]
+          [[ "$(jq -er '.rollback.targetReleaseId' docs/downloads/active-release.json)" == "$prior_id" ]]
 
       - name: Open bot-authored deployment PR
         env:

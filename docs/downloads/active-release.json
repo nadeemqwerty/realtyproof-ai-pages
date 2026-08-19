@@ -11,19 +11,19 @@
     "includeGisGeojson": false
   },
   "prior": {
-    "releaseId": "static-20260816-1fb090be8529d298",
-    "releasePath": "downloads/releases/static-20260816-1fb090be8529d298/release.json",
-    "contentHash": "1fb090be8529d298823a7a5df11d3e1c50a004d5fc6e575fbbcdddf177c9c6c1",
+    "releaseId": "static-20260816-f4571f4398159e53",
+    "releasePath": "downloads/releases/static-20260816-f4571f4398159e53/release.json",
+    "contentHash": "f4571f4398159e5345d05240ff09dcd18b56030ee069952c4f9090e4e66ebf5f",
     "sourceManifestSha256": "f0558afc1112a87b2c6fc0335091a817d0fe6d88ce7f97a38307e56b25ba0959",
     "sourceGeneratedAt": "2026-08-16T17:18:30+00:00",
-    "staticArtifactHash": "df95c5593f47bef020181028228248df358faf67d27dedd81eb4a2a1dfe9a1cf",
+    "staticArtifactHash": "918e345ba73f698e6b8f20d1d1e22f9ad133042093dda1aa2ecec6af345e9e88",
     "includeGisGeojson": false
   },
   "rollback": {
     "available": true,
-    "targetReleaseId": "static-20260816-1fb090be8529d298",
-    "targetReleasePath": "downloads/releases/static-20260816-1fb090be8529d298/release.json",
-    "targetContentHash": "1fb090be8529d298823a7a5df11d3e1c50a004d5fc6e575fbbcdddf177c9c6c1",
+    "targetReleaseId": "static-20260816-f4571f4398159e53",
+    "targetReleasePath": "downloads/releases/static-20260816-f4571f4398159e53/release.json",
+    "targetContentHash": "f4571f4398159e5345d05240ff09dcd18b56030ee069952c4f9090e4e66ebf5f",
     "mode": "pointer-only",
     "instruction": "To rollback, restore the prior release summary into downloads/active-release.json.active and keep immutable release manifests unchanged."
   },

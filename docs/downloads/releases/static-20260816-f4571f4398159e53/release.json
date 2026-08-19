@@ -1,0 +1,3727 @@
+{
+  "schemaVersion": 3,
+  "kind": "realtyproof.staticRelease",
+  "releaseId": "static-20260816-f4571f4398159e53",
+  "contentHash": "f4571f4398159e5345d05240ff09dcd18b56030ee069952c4f9090e4e66ebf5f",
+  "sourceManifest": {
+    "path": "downloads/release-manifest.json",
+    "sha256": "f0558afc1112a87b2c6fc0335091a817d0fe6d88ce7f97a38307e56b25ba0959",
+    "generatedAt": "2026-08-16T17:18:30+00:00",
+    "policy": "GeoJSON plot layers are distributed as a separate immutable asset bundle. Static code and small evidence files remain in the site bundle."
+  },
+  "bundles": {
+    "static": {
+      "source": "current workspace public static allowlist",
+      "files": 286,
+      "bytes": 44445543,
+      "hash": "918e345ba73f698e6b8f20d1d1e22f9ad133042093dda1aa2ecec6af345e9e88",
+      "entries": [
+        {
+          "path": "assets/app.js",
+          "bytes": 122283,
+          "sha256": "d9edc7c5c46861f5087500bfbe991c63e716ffe1149723ef83d7742ef7b2db04",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "assets/calculator.js",
+          "bytes": 12369,
+          "sha256": "7238a67785a56d9bb49db62fa1106c9546aaec7108471ce03718604cf6856b21",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "assets/favicon.svg",
+          "bytes": 239,
+          "sha256": "6719e56a591b441e9b608e16121f6566ae34e226331c59a8a26f1bd5fed5824c",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "assets/i18n.js",
+          "bytes": 3948,
+          "sha256": "f64656c9543f37ec3a0609d32b6ee9605e2413c273532eef4ebb91b7f6455817",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "assets/map.js",
+          "bytes": 63831,
+          "sha256": "3831dc881b4828e308cf83987e0c9b671ec3671f10ea97c397a192c6f425521f",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "assets/request.js",
+          "bytes": 4086,
+          "sha256": "c3e6ff7a9d3371aa958d03918e267ab0f951a78dece06c053cffd71ddd9132d0",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "assets/styles.css",
+          "bytes": 35299,
+          "sha256": "4d9cec7b2cfb9a538a9ba6507991cf39a21173e23f058e94521a3cf95d4efb05",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/analytics-v2.js",
+          "bytes": 5737,
+          "sha256": "fc996705591d4315de6018de4ab0cad19c489de5cd1c99a41ed91a07b28633c5",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/analytics-v2.json",
+          "bytes": 7564,
+          "sha256": "761282b7c097698040276058ee3fe07b87e382eeba4e22f82da28213ab30ced8",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/builders/builder-schema.json",
+          "bytes": 858,
+          "sha256": "8c63df629d20418f69414e588c346215ca9e721f2cf0169482e9e15ba1bed7c0",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/builders/builder-seeds.js",
+          "bytes": 5455,
+          "sha256": "0a933665d4e64b33e5cafbefcb36b60cd2b7fc15c729bc5a9a863e6ee27e6931",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/builders/builder-seeds.json",
+          "bytes": 6757,
+          "sha256": "9c13197ee058ea8aeb4a1d8de303bc8042b67194113612ad67c5ac219c125ff0",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/contract-v2.json",
+          "bytes": 3699,
+          "sha256": "08f5dfbe3229bf856745e77c7fcd5669bc03e019321629b59474ae02f44db571",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/event-contract-v1.json",
+          "bytes": 6951,
+          "sha256": "0df2a792ebd700e57b8bbe6632fa6916d64a65e9fa5fc26c1d71c57a66c2eeb2",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/execution-stages.js",
+          "bytes": 1140,
+          "sha256": "4dcf7bdbc112ddb3a25f7281b73bfb30d24e910dd4ba62edbc6f14777f7b7fc6",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/execution-stages.json",
+          "bytes": 1702,
+          "sha256": "d7e24a563f93ad5bf7d2462ccc93a1e806bac4ea8cac5b197cb968e45be3ef16",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/i18n.json",
+          "bytes": 15017,
+          "sha256": "bb92855421983bd80c06185b1d8669e27eb7c24caae2d15a52a95836f9e5ea91",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/links/entity-plot-link-schema.json",
+          "bytes": 672,
+          "sha256": "b04d4308a2fd61ebe5a25abaedcc2f9b600f047ed259dd0259dd0754de399525",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/links/entity-plot-links.json",
+          "bytes": 50577,
+          "sha256": "91e67b77a41e8b932dc2155781f3c7eafdfdfafeec888da46f7fb0314de4e650",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/links/manual-link-seeds.json",
+          "bytes": 1093,
+          "sha256": "50eb4707c02143400f81b109b7f546121e2cb5f127205b60e789e59391c95c30",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/market-assignments.js",
+          "bytes": 26774,
+          "sha256": "a53cb4759295b3f86025c61eec39645c07f03fc1db5bd9cf113bae58ba8d283e",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/market-assignments.json",
+          "bytes": 40475,
+          "sha256": "3ff036a27c479407b95d81c5b8ab2222590f3e587ac061dee722db9431b197ab",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/markets.js",
+          "bytes": 1435,
+          "sha256": "85451d129d220738c9afb91c28ae1be68e3f47a1bd8868d6ffaf3bee6300ebeb",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/markets.json",
+          "bytes": 1654,
+          "sha256": "418eac7971148e4e61747ea06a347098c1908804816792c6d21564efee8face9",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/manifest.js",
+          "bytes": 4401,
+          "sha256": "32e86cc28efb3f1249212e0796b289e0b1fc653a78ed5822ba6e8e8764f8eb61",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/manifest.json",
+          "bytes": 5725,
+          "sha256": "2736dc0dbbe90a4e48c242b69ce71ed04a797e672d7aee017f17db0760716dda",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/gnida/commercial/z1-x0-y0.geojson",
+          "bytes": 109508,
+          "sha256": "108093733b4c97d1999a03d35bfa37678ce7842ce92c1db0050a316998534c90",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/gnida/commercial/z1-x0-y1.geojson",
+          "bytes": 92544,
+          "sha256": "69a1b238621d1e70107009df8c8b354b0af839f356fa6a9a40413a48414f933a",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/gnida/commercial/z1-x1-y0.geojson",
+          "bytes": 218820,
+          "sha256": "61c5d4bafa4e8b5cd06e9eec8e89743825f3e0029319b42e9738aec3b573319c",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/gnida/commercial/z1-x1-y1.geojson",
+          "bytes": 6089,
+          "sha256": "62fb08f2deea4d8bf484c94544adbc534f6598ec17f0dc8fabca2ef2c49de1a4",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/gnida/group-housing/z0-x0-y0.geojson",
+          "bytes": 55289,
+          "sha256": "7e3782205c7d04d43566be5071688ca324f9a81663c03fa07afe2cf5d395af11",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/gnida/industrial/z1-x0-y0.geojson",
+          "bytes": 161810,
+          "sha256": "1b9c8d5ded8a9ba2f862a6ea02a06a750d5594928e4212ceb075779e65a8a2b6",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/gnida/industrial/z2-x0-y3.geojson",
+          "bytes": 82695,
+          "sha256": "131e7b02445971015bab1312d56b061c82688902b215f7d5286dd468294ff38a",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/gnida/industrial/z2-x1-y2.geojson",
+          "bytes": 3717,
+          "sha256": "5b43ac73784aba567decb09ceb57adb5297d8a3fc5e747359f39f7db77f9bca9",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/gnida/industrial/z2-x2-y0.geojson",
+          "bytes": 425052,
+          "sha256": "e11085093566bdfffe918c7b85c838a13e9c98b8f60f973470317f9b37fde097",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/gnida/industrial/z2-x3-y0.geojson",
+          "bytes": 267239,
+          "sha256": "6ddeb657833d0d89465a6299393adcd3b465d8f2295a84a24b2db90b2b5847b8",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/gnida/industrial/z3-x0-y4.geojson",
+          "bytes": 308355,
+          "sha256": "734fa8cbc53f81f79ef88bd746f4b0444a08e2f24efe4abaab003cd1bd88552f",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/gnida/industrial/z3-x0-y5.geojson",
+          "bytes": 214767,
+          "sha256": "05805588574664a51d1678374391020697279ccfaf8151140b6aa0692d35910f",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/gnida/industrial/z3-x1-y4.geojson",
+          "bytes": 233445,
+          "sha256": "6927902c5f7bdcf7b3492352f1a2febe120dc83e3a2f1bcd906bc2deda402dea",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/gnida/institutional/z1-x0-y0.geojson",
+          "bytes": 231925,
+          "sha256": "66931180b4c52ab8d8b04cbd6ab2c002f3955c20fc798cbc35c493412a83e359",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/gnida/institutional/z1-x0-y1.geojson",
+          "bytes": 241762,
+          "sha256": "758fc12495db9e8a3873582f622ca5a696c5f9bccdeb6a260bd37426e2cc6515",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/gnida/institutional/z1-x1-y0.geojson",
+          "bytes": 169865,
+          "sha256": "c730fa48fe30e78924dde93078d7291692b464153197d1df8c87120cb714852b",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/gnida/institutional/z1-x1-y1.geojson",
+          "bytes": 1218,
+          "sha256": "d13adb985a623d64a6eff4f159b0c3ba65b6796d4a23325cadb3f5650df851fb",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/gnida/it-ites/z0-x0-y0.geojson",
+          "bytes": 151575,
+          "sha256": "696a8ebb567fcb6f99fd00348293ebbf93ca01188151539e2d2359c3262f8f55",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/index.json",
+          "bytes": 53577,
+          "sha256": "c5685e6fd909586da47bcac13b838c0e6419dcdc78d1defaa211a26e9177db08",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/commercial/z1-x0-y0.geojson",
+          "bytes": 16778,
+          "sha256": "1e820be663efdd6bbaf21df577e06fb112c0b3f623bdc438c0f12c56d5eb0b5e",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/commercial/z1-x1-y0.geojson",
+          "bytes": 72148,
+          "sha256": "5e5f2079828b0ae762f1494a228899d556c9f2227b6ecb17099be0e754f0c97c",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/commercial/z1-x1-y1.geojson",
+          "bytes": 49912,
+          "sha256": "47540faa423647f1d6e24c27764cd5e50b99fd4d0a75c4dfc764eeacc5af263f",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/commercial/z2-x0-y2.geojson",
+          "bytes": 335142,
+          "sha256": "d2cbc3e7cf4d41859694304956bf77619745da479d12c14a69c8b1fb7595245e",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/commercial/z2-x0-y3.geojson",
+          "bytes": 160194,
+          "sha256": "82deec6b05a1c55f37fd9ac31598be706290105c04f4383755d452e9990e8f31",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/commercial/z2-x1-y2.geojson",
+          "bytes": 66087,
+          "sha256": "862b357d738630ce1eefb808046491eb3cf5566aecea7bc9ac981d797d33e317",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/commercial/z2-x1-y3.geojson",
+          "bytes": 183140,
+          "sha256": "f43c9b1f9be6d097a62ef5789a56e8bfef4392bcaf78f715f93672f143c7a8b6",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/group-housing/z1-x0-y0.geojson",
+          "bytes": 6150,
+          "sha256": "b82c40ef14598a37a75d6da53efb72a81fea9e7cb517904e6f913b36d663ccde",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/group-housing/z1-x1-y0.geojson",
+          "bytes": 23353,
+          "sha256": "af8325b74c6c099e7cad6c93956879060077c52c0607e067a07d23b4026140cf",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/group-housing/z1-x1-y1.geojson",
+          "bytes": 15149,
+          "sha256": "9e7d85829c10a87bf64def155959828ef2de3a631830f358dc5779f681fef75e",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/group-housing/z2-x0-y3.geojson",
+          "bytes": 7507,
+          "sha256": "12a8694b092d5a1f6b767461aa4f725ff71f347f9d00cb4dae2bb956b3916d78",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/group-housing/z2-x1-y2.geojson",
+          "bytes": 46511,
+          "sha256": "03a2cb37cbf28d6fb3646035fb94295c516f17460fedb59b3e8457ad437ef47e",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/group-housing/z2-x1-y3.geojson",
+          "bytes": 73238,
+          "sha256": "258133d860782b8da3eb0b02d1c9ed006c2da25d0c11f73812ac4b12e362dd0a",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/group-housing/z3-x0-y5.geojson",
+          "bytes": 1236,
+          "sha256": "e4fd0f27f0ec78cd5a25e82dbbb95e4f7eaccc76eb6f53badbdf3a6a62139886",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/group-housing/z3-x1-y4.geojson",
+          "bytes": 4619,
+          "sha256": "d670644a8d9592d798bc9b7f8fa7700a3fd2485dfb7980c63ba724de0c389d84",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/group-housing/z4-x2-y10.geojson",
+          "bytes": 53923,
+          "sha256": "4487cafdaca4a417df80e8f31af2f9a83e3c235340eb832eccd6d9b66bce2628",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/group-housing/z4-x2-y11.geojson",
+          "bytes": 386034,
+          "sha256": "228ee4a578a66731f4bcca583ad853b909c649388c4f8516a7c1eff211e7bcba",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/group-housing/z4-x3-y10.geojson",
+          "bytes": 51271,
+          "sha256": "427274d33e2f7fd57c71ce1eb0eb9455213819e73918b7e5c9df91e2cbe9cba9",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/group-housing/z4-x3-y11.geojson",
+          "bytes": 103403,
+          "sha256": "df56f29c201049bc5e180333c428ba099f6198da80011077893130f8faa0f363",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/industrial/z2-x3-y0.geojson",
+          "bytes": 137930,
+          "sha256": "554103ff906af2c39b8a2cffc916a893acd996c758e4827ac1253bb29785f30d",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/industrial/z2-x3-y1.geojson",
+          "bytes": 82784,
+          "sha256": "01471f0f681d511a1baeb69f686294b4d49e88fd172fab195b9fb341db883afd",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/industrial/z3-x1-y5.geojson",
+          "bytes": 7563,
+          "sha256": "8649285069558ec3ce9eea22eb398242151c50b1ed380e301dea3c9358996f03",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/industrial/z3-x2-y6.geojson",
+          "bytes": 347028,
+          "sha256": "3ab51f49355041437257ec52eb3d96908b986e81c9c9c89598ebf5927572a247",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/industrial/z3-x2-y7.geojson",
+          "bytes": 5775,
+          "sha256": "b557909dd060869aaed716302d2ca6ea4e1b065bc384b01309e5e62644264a55",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/industrial/z3-x3-y6.geojson",
+          "bytes": 147981,
+          "sha256": "01d92edabdf41dd0b53e71acec9d1bf9cc52f2dac8543783e8c91855fa3326af",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/industrial/z3-x4-y2.geojson",
+          "bytes": 1549,
+          "sha256": "7a44f68850a3f05fca1d9f1198811ebd0bb7411ed37afe00a8ae300f7a88c46c",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/industrial/z3-x4-y3.geojson",
+          "bytes": 285613,
+          "sha256": "9b1977d961e6156bab371da1c8a4ef8a6490fda4c510f16fbf66e1930da72fd3",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/industrial/z3-x4-y4.geojson",
+          "bytes": 271862,
+          "sha256": "0ff7a5bc3586687acc7ce2cdc04b23459247a7fd4fd2acd8c817911e189c8133",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/industrial/z3-x4-y6.geojson",
+          "bytes": 111344,
+          "sha256": "9406a0b0b6c4891e78adf326447048a8d755a071f9f6589be41c5e6489b7d9ba",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/industrial/z3-x5-y2.geojson",
+          "bytes": 46055,
+          "sha256": "f25a909b74c5d9ef6a05b139545a7b2bb9b24a8068d6553ff1d3b8d8096d00d6",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/industrial/z3-x5-y4.geojson",
+          "bytes": 248578,
+          "sha256": "60529c698445f662a0598c5e9e820c2f6f7f8b224f26ac91f71f9016a5cc805d",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/industrial/z4-x0-y10.geojson",
+          "bytes": 9646,
+          "sha256": "327f1b4ca8c01108e630899871179b93a3db52efd2a70b94b8385c7857c6f5d6",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/industrial/z4-x0-y11.geojson",
+          "bytes": 377034,
+          "sha256": "fa2fb48c9912981c18f0828428869d2d00ebd9e3d08a49c763469d5551718cb1",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/industrial/z4-x1-y11.geojson",
+          "bytes": 360036,
+          "sha256": "48d20871dd9ea71c524bb70c830ea56e77db66b1ea986b778b049f30e9ddf960",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/industrial/z4-x1-y13.geojson",
+          "bytes": 15048,
+          "sha256": "9c712753f842df97ccc8432ea5213327769272b850e9bbc030c2551f8985f3d3",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/industrial/z4-x10-y6.geojson",
+          "bytes": 24943,
+          "sha256": "1139395d479889ea7c43a06e32141f655bc905491a5f2217099c92ed820b59be",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/industrial/z4-x10-y7.geojson",
+          "bytes": 179053,
+          "sha256": "67bc0cd704ab0074a9a80b2c40b5fe81db8f8f57ec6e0d24657d8b0911db30de",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/industrial/z4-x11-y6.geojson",
+          "bytes": 51377,
+          "sha256": "b51bd3d4c988d89f478cf4b74218c3daab5cc10cbe65b59a6085699de73f279c",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/industrial/z4-x11-y7.geojson",
+          "bytes": 121897,
+          "sha256": "b441e5b4cb450edaf011b4ae4d43ec1a850dc53cd9bab20407ac373d216a675f",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/industrial/z4-x2-y13.geojson",
+          "bytes": 79603,
+          "sha256": "9d407f18b294cf5aa8c43950af11b869f5dafe7b62dd8da279a73d1b98bd446d",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/industrial/z4-x6-y14.geojson",
+          "bytes": 69540,
+          "sha256": "033e3478387c77818ceaa7836c2a11e7aaa90f6b77ac6435b1aee2736b109d10",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/industrial/z4-x6-y15.geojson",
+          "bytes": 54965,
+          "sha256": "2bb3294d736e029597642beb1dd5a19440b37a571f744399893abdae8ae02c14",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/industrial/z4-x7-y15.geojson",
+          "bytes": 239460,
+          "sha256": "4074aef6e069a7815dc3ff831c78c696993347c2d8c8d2312a149c4a51378de9",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/industrial/z4-x8-y15.geojson",
+          "bytes": 75315,
+          "sha256": "e923c45d3b1def54c3dc2c15825261e52dd79276fff3d9eaaf445de9537a3c9d",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/industrial/z5-x0-y24.geojson",
+          "bytes": 53734,
+          "sha256": "15e5a11f37318dd91c781a7250a2c79140e6db6aeeeb547f285d80290686b709",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/industrial/z5-x0-y25.geojson",
+          "bytes": 141189,
+          "sha256": "9f9e05ecf08ac8c302cedf74885d434be012632782f7a1ed1d726bb210026144",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/industrial/z5-x1-y24.geojson",
+          "bytes": 102123,
+          "sha256": "f6d9f8c89a8866136b97711a22788347e63f655e1fd17c801fefd3c2038e9c2a",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/industrial/z5-x1-y25.geojson",
+          "bytes": 239894,
+          "sha256": "eb26f057b15792157d584015ea41241bcef6576db139dfa4339d3db129adc191",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/industrial/z5-x14-y28.geojson",
+          "bytes": 96826,
+          "sha256": "5d0aa9db7ebdfd1d2fc065af79ba9f8610fd1afaff098d7ceda9dafc90871766",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/industrial/z5-x14-y29.geojson",
+          "bytes": 103470,
+          "sha256": "c2493157c2dfc0931df895a1023f36675c04bc5c272b81cc45f3f0935c7bd8a2",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/industrial/z5-x15-y28.geojson",
+          "bytes": 103875,
+          "sha256": "88183ec29f1dfa30b3adf2be8db1c9f64c285a6f60fee577d8154dea866d5a4e",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/industrial/z5-x15-y29.geojson",
+          "bytes": 113838,
+          "sha256": "dbb5001704e080780879a3a2165794c1c390dee6a4b97af07bf9e4d0b0d69ebc",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/industrial/z5-x16-y28.geojson",
+          "bytes": 202594,
+          "sha256": "d8fe251f32c5fb23902436157064a72cd9e19715a74f9e1d3a455fc8992181a6",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/industrial/z5-x16-y29.geojson",
+          "bytes": 211803,
+          "sha256": "7d242114a09aefbb595ba2e09106900e2b1ec49aa8f08fa99da33d555ca07e0a",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/industrial/z5-x17-y28.geojson",
+          "bytes": 138062,
+          "sha256": "8c30594f7252f4108c9e2333f0124ca48629e5f0675b645c6b2d7b4767a69913",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/industrial/z5-x17-y29.geojson",
+          "bytes": 24576,
+          "sha256": "00bc35d8cbf8ec3141bbc3e2c7cea17e4d3caa97a62fe0dab178a37cd972c88a",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/industrial/z5-x2-y24.geojson",
+          "bytes": 116848,
+          "sha256": "3b397e0a6fcc8028a52620546f87af79e5bd5b40e78108f1cf97e868357c20ab",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/industrial/z5-x2-y25.geojson",
+          "bytes": 151296,
+          "sha256": "de52485743f9c92f041ddeb4db35e03597bf833ab22c8866958a47def10aa803",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/industrial/z5-x3-y24.geojson",
+          "bytes": 224845,
+          "sha256": "23b438abd67ccec4c5026007955e8988c146c7cc3e9b670a2dc7f0ec1a0e3c43",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/industrial/z5-x3-y25.geojson",
+          "bytes": 125709,
+          "sha256": "26def2192ef04f52b7174d8a32ba2e4b2883454d11c74ffaa5985bae0ee4200a",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/industrial/z5-x4-y25.geojson",
+          "bytes": 45501,
+          "sha256": "35de676ebba87f5dc6620ac3625f6c6cd2e540cb8016d81af86f64da49cc4531",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/industrial/z5-x5-y24.geojson",
+          "bytes": 19053,
+          "sha256": "11ac1acba591500cb1f08ac0289588dd65b33d0ce2d5539c1ca67029c688a44b",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/industrial/z6-x8-y48.geojson",
+          "bytes": 92977,
+          "sha256": "5403a82236855da595e3b08cf9c079cece058086454d872fdecfda5890ba846c",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/industrial/z6-x8-y49.geojson",
+          "bytes": 122763,
+          "sha256": "d741ddd62a8a9d945a005404e0405ea4839667178fdcb39929affd3b23f3424d",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/industrial/z6-x9-y48.geojson",
+          "bytes": 42693,
+          "sha256": "3fe20e6e8adfb78cbe0ec12b2fd559f2132e716f35cd4df4ac1f4ebffbff8053",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/industrial/z6-x9-y49.geojson",
+          "bytes": 129333,
+          "sha256": "d562eee1bf3fc2742e96fe8887f20f08b82ef57129502072ec830574c89b1909",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/institutional/z1-x0-y0.geojson",
+          "bytes": 30092,
+          "sha256": "7c3bfb65df22bc70b21da50ad2b4ef8073185bd8830053553c8e442a3b70a926",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/institutional/z1-x0-y1.geojson",
+          "bytes": 368630,
+          "sha256": "02b08aba8ea48f27a479e27dc0c3eb261994ce0109d42435cfe26dde00b22030",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/institutional/z1-x1-y0.geojson",
+          "bytes": 266974,
+          "sha256": "c39a5fffe3948be1b3168306b57070488a0411ca6e7012166a552f3385ee9f71",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/noida/institutional/z1-x1-y1.geojson",
+          "bytes": 28427,
+          "sha256": "b02c6f30e5b62ea14f943476a65d28c9b5c0027ff396eae6a7a3d24df02103d3",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/airport-masterplan/z0-x0-y0.geojson",
+          "bytes": 46639,
+          "sha256": "87bdb6a4a13b91f63f9c315be48752c25c5f489366d97cb4cad4ebdb7138a2ad",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/commercial/z0-x0-y0.geojson",
+          "bytes": 150285,
+          "sha256": "8f65792d4c19ed2e321542ae819491d208bd86dfadc46a57a2d308860b4d8746",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/hospitality-masterplan/z0-x0-y0.geojson",
+          "bytes": 13256,
+          "sha256": "d71e7c47b8c28625935614277982b8555e2aabe0aa20b1b82d150198f75d4e6d",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/industrial/z1-x0-y1.geojson",
+          "bytes": 10143,
+          "sha256": "3ff1f642b813166b263b80ef5064a1b0600ac6fe84a9ad400955c823d4752f25",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/industrial/z2-x2-y1.geojson",
+          "bytes": 94738,
+          "sha256": "3e132e66e37ffd4ea19a55b5038906f6e9e6fc969a234d59b69d8ec7b0e92964",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/industrial/z2-x3-y1.geojson",
+          "bytes": 344315,
+          "sha256": "3dea42b0fcfb2e56eeb622c0a57efe02e6453ffcfcd58523a50290f652e9f7ac",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/industrial/z3-x4-y0.geojson",
+          "bytes": 95137,
+          "sha256": "88417eace4bf42e2e0f3473a4cdc39b57ff08e33d7cde8aad5db2cec34a66b5b",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/industrial/z3-x4-y1.geojson",
+          "bytes": 59574,
+          "sha256": "37da9a9bae311bec804a1b8ad2f9ecc5c4d9570a55d880d767b4e1c4b4e03ae4",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/industrial/z3-x5-y0.geojson",
+          "bytes": 581682,
+          "sha256": "db42849ff03db9f8970b375bb9e03c140cb718ae0581e9188c0ff2b52bed01da",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/industrial/z3-x5-y1.geojson",
+          "bytes": 189357,
+          "sha256": "ad726086b81dcfd99774a24017857d32df13dd6ebf14d1f4eccb7c641894ddb5",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/industrial/z3-x6-y0.geojson",
+          "bytes": 210232,
+          "sha256": "067ad776167822199b4ddceb47129c84d4f1bb776b37268e464a3273a8994480",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/industrial/z3-x6-y1.geojson",
+          "bytes": 555217,
+          "sha256": "1dadc218043e1e9486ceb78cbdbde6430519eacdac954beec317291627fe1f75",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/industrial/z3-x7-y0.geojson",
+          "bytes": 706690,
+          "sha256": "8dea01d9e4dd4a1900ed62e28f1a1745f38962a88ca3b190d5492a71ead1af40",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/industrial/z3-x7-y1.geojson",
+          "bytes": 588576,
+          "sha256": "76d5f62c0b9d7c8a4b46b431a19d25283723a5055c5738d089398eddfb9f593b",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/institutional/z0-x0-y0.geojson",
+          "bytes": 443361,
+          "sha256": "b1d5c53efb933ad24d10575d329b158e23aecc82ae78764e1fbace9918df5950",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/logistics-masterplan/z0-x0-y0.geojson",
+          "bytes": 15480,
+          "sha256": "f3db78e538a1c0dc7dbaf085222f75bca0a848c398faafcecfc00131fb56d038",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/mixed-use/z0-x0-y0.geojson",
+          "bytes": 41276,
+          "sha256": "42373895cb401ed1079f1f206ebbf3d3e11b1a49bf4805aa42ee19e109eec805",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/rera-project-parcels/z0-x0-y0.geojson",
+          "bytes": 13990,
+          "sha256": "36f1d9821e3da90058459120ea8bb1a3faffb7f06954552361ad1d88fccd021b",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential-masterplan/z0-x0-y0.geojson",
+          "bytes": 115814,
+          "sha256": "cac5b9581b68886973bf741c00a7fbfd813f76d116e719bd58553e8301170dbc",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z2-x0-y0.geojson",
+          "bytes": 517040,
+          "sha256": "65b1a61a38ba15706fb7dd0f9b4e2cb1373e729c8a6f6ef60e85560e1e097690",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z2-x0-y2.geojson",
+          "bytes": 13418,
+          "sha256": "108148e27dbde7e3d4c1a510657c743862328952c7724c35e998f0fc686174ba",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z2-x0-y3.geojson",
+          "bytes": 938,
+          "sha256": "29b3f588e7705ab4c74d62deb993f9889df045a07da17c0515a0f9324a4ad72d",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z2-x3-y2.geojson",
+          "bytes": 664541,
+          "sha256": "61ab642a2065d23184d9d82cbf628374aec671cfd97040abe7c987e64d520acb",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z2-x3-y3.geojson",
+          "bytes": 6564,
+          "sha256": "ce30cdca93a3da6fd1989df74e3d22c306e638217b923f14d89a298e7f76f2bd",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z3-x1-y2.geojson",
+          "bytes": 6905,
+          "sha256": "b79062e59861380e5cfbf0cdc8e6bc133334bab701d9213e7738891fb25d786e",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z3-x1-y3.geojson",
+          "bytes": 4272,
+          "sha256": "0fb0d86f12c9f733173bdbd79ce224a6eb5b152a9b12ce74886fe5df31bc8195",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z3-x2-y0.geojson",
+          "bytes": 16839,
+          "sha256": "5a1bfa3a397a0769394b2f3c47d5f125a6d7197ef0eb8db46141dd2127f724bf",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z3-x2-y1.geojson",
+          "bytes": 36188,
+          "sha256": "7a492bc3c2307bee3ae7018da8959b6a75bc1554a4aa629c149ea3a276399ff2",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z3-x2-y3.geojson",
+          "bytes": 2420,
+          "sha256": "6ef3f598a39d9a6b5c2467178d66949de3a7af8e2ebf920da5fe11924c8c6c44",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z3-x2-y4.geojson",
+          "bytes": 187762,
+          "sha256": "3c9b77995bab6f9bef42119a99d87eccc6a3eee877c42d6a0842b8e77f626b17",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z3-x2-y5.geojson",
+          "bytes": 123832,
+          "sha256": "6bc3695e963634935b5384b91fb7691ff462210bba89cd0e5b1f74a1ca0d4dc8",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z3-x3-y0.geojson",
+          "bytes": 614970,
+          "sha256": "05fbc5372f23dc8196be0da88bb96420e891039178bf4fb858495a8066ef22f8",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z3-x3-y1.geojson",
+          "bytes": 499658,
+          "sha256": "298b34d1270b65fd1198344e5cbddfd97d0296a16368f79a1cc9300a1640aa03",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z3-x4-y6.geojson",
+          "bytes": 287891,
+          "sha256": "bccd5dcebe65fad24727bfe5eaff65d90f398746ea7c3c2b613ec652d5de0eb7",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z3-x5-y0.geojson",
+          "bytes": 59416,
+          "sha256": "ebc4c1886ca5eed9c0440aaa197408b0891417765c30d1f7166070199f24034f",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z3-x5-y3.geojson",
+          "bytes": 203983,
+          "sha256": "dd831a087999beea4abb2b270153e5cb99c568c6c1fe6f973bd406bf886eb031",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z3-x5-y4.geojson",
+          "bytes": 147507,
+          "sha256": "50a001277d5f1b6d53fa417baae506f13acc5fbc0e9972e3ab3b6ead148c2de9",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z4-x0-y4.geojson",
+          "bytes": 5777,
+          "sha256": "ac2258287456b263e492a3ba14a5cab4ddf6590f8bc06f98f13522d6f75a4764",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z4-x0-y6.geojson",
+          "bytes": 177608,
+          "sha256": "8d8532c8b6eb2d3790d779ef4ccc497002dc5b491788f6da5d8ef1e9845cf182",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z4-x0-y7.geojson",
+          "bytes": 65774,
+          "sha256": "d6b0faae2627602c6f1d6e7feeed09444b2b163f6ef3b3b8a7ac5dfab737f3c8",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z4-x1-y5.geojson",
+          "bytes": 13542,
+          "sha256": "b8e49c0a87f056fe531c5265f2005e4e5fc67aced0816123247ab9efc66500a5",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z4-x1-y6.geojson",
+          "bytes": 352865,
+          "sha256": "67b275897a62ab8149bf4cfaab4c97004892bb1f079bc5427c040c0d96504ea0",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z4-x1-y7.geojson",
+          "bytes": 316435,
+          "sha256": "1695be94e483c736980787bd40e943470754d3bc535e7e69284f6b630ad5b296",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z4-x10-y11.geojson",
+          "bytes": 90042,
+          "sha256": "45d2e703d349549f46cc8ab64b5b77b243031d2ac8aa289f6f0eb455c695b1aa",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z4-x10-y12.geojson",
+          "bytes": 534250,
+          "sha256": "472f88ebb47195b561c72895c22104c7bde95984575c934a4f5908deec0606ed",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z4-x10-y13.geojson",
+          "bytes": 205910,
+          "sha256": "e9def67976b894bedd2c52b49162f4d245ab964b2e231f73fa8d74d34ab97471",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z4-x10-y2.geojson",
+          "bytes": 214430,
+          "sha256": "7ea0d5f6cef3d80a052ae36119034d100c0d9d38fd41cf8e53a1c283497879d0",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z4-x10-y3.geojson",
+          "bytes": 453008,
+          "sha256": "34ab35dc04b85d5b13d75dc25357f04395088d18181847a26e46de01a9257abb",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z4-x10-y4.geojson",
+          "bytes": 547784,
+          "sha256": "0c7d8c4370a7194e7a7493516758149d9e40a5a936214ee39588f28ba06ede6a",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z4-x10-y5.geojson",
+          "bytes": 231677,
+          "sha256": "5bfbef3918c0a739b5e075531485293c96c663e9411ec5d9f6b4f0a5a1436be7",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z4-x11-y10.geojson",
+          "bytes": 681977,
+          "sha256": "5dd7b055e8412de4861cd963b39029643a5306c50054b53a3ef02a85aa0ef62b",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z4-x11-y12.geojson",
+          "bytes": 301798,
+          "sha256": "d17035c0e87b4bfd934cfeb5e7882223785d38cfd3ac370d768e764201b11257",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z4-x11-y13.geojson",
+          "bytes": 389771,
+          "sha256": "1482f15193158eb3fc684ddaa348f2e2c69180bd6ce684b8a566032289d0ee66",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z4-x11-y3.geojson",
+          "bytes": 116497,
+          "sha256": "02e94c836d629b2bc473fc5670e4720fea72b5484a3783f0fa88fa6eb43abe1b",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z4-x11-y4.geojson",
+          "bytes": 853,
+          "sha256": "afd58142caec1c75075682ee73dc6a84528cf3ddc15979989f86514e9316ed72",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z4-x6-y10.geojson",
+          "bytes": 312431,
+          "sha256": "2a8ae3b08103f2b1679b92016129fa8bce944c6c58cfe392c2c18cff6d5498fb",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z4-x6-y5.geojson",
+          "bytes": 30649,
+          "sha256": "16e5776ba2f74bc459f9674ecc1f006c9cb76467626c259103cd779367f06224",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z4-x6-y6.geojson",
+          "bytes": 608968,
+          "sha256": "f04beb086dbab9e82ac25d1d644cc50c080a9fafe8311891b941866348a21879",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z4-x6-y7.geojson",
+          "bytes": 535530,
+          "sha256": "82350d56c7d9e7f5483046182d25cdbd8771a21f2312ac85ba4457320518f45a",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z4-x7-y10.geojson",
+          "bytes": 611018,
+          "sha256": "0dbc94bb58265acbb4057ffd13bee5920308941721f8d8bc18206296d41fa154",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z4-x7-y11.geojson",
+          "bytes": 53112,
+          "sha256": "9da8ced86517dbbcebe284c50e887b05ba36aad9290ffa8dfcbd7ce0bfa0069f",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z4-x7-y4.geojson",
+          "bytes": 157170,
+          "sha256": "29727029b0392ba686abe1516b1f9636646a6b9588dc3588c06ea8d53c2a8379",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z4-x7-y5.geojson",
+          "bytes": 578507,
+          "sha256": "371640a7b6a2ee6d0148617f0114ba72794a2679ae69e6ce3d69bd821f48f84f",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z4-x7-y8.geojson",
+          "bytes": 586624,
+          "sha256": "01e44155aed60ad00056a013472960de561de295be97d6eee4da959363207e6f",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z4-x7-y9.geojson",
+          "bytes": 366231,
+          "sha256": "35bd0770ce9ef8954a3ce1f4a8149272bf8b46fc93b6e859737e51bf857fcd11",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z4-x8-y0.geojson",
+          "bytes": 452232,
+          "sha256": "39e6573b956bcebd22056ed56a0f34e757f2e04bf83987c56452b7e68adc6855",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z4-x8-y1.geojson",
+          "bytes": 427664,
+          "sha256": "553d4b3e0becb82535895287ca179929f420d0befb1400809232a622d5eb9246",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z4-x8-y11.geojson",
+          "bytes": 123338,
+          "sha256": "67de18256421558a3c85b248d8c1a7935ffd0c03957459a708512eb8c1664503",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z4-x8-y2.geojson",
+          "bytes": 394140,
+          "sha256": "476dbf3c906d1da47ba296d423a8abb889dcbb962df52e8462f5296a44b1fa2c",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z4-x8-y3.geojson",
+          "bytes": 365493,
+          "sha256": "11210b3f6e69fd649ada2f1219f7cf71b2155fae5cc9106b51c70c48e0a1d325",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z4-x8-y4.geojson",
+          "bytes": 502408,
+          "sha256": "a9f01a3630dbbab06ec603069d693c1d87da2d80f8e43a66f5a2630b7a0cca0a",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z4-x8-y5.geojson",
+          "bytes": 655337,
+          "sha256": "7781b0b24f387495973283bb01ada777152d9d2539f7fab68ba5e22305306386",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z4-x8-y6.geojson",
+          "bytes": 383808,
+          "sha256": "b8eaa8b9e5ec3201a96bacb9007cd1909b0f8f12eb9082404c862010a8634e3a",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z4-x8-y7.geojson",
+          "bytes": 588775,
+          "sha256": "276690a07ac55d3d4f733b3e0e5a104b5333e048ff413b204c31d731aa1ee81f",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z4-x8-y8.geojson",
+          "bytes": 458316,
+          "sha256": "a2321d1de82084226a2bd7962f2c2da384f32ccaccbb89a33adbc7359700ec48",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z4-x9-y0.geojson",
+          "bytes": 440471,
+          "sha256": "3cf42c2d1b00678c94e63e6c1071446ddd95749737cf0bbec7b463093e01324a",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z4-x9-y1.geojson",
+          "bytes": 435661,
+          "sha256": "df74396c89e45a2499b87797ad01e89007745373106aee0d66d236c313ebcb00",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z4-x9-y10.geojson",
+          "bytes": 279340,
+          "sha256": "7c0e80fd3d557f09e2feb53c8df89951993d5c90f69ba188b237c6104bf303dd",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z4-x9-y11.geojson",
+          "bytes": 327153,
+          "sha256": "3ae5d39f60af939fde584a490784240801ffe37ffac09678e24b6611b8fb263a",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z4-x9-y5.geojson",
+          "bytes": 435591,
+          "sha256": "df1153605912678673d572bab0e449e1f3d66b965d0d12e8349fe0f0ce010beb",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z4-x9-y6.geojson",
+          "bytes": 292542,
+          "sha256": "e27ab8eb45c7395b6b5d5ad57738c99e38c50c01a9bed00c24a7da024ba9873d",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z4-x9-y7.geojson",
+          "bytes": 520268,
+          "sha256": "3329f24318cb11abf7b466b682247692f3afa91c7700a5167d204d6b236cc4df",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z4-x9-y8.geojson",
+          "bytes": 541095,
+          "sha256": "2bd9738917348e67cb7afbc287dc47a32afe43e1fa34631affb5d334714527b3",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z4-x9-y9.geojson",
+          "bytes": 1062,
+          "sha256": "29b808f8a6aa14aa8b98859be50524e1647bc7fb1f79f63ba8ce772b3f1549bc",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z5-x0-y10.geojson",
+          "bytes": 241929,
+          "sha256": "baa692ec06c59139fb55269d9a36eb62382b1d8a87c484e39276279f47208a07",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z5-x0-y11.geojson",
+          "bytes": 175365,
+          "sha256": "b9461a25588fbbe3e53120576d5a1f425e7ed671ccacd0598345c8d23f9c36f3",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z5-x1-y10.geojson",
+          "bytes": 94250,
+          "sha256": "79eb67ceccb1905ee21ab2d0b7a6848a07a52c19598b770be09db3dc0f8b2e76",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z5-x1-y11.geojson",
+          "bytes": 152542,
+          "sha256": "921732bcc81d15574a8694066a1a7d91de43f2ee4580dcb9d58e68e74cd45b39",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z5-x12-y16.geojson",
+          "bytes": 141486,
+          "sha256": "4da75d21f28e379ca5c81ac18f77d05fb42c65690360d55568ba414b6542406d",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z5-x12-y17.geojson",
+          "bytes": 180773,
+          "sha256": "2a7f32c7ab10fefef83189107b6ac3e4728453926a65bf785524464f6595bf4c",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z5-x12-y18.geojson",
+          "bytes": 171600,
+          "sha256": "2e837058bf557c58b29f15527f2f4d65c76bce660c18914e01ab16df48a14b4a",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z5-x12-y19.geojson",
+          "bytes": 172195,
+          "sha256": "291d08a1382d42f9356a9e521e5a4d8d3aa0bc76ea05f4dac8f5f91c87a327ef",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z5-x13-y16.geojson",
+          "bytes": 215790,
+          "sha256": "6757230404cd1505d7a31bd4bfca512fe88652062cf8ebc375e78599f61d4b30",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z5-x13-y17.geojson",
+          "bytes": 192941,
+          "sha256": "de9673b39f4d24a28ce7293fd69b895dc3f0af1b46dfa0ab9047710e275bef4a",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z5-x13-y18.geojson",
+          "bytes": 177703,
+          "sha256": "ab2d156a37067a61d992936eb29badebae7564764c1734372a8c22127b019a15",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z5-x13-y19.geojson",
+          "bytes": 178894,
+          "sha256": "c67970eadd6df7c1c0c859115bfbffaa329137cc3a7283f163b75d3fee10c4c4",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z5-x14-y12.geojson",
+          "bytes": 163375,
+          "sha256": "72ea2d9b269054529fb9c109020069c0c11a10d0976545e26918d6ad986212e6",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z5-x14-y13.geojson",
+          "bytes": 208133,
+          "sha256": "77c91fca71959ab0533c567fb5791c494063af47db855e06806a26c7c6b4c252",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z5-x14-y14.geojson",
+          "bytes": 180481,
+          "sha256": "96c42eaf4c7e191f127a0e31e3b1fced8fa013a9d6de145fb0ade9f8b1af322d",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z5-x14-y15.geojson",
+          "bytes": 173047,
+          "sha256": "45b22505599b5f0ed4ade74493c8884af898f64ba92db47865ed79034ef62beb",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z5-x15-y12.geojson",
+          "bytes": 216673,
+          "sha256": "0524a7729a1b74301a93c154b666d2d95fa2bf43567c456ce8b84b1101e32710",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z5-x15-y13.geojson",
+          "bytes": 185384,
+          "sha256": "399d8d31c2e574517c979f09d534bfeabcfb6538eeaf981d0575773dcf92b7eb",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z5-x15-y14.geojson",
+          "bytes": 178443,
+          "sha256": "8dbe5101266ede7150196121a0e14ad00e0a0e7ef22e48b9f5c102d1a1ed7596",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z5-x15-y15.geojson",
+          "bytes": 199727,
+          "sha256": "4a12ad7c0da312e9a230dd091fdd48898d6f7a46354d7156694c07c9d26f2a79",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z5-x16-y20.geojson",
+          "bytes": 200757,
+          "sha256": "fc7b3e496e802b5bd519d811437c702f510c74eee0fa4d00d7b44e0f3485a065",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z5-x16-y21.geojson",
+          "bytes": 581220,
+          "sha256": "51916b178ac5a26fc33c9cd3a986d1c03f1d14cd00ec3c6ba36313811269f8a4",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z5-x17-y20.geojson",
+          "bytes": 13004,
+          "sha256": "80ab646c29787cb2c80a72331454d0fea1027a581fa6c9860b3abc8362b3eb47",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z5-x17-y21.geojson",
+          "bytes": 285029,
+          "sha256": "4db7fffe2637f1740cbec14c192e39e462f65a181862e549e1f14467ccf7386b",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z5-x18-y4.geojson",
+          "bytes": 149549,
+          "sha256": "73f1327c8fb37cc35520c6f6eb216ce7b0954b5924892a272d36e409f53dec4a",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z5-x18-y5.geojson",
+          "bytes": 229331,
+          "sha256": "0ecded1479fd7d6f4141ebfef5d86ac3060bd62e0e2796c4f635c91ca5b854eb",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z5-x18-y6.geojson",
+          "bytes": 220695,
+          "sha256": "9268f13538b7221d44d4ede109ca8790ca1dcaabf038e5b2ccc923fa854c7199",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z5-x18-y7.geojson",
+          "bytes": 234471,
+          "sha256": "6119f3f52facae4404f792fa4e2bf34458ee39de1e5dfe86b3be8ef0b794a8c2",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z5-x18-y8.geojson",
+          "bytes": 198056,
+          "sha256": "bc03841c81bc462bce3d54e79d042c4cfe768ceef24e60169553248322403cd2",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z5-x18-y9.geojson",
+          "bytes": 147996,
+          "sha256": "56cd3f4d9c8437afee5e98f8126d2038c03084fceb8254d4d0ef57a328acfac0",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z5-x19-y4.geojson",
+          "bytes": 144620,
+          "sha256": "d7bed28a80f7a153602341186a9383de59fb0b1eb7c5483b8de814d2baed77c9",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z5-x19-y5.geojson",
+          "bytes": 213468,
+          "sha256": "4a37f369343b62eb6fee2910ab3587e129b8ad7cd93fd4a94af4cada8b4bcf9c",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z5-x19-y6.geojson",
+          "bytes": 226313,
+          "sha256": "1190d249d645fb6022084fefcdb6b98eb479361e18e36b3397b2d547d9121eda",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z5-x19-y7.geojson",
+          "bytes": 206369,
+          "sha256": "f4338a0ecc0481011eb6b0cd618eb3ea863cd6f8c3057691e93f5c39a0465581",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z5-x19-y8.geojson",
+          "bytes": 190871,
+          "sha256": "b31494f636e626e503a0c7c46c22f182857bbad77adf28133d3e724620b34f06",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/residential/z5-x19-y9.geojson",
+          "bytes": 186392,
+          "sha256": "48228cd541140a27d0a23d6eaa34ab189668ba910c1328106c5da8fb3cd52420",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/roads-masterplan/z0-x0-y0.geojson",
+          "bytes": 158466,
+          "sha256": "72200a09d24eeb7806bf2297c1e7b0ba9251fe5b641cdd9ee668e6eb44078db4",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/plots/viewport/yeida/sector-boundaries/z0-x0-y0.geojson",
+          "bytes": 116635,
+          "sha256": "25077eeb2eddfce833b8be0eb6181cd13e88d348ef26fefd02ce72f63fc2fa2c",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/product-contract-v1.json",
+          "bytes": 2190,
+          "sha256": "2473532e9bf2b9768360cde6b46de6ae1495e12483bb237847f54927ec38af3f",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/regional-map-data.js",
+          "bytes": 141836,
+          "sha256": "f52e299f40759f8ec4127ed6854e295812739acfa20d3fd4c77f0192f65e8e7b",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "data/site-data.js",
+          "bytes": 375851,
+          "sha256": "78b4e1817ed773687ea6e7aa26de66c23a631b512ae4bc52446374f62e4362ee",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "downloads/2026-08-17-pre-stage-fix.json",
+          "bytes": 2265,
+          "sha256": "601760930e91399db9d03c23fca56dd80f5f3ed92a4c030622fafcd81961e68e",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "downloads/all-data.json",
+          "bytes": 546520,
+          "sha256": "0064c48a030ef764f542b6c98c7b3e2f1b2c2f449c07d1eff1ba0e683bef9a8b",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "downloads/analytics-v2.json",
+          "bytes": 7564,
+          "sha256": "761282b7c097698040276058ee3fe07b87e382eeba4e22f82da28213ab30ced8",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "downloads/clusters.csv",
+          "bytes": 5136,
+          "sha256": "6f9febfef3dd351c9601e129568e58bfc56669c3f53a7227bfedf33ce4b93f97",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "downloads/companies.csv",
+          "bytes": 21892,
+          "sha256": "1e77e06e23f6e4a457bd620fa9de1808bb49a3d1fbee439a1a71dd6e85734c24",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "downloads/deed-transactions.json",
+          "bytes": 232,
+          "sha256": "92268bd438df8df86af2ff3d7da30f725ee48032f8d42ab285ebe4544370c3bf",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "downloads/entity-plot-links.json",
+          "bytes": 50577,
+          "sha256": "91e67b77a41e8b932dc2155781f3c7eafdfdfafeec888da46f7fb0314de4e650",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "downloads/housing-corridor-parity.csv",
+          "bytes": 482,
+          "sha256": "0c3050338a7410b1652d929e3e3f8fcb6add33d6a094ae251b2ac9b6c3231471",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "downloads/housing-demand.csv",
+          "bytes": 1446,
+          "sha256": "f1c50bd991d2faa6bd065c98bc6e67a678260bbd2e85bd8f37c7ff5d47ae80ab",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "downloads/housing-density.csv",
+          "bytes": 1940,
+          "sha256": "6ba4bab7c0f6a5aaf4e4c9afd23cf3cfb6f7d3f92614f310a3c7a0451efaddac",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "downloads/housing-far.csv",
+          "bytes": 1114,
+          "sha256": "2d1b4f9150c6a68129c1e62ae4233e8ebf561f44001857145f53c4865acc2446",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "downloads/housing-owner-demand.csv",
+          "bytes": 958,
+          "sha256": "237855ae30bb5ca544e94b25f0ddd49e6eea3147c3ed32d39e7781e6a68f047a",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "downloads/housing-projects.csv",
+          "bytes": 9945,
+          "sha256": "aa6450741e9953d9d776abc480e8ff3a9f77d789f9ed9940abb73390ac945068",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "downloads/housing-supply.csv",
+          "bytes": 3470,
+          "sha256": "81e21f640e60f1ce9aae37d3f718538d350d76660b24b691ce991efc52eb0d26",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "downloads/housing-ticket-parity.csv",
+          "bytes": 1454,
+          "sha256": "4971738680750f5348b29feb6e39a49c9630e3b45cd29632c17904837157e7c4",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "downloads/infrastructure.csv",
+          "bytes": 17367,
+          "sha256": "b1061c419fb726bce3b84e8187535c75204069b92f3f0aebefb0e5b572bf73f8",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "downloads/interest-events.csv",
+          "bytes": 24179,
+          "sha256": "6f7df5b4ca471b966f5645d45dd83d216d28fd6654ab86acb1e13f7f7aeee118",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "downloads/medical-device-park-allottees.csv",
+          "bytes": 21691,
+          "sha256": "7a89fea3324494a5a9ce216135acfc9b31ded00357eeeeda21b8ee700592a098",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "downloads/plots.csv",
+          "bytes": 47087,
+          "sha256": "59947c4a6b432c1840ed0e31cf0ae98df6c4491cde9bb4eb4241528242f46049",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "downloads/release-manifest.json",
+          "bytes": 90176,
+          "sha256": "f0558afc1112a87b2c6fc0335091a817d0fe6d88ce7f97a38307e56b25ba0959",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "downloads/rera-progress.json",
+          "bytes": 345,
+          "sha256": "0d865483d818c6337200e10b371caf7696546ba3c3d4b4a2ddd49de2acce1186",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "downloads/rera-yeida-plot-mapping.csv",
+          "bytes": 10922,
+          "sha256": "527359ba5d99a1b8a7ea80a4cccef791b1983c791cd65c458c32c351a22178f3",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "downloads/risk-overlays.json",
+          "bytes": 348,
+          "sha256": "79a5d16bdc342daac99aec13b465fc9255422ec9a97175732747725ca60e215e",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "downloads/sources.csv",
+          "bytes": 100414,
+          "sha256": "a1f0bfc8e88baecc2676c2ddd40b6032d7fe99c7265f5709ae458be0ab481537",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "downloads/timeline.csv",
+          "bytes": 11884,
+          "sha256": "2d9e6b6d947901d6672e7d57fc6ca566b069a06675bf0f558f2d67164612f935",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "downloads/utility-observations.json",
+          "bytes": 260,
+          "sha256": "96be261a9a67c0336ec7b755b85be4ad8b23d2772f2cd3c059aad1ac1a7ad6d4",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "index.html",
+          "bytes": 666,
+          "sha256": "328de966ae66eec92931a316325fdd5d74eafe83437894046740050f99911f17",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "pages/about.html",
+          "bytes": 677,
+          "sha256": "56bdaae5dc214aa85015ee6244ed7009c967457de1158afcc620da0d5b223b9f",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "pages/audit.html",
+          "bytes": 722,
+          "sha256": "bf88492aa7a12410c0ce4da37ec32f1e7f1798252db7a09201df3dccf47859a6",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "pages/builders.html",
+          "bytes": 738,
+          "sha256": "88d63b09a9b336b2c65875614b4d0e43274a5887d0e9f2cdfe49728f6991d727",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "pages/calculator.html",
+          "bytes": 790,
+          "sha256": "6ba671e48cdd7c03b70efc57d2d58468e9a27e3a2dd0fcc66f2a7235d0a7d4dd",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "pages/clusters.html",
+          "bytes": 677,
+          "sha256": "d98893ecee84efc9b40ec9a13355bdb3fb96c305a7cab67038307c9fe17266d6",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "pages/companies.html",
+          "bytes": 680,
+          "sha256": "64cd783bf64109033a3f1fff54dba32eea833b19e2680761b242d1a9186768fd",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "pages/compare.html",
+          "bytes": 742,
+          "sha256": "a9d732128ad165e57383b9b6659146a47889d56afe7345b682c17aeba15bd64e",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "pages/detail.html",
+          "bytes": 674,
+          "sha256": "87421780a3b3f92029751c885e58a40a8905cefe61ebb2d3851a2eaa1281dd79",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "pages/housing-22d.html",
+          "bytes": 678,
+          "sha256": "4221850a04c58ad40c350906e67b656cfd56f39729a37498a22967ab5f1fa7c1",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "pages/housing-parity.html",
+          "bytes": 695,
+          "sha256": "fa95473c8b6322a387875e16cfb2b7ed9ef2c7b4946673d235c23e9028c4a5de",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "pages/infrastructure.html",
+          "bytes": 681,
+          "sha256": "e648d46300891883c124316921a01e06c43e71e3d508df5119840769b0a3fbeb",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "pages/land.html",
+          "bytes": 676,
+          "sha256": "3ede0a21382fa9660991462f385e615a2b106670f637c7860a5772ef58718151",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "pages/map.html",
+          "bytes": 1031,
+          "sha256": "e9161ea1dfde28fd8b1352eb40ecb009e427977685f8549e9dde1fe3499653ad",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "pages/methodology.html",
+          "bytes": 675,
+          "sha256": "87fd2961eb5af87586c1bc8bec2ca32c00601c1ad2326579a2cbe72ab445af5c",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "pages/projects.html",
+          "bytes": 669,
+          "sha256": "10df4528eabd77fbd22bffb74034aa742f01fbdd2e1b43f3bf788eeca37177ad",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "pages/request.html",
+          "bytes": 29787,
+          "sha256": "b190d117afd615ed56c6f6399c35e408c603711edab9fe0fca1f2e469ebf1be0",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "pages/roadmap.html",
+          "bytes": 679,
+          "sha256": "0265f7be828c2100fc3a780326fcdbcc4a12dd33d191fafc2f7d2b43f394b318",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "pages/timeline.html",
+          "bytes": 677,
+          "sha256": "0abd6022e0bb2bce9ce61e1d4c79dec4b12a0eb9ae0a78e805372f21ed71b34b",
+          "sourceBundle": "static"
+        },
+        {
+          "path": "pages/workforce.html",
+          "bytes": 681,
+          "sha256": "e253b1c19579d4f425eeda57cc1ea10b635e28f23c6d807ba23c8b727f6c2da0",
+          "sourceBundle": "static"
+        }
+      ]
+    },
+    "gis": {
+      "source": "downloads/release-manifest.json#/gisAssetBundle",
+      "files": 27,
+      "bytes": 42412598,
+      "hash": "81506ef11a3905e64b4ad998aa15e1b0504c5c8a08cbc5e89ed4de58a6163b89",
+      "restoreRoot": ".",
+      "restoreCommand": "powershell -ExecutionPolicy Bypass -File .\\scripts\\restore-gis-assets.ps1 -AssetDirectory <asset-directory>",
+      "entries": [
+        {
+          "path": "data/plots/gnida-commercial.geojson",
+          "bytes": 426834,
+          "sha256": "a17ecb9f25136df5a116d82b749436ad73e1a29db392743f314c95f0806ce62e",
+          "sourceBundle": "gis"
+        },
+        {
+          "path": "data/plots/gnida-group-housing.geojson",
+          "bytes": 55294,
+          "sha256": "1fa3b4ddb393a44d4fb6ddfba1003dd44bfa9eab73d324e6c02a92123f87967b",
+          "sourceBundle": "gis"
+        },
+        {
+          "path": "data/plots/gnida-industrial.geojson",
+          "bytes": 1696785,
+          "sha256": "eaa580c1b8147346c4502efe50818d168b1e53f636b390dafef1d05981fdb59b",
+          "sourceBundle": "gis"
+        },
+        {
+          "path": "data/plots/gnida-institutional.geojson",
+          "bytes": 644643,
+          "sha256": "3b206982c2492134ee5a6ef84afdf3be18269fbf3d9e5f6df9573ecccd528f5f",
+          "sourceBundle": "gis"
+        },
+        {
+          "path": "data/plots/gnida-it-ites.geojson",
+          "bytes": 151574,
+          "sha256": "e35476b6e05a9d543e2a7ea32c3a3be5f30b21a1ce1517c0fea4d2650bc408ff",
+          "sourceBundle": "gis"
+        },
+        {
+          "path": "data/plots/noida-commercial.geojson",
+          "bytes": 883148,
+          "sha256": "15d69f1f32ea38ff050e5e8020f5e7a346e2940fac38477a2b80554e916aa49a",
+          "sourceBundle": "gis"
+        },
+        {
+          "path": "data/plots/noida-group-housing.geojson",
+          "bytes": 771931,
+          "sha256": "fecd7b79e5e8641ae0a8a319ad4ee4d61fce20f61e8e358dd31e3a4127fcd338",
+          "sourceBundle": "gis"
+        },
+        {
+          "path": "data/plots/noida-industrial.geojson",
+          "bytes": 5953048,
+          "sha256": "ff9348ca6df0b8a0f667345f91cddf1ef3528d7ad02e35b6f1c898532017f4da",
+          "sourceBundle": "gis"
+        },
+        {
+          "path": "data/plots/noida-institutional.geojson",
+          "bytes": 693996,
+          "sha256": "7d2ad03cd989d199de49fa973d5d89f452cbc905dd0852fae2d5c1b903dfbc28",
+          "sourceBundle": "gis"
+        },
+        {
+          "path": "data/plots/noida-it-ites.geojson",
+          "bytes": 42,
+          "sha256": "ed778c73ea51338d6576fb5992b189f2b94d9f3d5e199f46c1af520d6b0b3e6c",
+          "sourceBundle": "gis"
+        },
+        {
+          "path": "data/plots/yeida-airport-aviation.geojson",
+          "bytes": 42,
+          "sha256": "ed778c73ea51338d6576fb5992b189f2b94d9f3d5e199f46c1af520d6b0b3e6c",
+          "sourceBundle": "gis"
+        },
+        {
+          "path": "data/plots/yeida-airport-masterplan.geojson",
+          "bytes": 46638,
+          "sha256": "2b3f2e6ab5751c09e782ffbfb930cdfb297af2938260eb1fcdcebd19f7c4a7ea",
+          "sourceBundle": "gis"
+        },
+        {
+          "path": "data/plots/yeida-commercial.geojson",
+          "bytes": 150293,
+          "sha256": "b771c97f97f5ec6f74826b1c2b14f2106dfd18d12f41a85c78737b1f90aca05c",
+          "sourceBundle": "gis"
+        },
+        {
+          "path": "data/plots/yeida-hospitality-masterplan.geojson",
+          "bytes": 13255,
+          "sha256": "1b4f0ae5446cc1a576434252f3074c033f73dff8059a6018736cefd67838768f",
+          "sourceBundle": "gis"
+        },
+        {
+          "path": "data/plots/yeida-hospitality.geojson",
+          "bytes": 42,
+          "sha256": "ed778c73ea51338d6576fb5992b189f2b94d9f3d5e199f46c1af520d6b0b3e6c",
+          "sourceBundle": "gis"
+        },
+        {
+          "path": "data/plots/yeida-industrial.geojson",
+          "bytes": 3435240,
+          "sha256": "8f9dd10ef83237aa1a3592f044098b44ee06f6564f309bd75db470e3571cf681",
+          "sourceBundle": "gis"
+        },
+        {
+          "path": "data/plots/yeida-institutional.geojson",
+          "bytes": 443378,
+          "sha256": "0103c5eeb809ebac614fd5912b0dfd991cb38419cb894d59154a65380df400d2",
+          "sourceBundle": "gis"
+        },
+        {
+          "path": "data/plots/yeida-logistics-masterplan.geojson",
+          "bytes": 15479,
+          "sha256": "65ff26e046483707af0d35b664f0d3d27bea19818611c9ef0263354da14f7c71",
+          "sourceBundle": "gis"
+        },
+        {
+          "path": "data/plots/yeida-logistics.geojson",
+          "bytes": 42,
+          "sha256": "ed778c73ea51338d6576fb5992b189f2b94d9f3d5e199f46c1af520d6b0b3e6c",
+          "sourceBundle": "gis"
+        },
+        {
+          "path": "data/plots/yeida-mixed-use.geojson",
+          "bytes": 41275,
+          "sha256": "84ad6525a8beda029b631c1e1b22053d2bdbdc1c38dda6323bb384e32893eadf",
+          "sourceBundle": "gis"
+        },
+        {
+          "path": "data/plots/yeida-rera-project-parcels.geojson",
+          "bytes": 14543,
+          "sha256": "95f45b6b2b81e95f2d8c33fe16f4fab1b3d7b7b1f7c54071e322ecb6346fb8df",
+          "sourceBundle": "gis"
+        },
+        {
+          "path": "data/plots/yeida-residential-masterplan.geojson",
+          "bytes": 115813,
+          "sha256": "73c85dc61c3acaca042194bc0d637d61c72e426f373a5d3b03a464cd22ad9eeb",
+          "sourceBundle": "gis"
+        },
+        {
+          "path": "data/plots/yeida-residential.geojson",
+          "bytes": 26584080,
+          "sha256": "12986e1e5a946708c66db4b2ed6923a502731a77030ab29d1390287517f14208",
+          "sourceBundle": "gis"
+        },
+        {
+          "path": "data/plots/yeida-riverfront.geojson",
+          "bytes": 42,
+          "sha256": "ed778c73ea51338d6576fb5992b189f2b94d9f3d5e199f46c1af520d6b0b3e6c",
+          "sourceBundle": "gis"
+        },
+        {
+          "path": "data/plots/yeida-roads-masterplan.geojson",
+          "bytes": 158465,
+          "sha256": "d9a704392b62c3ddfdac0d58fb09d962658ae706c33c25ed000ed2c66191da3e",
+          "sourceBundle": "gis"
+        },
+        {
+          "path": "data/plots/yeida-sector-boundaries.geojson",
+          "bytes": 116634,
+          "sha256": "26388fa6a3acbbdd397b5e5eec3869521f4a62a5e33b25e834d6096962a83057",
+          "sourceBundle": "gis"
+        },
+        {
+          "path": "data/plots/yeida-special-development.geojson",
+          "bytes": 42,
+          "sha256": "ed778c73ea51338d6576fb5992b189f2b94d9f3d5e199f46c1af520d6b0b3e6c",
+          "sourceBundle": "gis"
+        }
+      ]
+    }
+  },
+  "staticArtifact": {
+    "files": 286,
+    "bytes": 44445543,
+    "hash": "918e345ba73f698e6b8f20d1d1e22f9ad133042093dda1aa2ecec6af345e9e88",
+    "includeGisGeojson": false,
+    "policy": "Normal static artifacts include public site files, bounded viewport chunks, and small JSON/CSV downloads. Original full-layer GeoJSON is referenced by hash and excluded unless --include-gis-geojson is explicitly used.",
+    "entries": [
+      {
+        "path": "assets/app.js",
+        "bytes": 122283,
+        "sha256": "d9edc7c5c46861f5087500bfbe991c63e716ffe1149723ef83d7742ef7b2db04",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "assets/calculator.js",
+        "bytes": 12369,
+        "sha256": "7238a67785a56d9bb49db62fa1106c9546aaec7108471ce03718604cf6856b21",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "assets/favicon.svg",
+        "bytes": 239,
+        "sha256": "6719e56a591b441e9b608e16121f6566ae34e226331c59a8a26f1bd5fed5824c",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "assets/i18n.js",
+        "bytes": 3948,
+        "sha256": "f64656c9543f37ec3a0609d32b6ee9605e2413c273532eef4ebb91b7f6455817",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "assets/map.js",
+        "bytes": 63831,
+        "sha256": "3831dc881b4828e308cf83987e0c9b671ec3671f10ea97c397a192c6f425521f",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "assets/request.js",
+        "bytes": 4086,
+        "sha256": "c3e6ff7a9d3371aa958d03918e267ab0f951a78dece06c053cffd71ddd9132d0",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "assets/styles.css",
+        "bytes": 35299,
+        "sha256": "4d9cec7b2cfb9a538a9ba6507991cf39a21173e23f058e94521a3cf95d4efb05",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/analytics-v2.js",
+        "bytes": 5737,
+        "sha256": "fc996705591d4315de6018de4ab0cad19c489de5cd1c99a41ed91a07b28633c5",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/analytics-v2.json",
+        "bytes": 7564,
+        "sha256": "761282b7c097698040276058ee3fe07b87e382eeba4e22f82da28213ab30ced8",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/builders/builder-schema.json",
+        "bytes": 858,
+        "sha256": "8c63df629d20418f69414e588c346215ca9e721f2cf0169482e9e15ba1bed7c0",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/builders/builder-seeds.js",
+        "bytes": 5455,
+        "sha256": "0a933665d4e64b33e5cafbefcb36b60cd2b7fc15c729bc5a9a863e6ee27e6931",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/builders/builder-seeds.json",
+        "bytes": 6757,
+        "sha256": "9c13197ee058ea8aeb4a1d8de303bc8042b67194113612ad67c5ac219c125ff0",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/contract-v2.json",
+        "bytes": 3699,
+        "sha256": "08f5dfbe3229bf856745e77c7fcd5669bc03e019321629b59474ae02f44db571",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/event-contract-v1.json",
+        "bytes": 6951,
+        "sha256": "0df2a792ebd700e57b8bbe6632fa6916d64a65e9fa5fc26c1d71c57a66c2eeb2",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/execution-stages.js",
+        "bytes": 1140,
+        "sha256": "4dcf7bdbc112ddb3a25f7281b73bfb30d24e910dd4ba62edbc6f14777f7b7fc6",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/execution-stages.json",
+        "bytes": 1702,
+        "sha256": "d7e24a563f93ad5bf7d2462ccc93a1e806bac4ea8cac5b197cb968e45be3ef16",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/i18n.json",
+        "bytes": 15017,
+        "sha256": "bb92855421983bd80c06185b1d8669e27eb7c24caae2d15a52a95836f9e5ea91",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/links/entity-plot-link-schema.json",
+        "bytes": 672,
+        "sha256": "b04d4308a2fd61ebe5a25abaedcc2f9b600f047ed259dd0259dd0754de399525",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/links/entity-plot-links.json",
+        "bytes": 50577,
+        "sha256": "91e67b77a41e8b932dc2155781f3c7eafdfdfafeec888da46f7fb0314de4e650",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/links/manual-link-seeds.json",
+        "bytes": 1093,
+        "sha256": "50eb4707c02143400f81b109b7f546121e2cb5f127205b60e789e59391c95c30",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/market-assignments.js",
+        "bytes": 26774,
+        "sha256": "a53cb4759295b3f86025c61eec39645c07f03fc1db5bd9cf113bae58ba8d283e",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/market-assignments.json",
+        "bytes": 40475,
+        "sha256": "3ff036a27c479407b95d81c5b8ab2222590f3e587ac061dee722db9431b197ab",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/markets.js",
+        "bytes": 1435,
+        "sha256": "85451d129d220738c9afb91c28ae1be68e3f47a1bd8868d6ffaf3bee6300ebeb",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/markets.json",
+        "bytes": 1654,
+        "sha256": "418eac7971148e4e61747ea06a347098c1908804816792c6d21564efee8face9",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/manifest.js",
+        "bytes": 4401,
+        "sha256": "32e86cc28efb3f1249212e0796b289e0b1fc653a78ed5822ba6e8e8764f8eb61",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/manifest.json",
+        "bytes": 5725,
+        "sha256": "2736dc0dbbe90a4e48c242b69ce71ed04a797e672d7aee017f17db0760716dda",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/gnida/commercial/z1-x0-y0.geojson",
+        "bytes": 109508,
+        "sha256": "108093733b4c97d1999a03d35bfa37678ce7842ce92c1db0050a316998534c90",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/gnida/commercial/z1-x0-y1.geojson",
+        "bytes": 92544,
+        "sha256": "69a1b238621d1e70107009df8c8b354b0af839f356fa6a9a40413a48414f933a",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/gnida/commercial/z1-x1-y0.geojson",
+        "bytes": 218820,
+        "sha256": "61c5d4bafa4e8b5cd06e9eec8e89743825f3e0029319b42e9738aec3b573319c",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/gnida/commercial/z1-x1-y1.geojson",
+        "bytes": 6089,
+        "sha256": "62fb08f2deea4d8bf484c94544adbc534f6598ec17f0dc8fabca2ef2c49de1a4",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/gnida/group-housing/z0-x0-y0.geojson",
+        "bytes": 55289,
+        "sha256": "7e3782205c7d04d43566be5071688ca324f9a81663c03fa07afe2cf5d395af11",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/gnida/industrial/z1-x0-y0.geojson",
+        "bytes": 161810,
+        "sha256": "1b9c8d5ded8a9ba2f862a6ea02a06a750d5594928e4212ceb075779e65a8a2b6",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/gnida/industrial/z2-x0-y3.geojson",
+        "bytes": 82695,
+        "sha256": "131e7b02445971015bab1312d56b061c82688902b215f7d5286dd468294ff38a",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/gnida/industrial/z2-x1-y2.geojson",
+        "bytes": 3717,
+        "sha256": "5b43ac73784aba567decb09ceb57adb5297d8a3fc5e747359f39f7db77f9bca9",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/gnida/industrial/z2-x2-y0.geojson",
+        "bytes": 425052,
+        "sha256": "e11085093566bdfffe918c7b85c838a13e9c98b8f60f973470317f9b37fde097",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/gnida/industrial/z2-x3-y0.geojson",
+        "bytes": 267239,
+        "sha256": "6ddeb657833d0d89465a6299393adcd3b465d8f2295a84a24b2db90b2b5847b8",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/gnida/industrial/z3-x0-y4.geojson",
+        "bytes": 308355,
+        "sha256": "734fa8cbc53f81f79ef88bd746f4b0444a08e2f24efe4abaab003cd1bd88552f",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/gnida/industrial/z3-x0-y5.geojson",
+        "bytes": 214767,
+        "sha256": "05805588574664a51d1678374391020697279ccfaf8151140b6aa0692d35910f",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/gnida/industrial/z3-x1-y4.geojson",
+        "bytes": 233445,
+        "sha256": "6927902c5f7bdcf7b3492352f1a2febe120dc83e3a2f1bcd906bc2deda402dea",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/gnida/institutional/z1-x0-y0.geojson",
+        "bytes": 231925,
+        "sha256": "66931180b4c52ab8d8b04cbd6ab2c002f3955c20fc798cbc35c493412a83e359",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/gnida/institutional/z1-x0-y1.geojson",
+        "bytes": 241762,
+        "sha256": "758fc12495db9e8a3873582f622ca5a696c5f9bccdeb6a260bd37426e2cc6515",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/gnida/institutional/z1-x1-y0.geojson",
+        "bytes": 169865,
+        "sha256": "c730fa48fe30e78924dde93078d7291692b464153197d1df8c87120cb714852b",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/gnida/institutional/z1-x1-y1.geojson",
+        "bytes": 1218,
+        "sha256": "d13adb985a623d64a6eff4f159b0c3ba65b6796d4a23325cadb3f5650df851fb",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/gnida/it-ites/z0-x0-y0.geojson",
+        "bytes": 151575,
+        "sha256": "696a8ebb567fcb6f99fd00348293ebbf93ca01188151539e2d2359c3262f8f55",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/index.json",
+        "bytes": 53577,
+        "sha256": "c5685e6fd909586da47bcac13b838c0e6419dcdc78d1defaa211a26e9177db08",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/commercial/z1-x0-y0.geojson",
+        "bytes": 16778,
+        "sha256": "1e820be663efdd6bbaf21df577e06fb112c0b3f623bdc438c0f12c56d5eb0b5e",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/commercial/z1-x1-y0.geojson",
+        "bytes": 72148,
+        "sha256": "5e5f2079828b0ae762f1494a228899d556c9f2227b6ecb17099be0e754f0c97c",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/commercial/z1-x1-y1.geojson",
+        "bytes": 49912,
+        "sha256": "47540faa423647f1d6e24c27764cd5e50b99fd4d0a75c4dfc764eeacc5af263f",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/commercial/z2-x0-y2.geojson",
+        "bytes": 335142,
+        "sha256": "d2cbc3e7cf4d41859694304956bf77619745da479d12c14a69c8b1fb7595245e",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/commercial/z2-x0-y3.geojson",
+        "bytes": 160194,
+        "sha256": "82deec6b05a1c55f37fd9ac31598be706290105c04f4383755d452e9990e8f31",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/commercial/z2-x1-y2.geojson",
+        "bytes": 66087,
+        "sha256": "862b357d738630ce1eefb808046491eb3cf5566aecea7bc9ac981d797d33e317",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/commercial/z2-x1-y3.geojson",
+        "bytes": 183140,
+        "sha256": "f43c9b1f9be6d097a62ef5789a56e8bfef4392bcaf78f715f93672f143c7a8b6",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/group-housing/z1-x0-y0.geojson",
+        "bytes": 6150,
+        "sha256": "b82c40ef14598a37a75d6da53efb72a81fea9e7cb517904e6f913b36d663ccde",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/group-housing/z1-x1-y0.geojson",
+        "bytes": 23353,
+        "sha256": "af8325b74c6c099e7cad6c93956879060077c52c0607e067a07d23b4026140cf",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/group-housing/z1-x1-y1.geojson",
+        "bytes": 15149,
+        "sha256": "9e7d85829c10a87bf64def155959828ef2de3a631830f358dc5779f681fef75e",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/group-housing/z2-x0-y3.geojson",
+        "bytes": 7507,
+        "sha256": "12a8694b092d5a1f6b767461aa4f725ff71f347f9d00cb4dae2bb956b3916d78",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/group-housing/z2-x1-y2.geojson",
+        "bytes": 46511,
+        "sha256": "03a2cb37cbf28d6fb3646035fb94295c516f17460fedb59b3e8457ad437ef47e",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/group-housing/z2-x1-y3.geojson",
+        "bytes": 73238,
+        "sha256": "258133d860782b8da3eb0b02d1c9ed006c2da25d0c11f73812ac4b12e362dd0a",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/group-housing/z3-x0-y5.geojson",
+        "bytes": 1236,
+        "sha256": "e4fd0f27f0ec78cd5a25e82dbbb95e4f7eaccc76eb6f53badbdf3a6a62139886",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/group-housing/z3-x1-y4.geojson",
+        "bytes": 4619,
+        "sha256": "d670644a8d9592d798bc9b7f8fa7700a3fd2485dfb7980c63ba724de0c389d84",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/group-housing/z4-x2-y10.geojson",
+        "bytes": 53923,
+        "sha256": "4487cafdaca4a417df80e8f31af2f9a83e3c235340eb832eccd6d9b66bce2628",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/group-housing/z4-x2-y11.geojson",
+        "bytes": 386034,
+        "sha256": "228ee4a578a66731f4bcca583ad853b909c649388c4f8516a7c1eff211e7bcba",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/group-housing/z4-x3-y10.geojson",
+        "bytes": 51271,
+        "sha256": "427274d33e2f7fd57c71ce1eb0eb9455213819e73918b7e5c9df91e2cbe9cba9",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/group-housing/z4-x3-y11.geojson",
+        "bytes": 103403,
+        "sha256": "df56f29c201049bc5e180333c428ba099f6198da80011077893130f8faa0f363",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/industrial/z2-x3-y0.geojson",
+        "bytes": 137930,
+        "sha256": "554103ff906af2c39b8a2cffc916a893acd996c758e4827ac1253bb29785f30d",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/industrial/z2-x3-y1.geojson",
+        "bytes": 82784,
+        "sha256": "01471f0f681d511a1baeb69f686294b4d49e88fd172fab195b9fb341db883afd",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/industrial/z3-x1-y5.geojson",
+        "bytes": 7563,
+        "sha256": "8649285069558ec3ce9eea22eb398242151c50b1ed380e301dea3c9358996f03",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/industrial/z3-x2-y6.geojson",
+        "bytes": 347028,
+        "sha256": "3ab51f49355041437257ec52eb3d96908b986e81c9c9c89598ebf5927572a247",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/industrial/z3-x2-y7.geojson",
+        "bytes": 5775,
+        "sha256": "b557909dd060869aaed716302d2ca6ea4e1b065bc384b01309e5e62644264a55",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/industrial/z3-x3-y6.geojson",
+        "bytes": 147981,
+        "sha256": "01d92edabdf41dd0b53e71acec9d1bf9cc52f2dac8543783e8c91855fa3326af",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/industrial/z3-x4-y2.geojson",
+        "bytes": 1549,
+        "sha256": "7a44f68850a3f05fca1d9f1198811ebd0bb7411ed37afe00a8ae300f7a88c46c",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/industrial/z3-x4-y3.geojson",
+        "bytes": 285613,
+        "sha256": "9b1977d961e6156bab371da1c8a4ef8a6490fda4c510f16fbf66e1930da72fd3",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/industrial/z3-x4-y4.geojson",
+        "bytes": 271862,
+        "sha256": "0ff7a5bc3586687acc7ce2cdc04b23459247a7fd4fd2acd8c817911e189c8133",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/industrial/z3-x4-y6.geojson",
+        "bytes": 111344,
+        "sha256": "9406a0b0b6c4891e78adf326447048a8d755a071f9f6589be41c5e6489b7d9ba",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/industrial/z3-x5-y2.geojson",
+        "bytes": 46055,
+        "sha256": "f25a909b74c5d9ef6a05b139545a7b2bb9b24a8068d6553ff1d3b8d8096d00d6",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/industrial/z3-x5-y4.geojson",
+        "bytes": 248578,
+        "sha256": "60529c698445f662a0598c5e9e820c2f6f7f8b224f26ac91f71f9016a5cc805d",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/industrial/z4-x0-y10.geojson",
+        "bytes": 9646,
+        "sha256": "327f1b4ca8c01108e630899871179b93a3db52efd2a70b94b8385c7857c6f5d6",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/industrial/z4-x0-y11.geojson",
+        "bytes": 377034,
+        "sha256": "fa2fb48c9912981c18f0828428869d2d00ebd9e3d08a49c763469d5551718cb1",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/industrial/z4-x1-y11.geojson",
+        "bytes": 360036,
+        "sha256": "48d20871dd9ea71c524bb70c830ea56e77db66b1ea986b778b049f30e9ddf960",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/industrial/z4-x1-y13.geojson",
+        "bytes": 15048,
+        "sha256": "9c712753f842df97ccc8432ea5213327769272b850e9bbc030c2551f8985f3d3",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/industrial/z4-x10-y6.geojson",
+        "bytes": 24943,
+        "sha256": "1139395d479889ea7c43a06e32141f655bc905491a5f2217099c92ed820b59be",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/industrial/z4-x10-y7.geojson",
+        "bytes": 179053,
+        "sha256": "67bc0cd704ab0074a9a80b2c40b5fe81db8f8f57ec6e0d24657d8b0911db30de",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/industrial/z4-x11-y6.geojson",
+        "bytes": 51377,
+        "sha256": "b51bd3d4c988d89f478cf4b74218c3daab5cc10cbe65b59a6085699de73f279c",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/industrial/z4-x11-y7.geojson",
+        "bytes": 121897,
+        "sha256": "b441e5b4cb450edaf011b4ae4d43ec1a850dc53cd9bab20407ac373d216a675f",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/industrial/z4-x2-y13.geojson",
+        "bytes": 79603,
+        "sha256": "9d407f18b294cf5aa8c43950af11b869f5dafe7b62dd8da279a73d1b98bd446d",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/industrial/z4-x6-y14.geojson",
+        "bytes": 69540,
+        "sha256": "033e3478387c77818ceaa7836c2a11e7aaa90f6b77ac6435b1aee2736b109d10",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/industrial/z4-x6-y15.geojson",
+        "bytes": 54965,
+        "sha256": "2bb3294d736e029597642beb1dd5a19440b37a571f744399893abdae8ae02c14",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/industrial/z4-x7-y15.geojson",
+        "bytes": 239460,
+        "sha256": "4074aef6e069a7815dc3ff831c78c696993347c2d8c8d2312a149c4a51378de9",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/industrial/z4-x8-y15.geojson",
+        "bytes": 75315,
+        "sha256": "e923c45d3b1def54c3dc2c15825261e52dd79276fff3d9eaaf445de9537a3c9d",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/industrial/z5-x0-y24.geojson",
+        "bytes": 53734,
+        "sha256": "15e5a11f37318dd91c781a7250a2c79140e6db6aeeeb547f285d80290686b709",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/industrial/z5-x0-y25.geojson",
+        "bytes": 141189,
+        "sha256": "9f9e05ecf08ac8c302cedf74885d434be012632782f7a1ed1d726bb210026144",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/industrial/z5-x1-y24.geojson",
+        "bytes": 102123,
+        "sha256": "f6d9f8c89a8866136b97711a22788347e63f655e1fd17c801fefd3c2038e9c2a",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/industrial/z5-x1-y25.geojson",
+        "bytes": 239894,
+        "sha256": "eb26f057b15792157d584015ea41241bcef6576db139dfa4339d3db129adc191",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/industrial/z5-x14-y28.geojson",
+        "bytes": 96826,
+        "sha256": "5d0aa9db7ebdfd1d2fc065af79ba9f8610fd1afaff098d7ceda9dafc90871766",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/industrial/z5-x14-y29.geojson",
+        "bytes": 103470,
+        "sha256": "c2493157c2dfc0931df895a1023f36675c04bc5c272b81cc45f3f0935c7bd8a2",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/industrial/z5-x15-y28.geojson",
+        "bytes": 103875,
+        "sha256": "88183ec29f1dfa30b3adf2be8db1c9f64c285a6f60fee577d8154dea866d5a4e",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/industrial/z5-x15-y29.geojson",
+        "bytes": 113838,
+        "sha256": "dbb5001704e080780879a3a2165794c1c390dee6a4b97af07bf9e4d0b0d69ebc",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/industrial/z5-x16-y28.geojson",
+        "bytes": 202594,
+        "sha256": "d8fe251f32c5fb23902436157064a72cd9e19715a74f9e1d3a455fc8992181a6",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/industrial/z5-x16-y29.geojson",
+        "bytes": 211803,
+        "sha256": "7d242114a09aefbb595ba2e09106900e2b1ec49aa8f08fa99da33d555ca07e0a",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/industrial/z5-x17-y28.geojson",
+        "bytes": 138062,
+        "sha256": "8c30594f7252f4108c9e2333f0124ca48629e5f0675b645c6b2d7b4767a69913",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/industrial/z5-x17-y29.geojson",
+        "bytes": 24576,
+        "sha256": "00bc35d8cbf8ec3141bbc3e2c7cea17e4d3caa97a62fe0dab178a37cd972c88a",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/industrial/z5-x2-y24.geojson",
+        "bytes": 116848,
+        "sha256": "3b397e0a6fcc8028a52620546f87af79e5bd5b40e78108f1cf97e868357c20ab",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/industrial/z5-x2-y25.geojson",
+        "bytes": 151296,
+        "sha256": "de52485743f9c92f041ddeb4db35e03597bf833ab22c8866958a47def10aa803",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/industrial/z5-x3-y24.geojson",
+        "bytes": 224845,
+        "sha256": "23b438abd67ccec4c5026007955e8988c146c7cc3e9b670a2dc7f0ec1a0e3c43",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/industrial/z5-x3-y25.geojson",
+        "bytes": 125709,
+        "sha256": "26def2192ef04f52b7174d8a32ba2e4b2883454d11c74ffaa5985bae0ee4200a",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/industrial/z5-x4-y25.geojson",
+        "bytes": 45501,
+        "sha256": "35de676ebba87f5dc6620ac3625f6c6cd2e540cb8016d81af86f64da49cc4531",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/industrial/z5-x5-y24.geojson",
+        "bytes": 19053,
+        "sha256": "11ac1acba591500cb1f08ac0289588dd65b33d0ce2d5539c1ca67029c688a44b",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/industrial/z6-x8-y48.geojson",
+        "bytes": 92977,
+        "sha256": "5403a82236855da595e3b08cf9c079cece058086454d872fdecfda5890ba846c",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/industrial/z6-x8-y49.geojson",
+        "bytes": 122763,
+        "sha256": "d741ddd62a8a9d945a005404e0405ea4839667178fdcb39929affd3b23f3424d",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/industrial/z6-x9-y48.geojson",
+        "bytes": 42693,
+        "sha256": "3fe20e6e8adfb78cbe0ec12b2fd559f2132e716f35cd4df4ac1f4ebffbff8053",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/industrial/z6-x9-y49.geojson",
+        "bytes": 129333,
+        "sha256": "d562eee1bf3fc2742e96fe8887f20f08b82ef57129502072ec830574c89b1909",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/institutional/z1-x0-y0.geojson",
+        "bytes": 30092,
+        "sha256": "7c3bfb65df22bc70b21da50ad2b4ef8073185bd8830053553c8e442a3b70a926",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/institutional/z1-x0-y1.geojson",
+        "bytes": 368630,
+        "sha256": "02b08aba8ea48f27a479e27dc0c3eb261994ce0109d42435cfe26dde00b22030",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/institutional/z1-x1-y0.geojson",
+        "bytes": 266974,
+        "sha256": "c39a5fffe3948be1b3168306b57070488a0411ca6e7012166a552f3385ee9f71",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/noida/institutional/z1-x1-y1.geojson",
+        "bytes": 28427,
+        "sha256": "b02c6f30e5b62ea14f943476a65d28c9b5c0027ff396eae6a7a3d24df02103d3",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/airport-masterplan/z0-x0-y0.geojson",
+        "bytes": 46639,
+        "sha256": "87bdb6a4a13b91f63f9c315be48752c25c5f489366d97cb4cad4ebdb7138a2ad",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/commercial/z0-x0-y0.geojson",
+        "bytes": 150285,
+        "sha256": "8f65792d4c19ed2e321542ae819491d208bd86dfadc46a57a2d308860b4d8746",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/hospitality-masterplan/z0-x0-y0.geojson",
+        "bytes": 13256,
+        "sha256": "d71e7c47b8c28625935614277982b8555e2aabe0aa20b1b82d150198f75d4e6d",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/industrial/z1-x0-y1.geojson",
+        "bytes": 10143,
+        "sha256": "3ff1f642b813166b263b80ef5064a1b0600ac6fe84a9ad400955c823d4752f25",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/industrial/z2-x2-y1.geojson",
+        "bytes": 94738,
+        "sha256": "3e132e66e37ffd4ea19a55b5038906f6e9e6fc969a234d59b69d8ec7b0e92964",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/industrial/z2-x3-y1.geojson",
+        "bytes": 344315,
+        "sha256": "3dea42b0fcfb2e56eeb622c0a57efe02e6453ffcfcd58523a50290f652e9f7ac",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/industrial/z3-x4-y0.geojson",
+        "bytes": 95137,
+        "sha256": "88417eace4bf42e2e0f3473a4cdc39b57ff08e33d7cde8aad5db2cec34a66b5b",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/industrial/z3-x4-y1.geojson",
+        "bytes": 59574,
+        "sha256": "37da9a9bae311bec804a1b8ad2f9ecc5c4d9570a55d880d767b4e1c4b4e03ae4",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/industrial/z3-x5-y0.geojson",
+        "bytes": 581682,
+        "sha256": "db42849ff03db9f8970b375bb9e03c140cb718ae0581e9188c0ff2b52bed01da",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/industrial/z3-x5-y1.geojson",
+        "bytes": 189357,
+        "sha256": "ad726086b81dcfd99774a24017857d32df13dd6ebf14d1f4eccb7c641894ddb5",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/industrial/z3-x6-y0.geojson",
+        "bytes": 210232,
+        "sha256": "067ad776167822199b4ddceb47129c84d4f1bb776b37268e464a3273a8994480",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/industrial/z3-x6-y1.geojson",
+        "bytes": 555217,
+        "sha256": "1dadc218043e1e9486ceb78cbdbde6430519eacdac954beec317291627fe1f75",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/industrial/z3-x7-y0.geojson",
+        "bytes": 706690,
+        "sha256": "8dea01d9e4dd4a1900ed62e28f1a1745f38962a88ca3b190d5492a71ead1af40",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/industrial/z3-x7-y1.geojson",
+        "bytes": 588576,
+        "sha256": "76d5f62c0b9d7c8a4b46b431a19d25283723a5055c5738d089398eddfb9f593b",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/institutional/z0-x0-y0.geojson",
+        "bytes": 443361,
+        "sha256": "b1d5c53efb933ad24d10575d329b158e23aecc82ae78764e1fbace9918df5950",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/logistics-masterplan/z0-x0-y0.geojson",
+        "bytes": 15480,
+        "sha256": "f3db78e538a1c0dc7dbaf085222f75bca0a848c398faafcecfc00131fb56d038",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/mixed-use/z0-x0-y0.geojson",
+        "bytes": 41276,
+        "sha256": "42373895cb401ed1079f1f206ebbf3d3e11b1a49bf4805aa42ee19e109eec805",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/rera-project-parcels/z0-x0-y0.geojson",
+        "bytes": 13990,
+        "sha256": "36f1d9821e3da90058459120ea8bb1a3faffb7f06954552361ad1d88fccd021b",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential-masterplan/z0-x0-y0.geojson",
+        "bytes": 115814,
+        "sha256": "cac5b9581b68886973bf741c00a7fbfd813f76d116e719bd58553e8301170dbc",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z2-x0-y0.geojson",
+        "bytes": 517040,
+        "sha256": "65b1a61a38ba15706fb7dd0f9b4e2cb1373e729c8a6f6ef60e85560e1e097690",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z2-x0-y2.geojson",
+        "bytes": 13418,
+        "sha256": "108148e27dbde7e3d4c1a510657c743862328952c7724c35e998f0fc686174ba",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z2-x0-y3.geojson",
+        "bytes": 938,
+        "sha256": "29b3f588e7705ab4c74d62deb993f9889df045a07da17c0515a0f9324a4ad72d",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z2-x3-y2.geojson",
+        "bytes": 664541,
+        "sha256": "61ab642a2065d23184d9d82cbf628374aec671cfd97040abe7c987e64d520acb",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z2-x3-y3.geojson",
+        "bytes": 6564,
+        "sha256": "ce30cdca93a3da6fd1989df74e3d22c306e638217b923f14d89a298e7f76f2bd",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z3-x1-y2.geojson",
+        "bytes": 6905,
+        "sha256": "b79062e59861380e5cfbf0cdc8e6bc133334bab701d9213e7738891fb25d786e",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z3-x1-y3.geojson",
+        "bytes": 4272,
+        "sha256": "0fb0d86f12c9f733173bdbd79ce224a6eb5b152a9b12ce74886fe5df31bc8195",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z3-x2-y0.geojson",
+        "bytes": 16839,
+        "sha256": "5a1bfa3a397a0769394b2f3c47d5f125a6d7197ef0eb8db46141dd2127f724bf",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z3-x2-y1.geojson",
+        "bytes": 36188,
+        "sha256": "7a492bc3c2307bee3ae7018da8959b6a75bc1554a4aa629c149ea3a276399ff2",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z3-x2-y3.geojson",
+        "bytes": 2420,
+        "sha256": "6ef3f598a39d9a6b5c2467178d66949de3a7af8e2ebf920da5fe11924c8c6c44",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z3-x2-y4.geojson",
+        "bytes": 187762,
+        "sha256": "3c9b77995bab6f9bef42119a99d87eccc6a3eee877c42d6a0842b8e77f626b17",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z3-x2-y5.geojson",
+        "bytes": 123832,
+        "sha256": "6bc3695e963634935b5384b91fb7691ff462210bba89cd0e5b1f74a1ca0d4dc8",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z3-x3-y0.geojson",
+        "bytes": 614970,
+        "sha256": "05fbc5372f23dc8196be0da88bb96420e891039178bf4fb858495a8066ef22f8",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z3-x3-y1.geojson",
+        "bytes": 499658,
+        "sha256": "298b34d1270b65fd1198344e5cbddfd97d0296a16368f79a1cc9300a1640aa03",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z3-x4-y6.geojson",
+        "bytes": 287891,
+        "sha256": "bccd5dcebe65fad24727bfe5eaff65d90f398746ea7c3c2b613ec652d5de0eb7",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z3-x5-y0.geojson",
+        "bytes": 59416,
+        "sha256": "ebc4c1886ca5eed9c0440aaa197408b0891417765c30d1f7166070199f24034f",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z3-x5-y3.geojson",
+        "bytes": 203983,
+        "sha256": "dd831a087999beea4abb2b270153e5cb99c568c6c1fe6f973bd406bf886eb031",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z3-x5-y4.geojson",
+        "bytes": 147507,
+        "sha256": "50a001277d5f1b6d53fa417baae506f13acc5fbc0e9972e3ab3b6ead148c2de9",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z4-x0-y4.geojson",
+        "bytes": 5777,
+        "sha256": "ac2258287456b263e492a3ba14a5cab4ddf6590f8bc06f98f13522d6f75a4764",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z4-x0-y6.geojson",
+        "bytes": 177608,
+        "sha256": "8d8532c8b6eb2d3790d779ef4ccc497002dc5b491788f6da5d8ef1e9845cf182",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z4-x0-y7.geojson",
+        "bytes": 65774,
+        "sha256": "d6b0faae2627602c6f1d6e7feeed09444b2b163f6ef3b3b8a7ac5dfab737f3c8",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z4-x1-y5.geojson",
+        "bytes": 13542,
+        "sha256": "b8e49c0a87f056fe531c5265f2005e4e5fc67aced0816123247ab9efc66500a5",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z4-x1-y6.geojson",
+        "bytes": 352865,
+        "sha256": "67b275897a62ab8149bf4cfaab4c97004892bb1f079bc5427c040c0d96504ea0",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z4-x1-y7.geojson",
+        "bytes": 316435,
+        "sha256": "1695be94e483c736980787bd40e943470754d3bc535e7e69284f6b630ad5b296",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z4-x10-y11.geojson",
+        "bytes": 90042,
+        "sha256": "45d2e703d349549f46cc8ab64b5b77b243031d2ac8aa289f6f0eb455c695b1aa",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z4-x10-y12.geojson",
+        "bytes": 534250,
+        "sha256": "472f88ebb47195b561c72895c22104c7bde95984575c934a4f5908deec0606ed",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z4-x10-y13.geojson",
+        "bytes": 205910,
+        "sha256": "e9def67976b894bedd2c52b49162f4d245ab964b2e231f73fa8d74d34ab97471",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z4-x10-y2.geojson",
+        "bytes": 214430,
+        "sha256": "7ea0d5f6cef3d80a052ae36119034d100c0d9d38fd41cf8e53a1c283497879d0",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z4-x10-y3.geojson",
+        "bytes": 453008,
+        "sha256": "34ab35dc04b85d5b13d75dc25357f04395088d18181847a26e46de01a9257abb",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z4-x10-y4.geojson",
+        "bytes": 547784,
+        "sha256": "0c7d8c4370a7194e7a7493516758149d9e40a5a936214ee39588f28ba06ede6a",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z4-x10-y5.geojson",
+        "bytes": 231677,
+        "sha256": "5bfbef3918c0a739b5e075531485293c96c663e9411ec5d9f6b4f0a5a1436be7",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z4-x11-y10.geojson",
+        "bytes": 681977,
+        "sha256": "5dd7b055e8412de4861cd963b39029643a5306c50054b53a3ef02a85aa0ef62b",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z4-x11-y12.geojson",
+        "bytes": 301798,
+        "sha256": "d17035c0e87b4bfd934cfeb5e7882223785d38cfd3ac370d768e764201b11257",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z4-x11-y13.geojson",
+        "bytes": 389771,
+        "sha256": "1482f15193158eb3fc684ddaa348f2e2c69180bd6ce684b8a566032289d0ee66",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z4-x11-y3.geojson",
+        "bytes": 116497,
+        "sha256": "02e94c836d629b2bc473fc5670e4720fea72b5484a3783f0fa88fa6eb43abe1b",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z4-x11-y4.geojson",
+        "bytes": 853,
+        "sha256": "afd58142caec1c75075682ee73dc6a84528cf3ddc15979989f86514e9316ed72",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z4-x6-y10.geojson",
+        "bytes": 312431,
+        "sha256": "2a8ae3b08103f2b1679b92016129fa8bce944c6c58cfe392c2c18cff6d5498fb",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z4-x6-y5.geojson",
+        "bytes": 30649,
+        "sha256": "16e5776ba2f74bc459f9674ecc1f006c9cb76467626c259103cd779367f06224",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z4-x6-y6.geojson",
+        "bytes": 608968,
+        "sha256": "f04beb086dbab9e82ac25d1d644cc50c080a9fafe8311891b941866348a21879",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z4-x6-y7.geojson",
+        "bytes": 535530,
+        "sha256": "82350d56c7d9e7f5483046182d25cdbd8771a21f2312ac85ba4457320518f45a",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z4-x7-y10.geojson",
+        "bytes": 611018,
+        "sha256": "0dbc94bb58265acbb4057ffd13bee5920308941721f8d8bc18206296d41fa154",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z4-x7-y11.geojson",
+        "bytes": 53112,
+        "sha256": "9da8ced86517dbbcebe284c50e887b05ba36aad9290ffa8dfcbd7ce0bfa0069f",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z4-x7-y4.geojson",
+        "bytes": 157170,
+        "sha256": "29727029b0392ba686abe1516b1f9636646a6b9588dc3588c06ea8d53c2a8379",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z4-x7-y5.geojson",
+        "bytes": 578507,
+        "sha256": "371640a7b6a2ee6d0148617f0114ba72794a2679ae69e6ce3d69bd821f48f84f",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z4-x7-y8.geojson",
+        "bytes": 586624,
+        "sha256": "01e44155aed60ad00056a013472960de561de295be97d6eee4da959363207e6f",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z4-x7-y9.geojson",
+        "bytes": 366231,
+        "sha256": "35bd0770ce9ef8954a3ce1f4a8149272bf8b46fc93b6e859737e51bf857fcd11",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z4-x8-y0.geojson",
+        "bytes": 452232,
+        "sha256": "39e6573b956bcebd22056ed56a0f34e757f2e04bf83987c56452b7e68adc6855",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z4-x8-y1.geojson",
+        "bytes": 427664,
+        "sha256": "553d4b3e0becb82535895287ca179929f420d0befb1400809232a622d5eb9246",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z4-x8-y11.geojson",
+        "bytes": 123338,
+        "sha256": "67de18256421558a3c85b248d8c1a7935ffd0c03957459a708512eb8c1664503",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z4-x8-y2.geojson",
+        "bytes": 394140,
+        "sha256": "476dbf3c906d1da47ba296d423a8abb889dcbb962df52e8462f5296a44b1fa2c",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z4-x8-y3.geojson",
+        "bytes": 365493,
+        "sha256": "11210b3f6e69fd649ada2f1219f7cf71b2155fae5cc9106b51c70c48e0a1d325",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z4-x8-y4.geojson",
+        "bytes": 502408,
+        "sha256": "a9f01a3630dbbab06ec603069d693c1d87da2d80f8e43a66f5a2630b7a0cca0a",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z4-x8-y5.geojson",
+        "bytes": 655337,
+        "sha256": "7781b0b24f387495973283bb01ada777152d9d2539f7fab68ba5e22305306386",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z4-x8-y6.geojson",
+        "bytes": 383808,
+        "sha256": "b8eaa8b9e5ec3201a96bacb9007cd1909b0f8f12eb9082404c862010a8634e3a",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z4-x8-y7.geojson",
+        "bytes": 588775,
+        "sha256": "276690a07ac55d3d4f733b3e0e5a104b5333e048ff413b204c31d731aa1ee81f",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z4-x8-y8.geojson",
+        "bytes": 458316,
+        "sha256": "a2321d1de82084226a2bd7962f2c2da384f32ccaccbb89a33adbc7359700ec48",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z4-x9-y0.geojson",
+        "bytes": 440471,
+        "sha256": "3cf42c2d1b00678c94e63e6c1071446ddd95749737cf0bbec7b463093e01324a",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z4-x9-y1.geojson",
+        "bytes": 435661,
+        "sha256": "df74396c89e45a2499b87797ad01e89007745373106aee0d66d236c313ebcb00",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z4-x9-y10.geojson",
+        "bytes": 279340,
+        "sha256": "7c0e80fd3d557f09e2feb53c8df89951993d5c90f69ba188b237c6104bf303dd",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z4-x9-y11.geojson",
+        "bytes": 327153,
+        "sha256": "3ae5d39f60af939fde584a490784240801ffe37ffac09678e24b6611b8fb263a",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z4-x9-y5.geojson",
+        "bytes": 435591,
+        "sha256": "df1153605912678673d572bab0e449e1f3d66b965d0d12e8349fe0f0ce010beb",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z4-x9-y6.geojson",
+        "bytes": 292542,
+        "sha256": "e27ab8eb45c7395b6b5d5ad57738c99e38c50c01a9bed00c24a7da024ba9873d",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z4-x9-y7.geojson",
+        "bytes": 520268,
+        "sha256": "3329f24318cb11abf7b466b682247692f3afa91c7700a5167d204d6b236cc4df",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z4-x9-y8.geojson",
+        "bytes": 541095,
+        "sha256": "2bd9738917348e67cb7afbc287dc47a32afe43e1fa34631affb5d334714527b3",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z4-x9-y9.geojson",
+        "bytes": 1062,
+        "sha256": "29b808f8a6aa14aa8b98859be50524e1647bc7fb1f79f63ba8ce772b3f1549bc",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z5-x0-y10.geojson",
+        "bytes": 241929,
+        "sha256": "baa692ec06c59139fb55269d9a36eb62382b1d8a87c484e39276279f47208a07",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z5-x0-y11.geojson",
+        "bytes": 175365,
+        "sha256": "b9461a25588fbbe3e53120576d5a1f425e7ed671ccacd0598345c8d23f9c36f3",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z5-x1-y10.geojson",
+        "bytes": 94250,
+        "sha256": "79eb67ceccb1905ee21ab2d0b7a6848a07a52c19598b770be09db3dc0f8b2e76",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z5-x1-y11.geojson",
+        "bytes": 152542,
+        "sha256": "921732bcc81d15574a8694066a1a7d91de43f2ee4580dcb9d58e68e74cd45b39",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z5-x12-y16.geojson",
+        "bytes": 141486,
+        "sha256": "4da75d21f28e379ca5c81ac18f77d05fb42c65690360d55568ba414b6542406d",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z5-x12-y17.geojson",
+        "bytes": 180773,
+        "sha256": "2a7f32c7ab10fefef83189107b6ac3e4728453926a65bf785524464f6595bf4c",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z5-x12-y18.geojson",
+        "bytes": 171600,
+        "sha256": "2e837058bf557c58b29f15527f2f4d65c76bce660c18914e01ab16df48a14b4a",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z5-x12-y19.geojson",
+        "bytes": 172195,
+        "sha256": "291d08a1382d42f9356a9e521e5a4d8d3aa0bc76ea05f4dac8f5f91c87a327ef",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z5-x13-y16.geojson",
+        "bytes": 215790,
+        "sha256": "6757230404cd1505d7a31bd4bfca512fe88652062cf8ebc375e78599f61d4b30",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z5-x13-y17.geojson",
+        "bytes": 192941,
+        "sha256": "de9673b39f4d24a28ce7293fd69b895dc3f0af1b46dfa0ab9047710e275bef4a",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z5-x13-y18.geojson",
+        "bytes": 177703,
+        "sha256": "ab2d156a37067a61d992936eb29badebae7564764c1734372a8c22127b019a15",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z5-x13-y19.geojson",
+        "bytes": 178894,
+        "sha256": "c67970eadd6df7c1c0c859115bfbffaa329137cc3a7283f163b75d3fee10c4c4",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z5-x14-y12.geojson",
+        "bytes": 163375,
+        "sha256": "72ea2d9b269054529fb9c109020069c0c11a10d0976545e26918d6ad986212e6",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z5-x14-y13.geojson",
+        "bytes": 208133,
+        "sha256": "77c91fca71959ab0533c567fb5791c494063af47db855e06806a26c7c6b4c252",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z5-x14-y14.geojson",
+        "bytes": 180481,
+        "sha256": "96c42eaf4c7e191f127a0e31e3b1fced8fa013a9d6de145fb0ade9f8b1af322d",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z5-x14-y15.geojson",
+        "bytes": 173047,
+        "sha256": "45b22505599b5f0ed4ade74493c8884af898f64ba92db47865ed79034ef62beb",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z5-x15-y12.geojson",
+        "bytes": 216673,
+        "sha256": "0524a7729a1b74301a93c154b666d2d95fa2bf43567c456ce8b84b1101e32710",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z5-x15-y13.geojson",
+        "bytes": 185384,
+        "sha256": "399d8d31c2e574517c979f09d534bfeabcfb6538eeaf981d0575773dcf92b7eb",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z5-x15-y14.geojson",
+        "bytes": 178443,
+        "sha256": "8dbe5101266ede7150196121a0e14ad00e0a0e7ef22e48b9f5c102d1a1ed7596",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z5-x15-y15.geojson",
+        "bytes": 199727,
+        "sha256": "4a12ad7c0da312e9a230dd091fdd48898d6f7a46354d7156694c07c9d26f2a79",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z5-x16-y20.geojson",
+        "bytes": 200757,
+        "sha256": "fc7b3e496e802b5bd519d811437c702f510c74eee0fa4d00d7b44e0f3485a065",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z5-x16-y21.geojson",
+        "bytes": 581220,
+        "sha256": "51916b178ac5a26fc33c9cd3a986d1c03f1d14cd00ec3c6ba36313811269f8a4",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z5-x17-y20.geojson",
+        "bytes": 13004,
+        "sha256": "80ab646c29787cb2c80a72331454d0fea1027a581fa6c9860b3abc8362b3eb47",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z5-x17-y21.geojson",
+        "bytes": 285029,
+        "sha256": "4db7fffe2637f1740cbec14c192e39e462f65a181862e549e1f14467ccf7386b",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z5-x18-y4.geojson",
+        "bytes": 149549,
+        "sha256": "73f1327c8fb37cc35520c6f6eb216ce7b0954b5924892a272d36e409f53dec4a",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z5-x18-y5.geojson",
+        "bytes": 229331,
+        "sha256": "0ecded1479fd7d6f4141ebfef5d86ac3060bd62e0e2796c4f635c91ca5b854eb",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z5-x18-y6.geojson",
+        "bytes": 220695,
+        "sha256": "9268f13538b7221d44d4ede109ca8790ca1dcaabf038e5b2ccc923fa854c7199",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z5-x18-y7.geojson",
+        "bytes": 234471,
+        "sha256": "6119f3f52facae4404f792fa4e2bf34458ee39de1e5dfe86b3be8ef0b794a8c2",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z5-x18-y8.geojson",
+        "bytes": 198056,
+        "sha256": "bc03841c81bc462bce3d54e79d042c4cfe768ceef24e60169553248322403cd2",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z5-x18-y9.geojson",
+        "bytes": 147996,
+        "sha256": "56cd3f4d9c8437afee5e98f8126d2038c03084fceb8254d4d0ef57a328acfac0",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z5-x19-y4.geojson",
+        "bytes": 144620,
+        "sha256": "d7bed28a80f7a153602341186a9383de59fb0b1eb7c5483b8de814d2baed77c9",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z5-x19-y5.geojson",
+        "bytes": 213468,
+        "sha256": "4a37f369343b62eb6fee2910ab3587e129b8ad7cd93fd4a94af4cada8b4bcf9c",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z5-x19-y6.geojson",
+        "bytes": 226313,
+        "sha256": "1190d249d645fb6022084fefcdb6b98eb479361e18e36b3397b2d547d9121eda",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z5-x19-y7.geojson",
+        "bytes": 206369,
+        "sha256": "f4338a0ecc0481011eb6b0cd618eb3ea863cd6f8c3057691e93f5c39a0465581",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z5-x19-y8.geojson",
+        "bytes": 190871,
+        "sha256": "b31494f636e626e503a0c7c46c22f182857bbad77adf28133d3e724620b34f06",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/residential/z5-x19-y9.geojson",
+        "bytes": 186392,
+        "sha256": "48228cd541140a27d0a23d6eaa34ab189668ba910c1328106c5da8fb3cd52420",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/roads-masterplan/z0-x0-y0.geojson",
+        "bytes": 158466,
+        "sha256": "72200a09d24eeb7806bf2297c1e7b0ba9251fe5b641cdd9ee668e6eb44078db4",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/plots/viewport/yeida/sector-boundaries/z0-x0-y0.geojson",
+        "bytes": 116635,
+        "sha256": "25077eeb2eddfce833b8be0eb6181cd13e88d348ef26fefd02ce72f63fc2fa2c",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/product-contract-v1.json",
+        "bytes": 2190,
+        "sha256": "2473532e9bf2b9768360cde6b46de6ae1495e12483bb237847f54927ec38af3f",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/regional-map-data.js",
+        "bytes": 141836,
+        "sha256": "f52e299f40759f8ec4127ed6854e295812739acfa20d3fd4c77f0192f65e8e7b",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "data/site-data.js",
+        "bytes": 375851,
+        "sha256": "78b4e1817ed773687ea6e7aa26de66c23a631b512ae4bc52446374f62e4362ee",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "downloads/2026-08-17-pre-stage-fix.json",
+        "bytes": 2265,
+        "sha256": "601760930e91399db9d03c23fca56dd80f5f3ed92a4c030622fafcd81961e68e",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "downloads/all-data.json",
+        "bytes": 546520,
+        "sha256": "0064c48a030ef764f542b6c98c7b3e2f1b2c2f449c07d1eff1ba0e683bef9a8b",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "downloads/analytics-v2.json",
+        "bytes": 7564,
+        "sha256": "761282b7c097698040276058ee3fe07b87e382eeba4e22f82da28213ab30ced8",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "downloads/clusters.csv",
+        "bytes": 5136,
+        "sha256": "6f9febfef3dd351c9601e129568e58bfc56669c3f53a7227bfedf33ce4b93f97",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "downloads/companies.csv",
+        "bytes": 21892,
+        "sha256": "1e77e06e23f6e4a457bd620fa9de1808bb49a3d1fbee439a1a71dd6e85734c24",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "downloads/deed-transactions.json",
+        "bytes": 232,
+        "sha256": "92268bd438df8df86af2ff3d7da30f725ee48032f8d42ab285ebe4544370c3bf",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "downloads/entity-plot-links.json",
+        "bytes": 50577,
+        "sha256": "91e67b77a41e8b932dc2155781f3c7eafdfdfafeec888da46f7fb0314de4e650",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "downloads/housing-corridor-parity.csv",
+        "bytes": 482,
+        "sha256": "0c3050338a7410b1652d929e3e3f8fcb6add33d6a094ae251b2ac9b6c3231471",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "downloads/housing-demand.csv",
+        "bytes": 1446,
+        "sha256": "f1c50bd991d2faa6bd065c98bc6e67a678260bbd2e85bd8f37c7ff5d47ae80ab",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "downloads/housing-density.csv",
+        "bytes": 1940,
+        "sha256": "6ba4bab7c0f6a5aaf4e4c9afd23cf3cfb6f7d3f92614f310a3c7a0451efaddac",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "downloads/housing-far.csv",
+        "bytes": 1114,
+        "sha256": "2d1b4f9150c6a68129c1e62ae4233e8ebf561f44001857145f53c4865acc2446",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "downloads/housing-owner-demand.csv",
+        "bytes": 958,
+        "sha256": "237855ae30bb5ca544e94b25f0ddd49e6eea3147c3ed32d39e7781e6a68f047a",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "downloads/housing-projects.csv",
+        "bytes": 9945,
+        "sha256": "aa6450741e9953d9d776abc480e8ff3a9f77d789f9ed9940abb73390ac945068",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "downloads/housing-supply.csv",
+        "bytes": 3470,
+        "sha256": "81e21f640e60f1ce9aae37d3f718538d350d76660b24b691ce991efc52eb0d26",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "downloads/housing-ticket-parity.csv",
+        "bytes": 1454,
+        "sha256": "4971738680750f5348b29feb6e39a49c9630e3b45cd29632c17904837157e7c4",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "downloads/infrastructure.csv",
+        "bytes": 17367,
+        "sha256": "b1061c419fb726bce3b84e8187535c75204069b92f3f0aebefb0e5b572bf73f8",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "downloads/interest-events.csv",
+        "bytes": 24179,
+        "sha256": "6f7df5b4ca471b966f5645d45dd83d216d28fd6654ab86acb1e13f7f7aeee118",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "downloads/medical-device-park-allottees.csv",
+        "bytes": 21691,
+        "sha256": "7a89fea3324494a5a9ce216135acfc9b31ded00357eeeeda21b8ee700592a098",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "downloads/plots.csv",
+        "bytes": 47087,
+        "sha256": "59947c4a6b432c1840ed0e31cf0ae98df6c4491cde9bb4eb4241528242f46049",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "downloads/release-manifest.json",
+        "bytes": 90176,
+        "sha256": "f0558afc1112a87b2c6fc0335091a817d0fe6d88ce7f97a38307e56b25ba0959",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "downloads/rera-progress.json",
+        "bytes": 345,
+        "sha256": "0d865483d818c6337200e10b371caf7696546ba3c3d4b4a2ddd49de2acce1186",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "downloads/rera-yeida-plot-mapping.csv",
+        "bytes": 10922,
+        "sha256": "527359ba5d99a1b8a7ea80a4cccef791b1983c791cd65c458c32c351a22178f3",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "downloads/risk-overlays.json",
+        "bytes": 348,
+        "sha256": "79a5d16bdc342daac99aec13b465fc9255422ec9a97175732747725ca60e215e",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "downloads/sources.csv",
+        "bytes": 100414,
+        "sha256": "a1f0bfc8e88baecc2676c2ddd40b6032d7fe99c7265f5709ae458be0ab481537",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "downloads/timeline.csv",
+        "bytes": 11884,
+        "sha256": "2d9e6b6d947901d6672e7d57fc6ca566b069a06675bf0f558f2d67164612f935",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "downloads/utility-observations.json",
+        "bytes": 260,
+        "sha256": "96be261a9a67c0336ec7b755b85be4ad8b23d2772f2cd3c059aad1ac1a7ad6d4",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "index.html",
+        "bytes": 666,
+        "sha256": "328de966ae66eec92931a316325fdd5d74eafe83437894046740050f99911f17",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "pages/about.html",
+        "bytes": 677,
+        "sha256": "56bdaae5dc214aa85015ee6244ed7009c967457de1158afcc620da0d5b223b9f",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "pages/audit.html",
+        "bytes": 722,
+        "sha256": "bf88492aa7a12410c0ce4da37ec32f1e7f1798252db7a09201df3dccf47859a6",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "pages/builders.html",
+        "bytes": 738,
+        "sha256": "88d63b09a9b336b2c65875614b4d0e43274a5887d0e9f2cdfe49728f6991d727",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "pages/calculator.html",
+        "bytes": 790,
+        "sha256": "6ba671e48cdd7c03b70efc57d2d58468e9a27e3a2dd0fcc66f2a7235d0a7d4dd",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "pages/clusters.html",
+        "bytes": 677,
+        "sha256": "d98893ecee84efc9b40ec9a13355bdb3fb96c305a7cab67038307c9fe17266d6",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "pages/companies.html",
+        "bytes": 680,
+        "sha256": "64cd783bf64109033a3f1fff54dba32eea833b19e2680761b242d1a9186768fd",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "pages/compare.html",
+        "bytes": 742,
+        "sha256": "a9d732128ad165e57383b9b6659146a47889d56afe7345b682c17aeba15bd64e",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "pages/detail.html",
+        "bytes": 674,
+        "sha256": "87421780a3b3f92029751c885e58a40a8905cefe61ebb2d3851a2eaa1281dd79",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "pages/housing-22d.html",
+        "bytes": 678,
+        "sha256": "4221850a04c58ad40c350906e67b656cfd56f39729a37498a22967ab5f1fa7c1",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "pages/housing-parity.html",
+        "bytes": 695,
+        "sha256": "fa95473c8b6322a387875e16cfb2b7ed9ef2c7b4946673d235c23e9028c4a5de",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "pages/infrastructure.html",
+        "bytes": 681,
+        "sha256": "e648d46300891883c124316921a01e06c43e71e3d508df5119840769b0a3fbeb",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "pages/land.html",
+        "bytes": 676,
+        "sha256": "3ede0a21382fa9660991462f385e615a2b106670f637c7860a5772ef58718151",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "pages/map.html",
+        "bytes": 1031,
+        "sha256": "e9161ea1dfde28fd8b1352eb40ecb009e427977685f8549e9dde1fe3499653ad",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "pages/methodology.html",
+        "bytes": 675,
+        "sha256": "87fd2961eb5af87586c1bc8bec2ca32c00601c1ad2326579a2cbe72ab445af5c",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "pages/projects.html",
+        "bytes": 669,
+        "sha256": "10df4528eabd77fbd22bffb74034aa742f01fbdd2e1b43f3bf788eeca37177ad",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "pages/request.html",
+        "bytes": 29787,
+        "sha256": "b190d117afd615ed56c6f6399c35e408c603711edab9fe0fca1f2e469ebf1be0",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "pages/roadmap.html",
+        "bytes": 679,
+        "sha256": "0265f7be828c2100fc3a780326fcdbcc4a12dd33d191fafc2f7d2b43f394b318",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "pages/timeline.html",
+        "bytes": 677,
+        "sha256": "0abd6022e0bb2bce9ce61e1d4c79dec4b12a0eb9ae0a78e805372f21ed71b34b",
+        "sourceBundle": "static"
+      },
+      {
+        "path": "pages/workforce.html",
+        "bytes": 681,
+        "sha256": "e253b1c19579d4f425eeda57cc1ea10b635e28f23c6d807ba23c8b727f6c2da0",
+        "sourceBundle": "static"
+      }
+    ]
+  },
+  "generatedMetadata": {
+    "activeReleasePointer": "downloads/active-release.json",
+    "immutableReleaseManifestPattern": "downloads/releases/<release-id>/release.json"
+  },
+  "releasePrerequisites": {
+    "privacyBoundary": "Natural-person names and addresses are not requested or stored.",
+    "releaseGates": [
+      "Stage vocabulary",
+      "Builder browser data",
+      "Market registry",
+      "Market assignments build",
+      "Market assignments validate",
+      "Workspace privacy",
+      "Stage unit tests",
+      "Entity links build",
+      "Entity links validate",
+      "Acquisition contracts",
+      "Acquisition orchestrator tests",
+      "UP-RERA monitor contract",
+      "UP-RERA manual batch build",
+      "UP-RERA manual batch validate",
+      "UP-RERA assisted acquisition safety",
+      "Noida/GNIDA scheme acquisition validate",
+      "Noida/GNIDA scheme acquisition tests",
+      "UP-RERA identity variance build",
+      "UP-RERA identity variance validate",
+      "UP-RERA identity variance tests",
+      "Utility/occupancy review queue build",
+      "Utility/occupancy monitor tests",
+      "YEIDA RTI package build",
+      "YEIDA RTI package validate",
+      "YEIDA RTI package tests",
+      "Builder evidence queue build",
+      "Builder evidence queue validate",
+      "Builder evidence queue tests",
+      "Acquisition privacy",
+      "Acquisition promotion hardening",
+      "Analytics build",
+      "Analytics validate",
+      "Bilingual request contract",
+      "Viewport map",
+      "DB import build",
+      "DB-to-static parity",
+      "PostGIS readiness tests",
+      "PostGIS load plan",
+      "PostGIS live-parity plan",
+      "Evidence events build",
+      "Evidence events validate",
+      "Product contract",
+      "Launch ratings",
+      "Builder inventory",
+      "Evidence data",
+      "Exports",
+      "GIS map",
+      "Map renderer POC",
+      "Release line endings",
+      "Release manifest",
+      "Static release package",
+      "Static release validate",
+      "Static release validate"
+    ],
+    "requiredGateNames": [
+      "Workspace privacy",
+      "Acquisition privacy",
+      "Release manifest"
+    ],
+    "sourceRightsPolicy": "Unknown source rights block publication/redistribution per docs/design/TRD.md.",
+    "noExternalDeploymentInPackaging": true
+  },
+  "deployment": {
+    "externalDeploymentPerformed": false,
+    "githubPages": {
+      "enabledByDefault": false,
+      "enablement": "Dispatch .github/workflows/deploy-static.yml from refs/heads/main with deploy_pages=true and a non-empty per-run approval reference; Guardian bindings and github-pages environment approval are also required.",
+      "authorization": {
+        "trigger": "workflow_dispatch",
+        "requiredRef": "refs/heads/main",
+        "deployIntentInput": "deploy_pages",
+        "approvalReferenceInput": "pages_approval_reference",
+        "guardianVerdict": "PASS",
+        "protectedEnvironment": "github-pages",
+        "persistentRepositoryEnablement": false
+      },
+      "privateRepositoryCaveat": "Private repository Pages availability depends on GitHub plan/settings. This package does not enable Pages settings or make the repository public.",
+      "gisGeojsonOptIn": "GeoJSON is included only when workflow_dispatch input include_gis_geojson=true and repository variable REALTYPROOF_ALLOW_GIS_GEOJSON_ARTIFACT=true."
+    }
+  },
+  "rollback": {
+    "mode": "pointer-only",
+    "invariant": "Immutable release manifests under downloads/releases/<release-id>/release.json are never overwritten with different content.",
+    "instruction": "Rollback by updating downloads/active-release.json to the prior release metadata; do not delete evidence/version history."
+  }
+}
