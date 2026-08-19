@@ -1,0 +1,59 @@
+name: Open protected deployment PR
+
+on:
+  push:
+    branches:
+      - "deploy/**"
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  open:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate deployment provenance
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f docs/index.html
+          release_id="$(jq -er '.releaseId' DEPLOYMENT-PROVENANCE.json)"
+          content_digest="$(jq -er '.contentDigest' DEPLOYMENT-PROVENANCE.json)"
+          active_release="$(jq -er '.active.releaseId' docs/downloads/active-release.json)"
+          active_digest="$(jq -er '.active.staticArtifactHash' docs/downloads/active-release.json)"
+          release_path="docs/downloads/releases/${release_id}/release.json"
+          test -f "$release_path"
+          [[ "$active_release" == "$release_id" ]]
+          [[ "$active_digest" == "$content_digest" ]]
+          [[ "$(jq -er '.releaseId' "$release_path")" == "$release_id" ]]
+          [[ "$(jq -er '.staticArtifact.hash' "$release_path")" == "$content_digest" ]]
+
+      - name: Open bot-authored deployment PR
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          existing="$(gh pr list \
+            --repo "$GITHUB_REPOSITORY" \
+            --head "$GITHUB_REF_NAME" \
+            --state open \
+            --json number \
+            --jq '.[0].number // empty')"
+          if [[ -n "$existing" ]]; then
+            gh pr close "$existing" \
+              --repo "$GITHUB_REPOSITORY" \
+              --comment "Superseded by the protected bot-authored deployment PR."
+          fi
+          release_id="$(jq -er '.releaseId' DEPLOYMENT-PROVENANCE.json)"
+          source_commit="$(jq -er '.sourceCommit' DEPLOYMENT-PROVENANCE.json)"
+          run_id="$(jq -er '.workflowRunId' DEPLOYMENT-PROVENANCE.json)"
+          gh pr create \
+            --repo "$GITHUB_REPOSITORY" \
+            --base main \
+            --head "$GITHUB_REF_NAME" \
+            --title "Deploy ${release_id}" \
+            --body "Validated artifact promotion from private source commit \`${source_commit}\`, packaging run \`${run_id}\`. Owner approval is required after the final push."
