@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "defaultMarket": "gbn",
+  "markets": [
+    {
+      "id": "gbn",
+      "label": "GBN Overview",
+      "shortLabel": "GBN",
+      "mapAuthority": "all",
+      "scope": "Gautam Budh Nagar regional evidence across Noida, Greater Noida and YEIDA.",
+      "completeness": "Regional view includes city-specific and cross-corridor evidence. It does not imply that every regional record applies equally to each city."
+    },
+    {
+      "id": "noida",
+      "label": "Noida",
+      "shortLabel": "Noida",
+      "mapAuthority": "noida",
+      "scope": "Evidence explicitly attributable to Noida Authority geography or Noida facilities.",
+      "completeness": "Official plot geometry is available, but the current canonical company, housing and transaction ledgers are less complete than YEIDA."
+    },
+    {
+      "id": "greater-noida",
+      "label": "Greater Noida",
+      "shortLabel": "Greater Noida",
+      "mapAuthority": "gnida",
+      "scope": "Evidence explicitly attributable to GNIDA geography, Greater Noida, Dadri or Ecotech.",
+      "completeness": "Official plot geometry and selected company/infrastructure evidence are available; project-level housing and deed parity remain incomplete."
+    },
+    {
+      "id": "yeida",
+      "label": "YEIDA",
+      "shortLabel": "YEIDA",
+      "mapAuthority": "yeida",
+      "scope": "Evidence explicitly attributable to YEIDA, Yamuna Expressway sectors, Jewar or the airport corridor.",
+      "completeness": "YEIDA has the deepest canonical allotment, RERA, housing and infrastructure coverage. GIS and planning status remain distinct from legal title and operation."
+    }
+  ]
+}
+

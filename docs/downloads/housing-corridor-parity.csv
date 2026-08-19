@@ -1,0 +1,4 @@
+"scenario","demand","knownApartmentFloor","ratio","interpretation"
+"Conservative","5916","13,800-14,200","2.3-2.4x","Includes 225 corridor owner/partner households; gross stock ratio is not a vacancy measure"
+"Base","16589","13,800-14,200","0.83-0.86x","Includes 963 corridor owner/partner households; occupation, availability and delays are unknown"
+"Bull","36893","13,800-14,200","0.37-0.38x","Includes 2,625 corridor owner/partner households; available inventory remains unknown"

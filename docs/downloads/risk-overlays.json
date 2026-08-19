@@ -1,0 +1,12 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "schemaVersion": 1,
+    "datasetIds": ["aai-nocas-height", "nrsc-flood-hazard"],
+    "generatedAt": "2026-08-17",
+    "status": "SOURCE_VERIFIED_GEOMETRY_NOT_ACQUIRED",
+    "gap": "Official portals are verified, but no licensed parcel-level geometry has been acquired."
+  },
+  "features": []
+}
+

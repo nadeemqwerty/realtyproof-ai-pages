@@ -1,0 +1,69 @@
+{
+  "contractVersion": "1.0.0",
+  "status": "ACTIVE",
+  "identity": {
+    "stableIdPattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$",
+    "requiredProjectFields": ["id", "projectName", "reraNumber", "marketIds", "lastVerified", "sourceIds"],
+    "distinctActorTypes": [
+      "BRAND",
+      "GROUP",
+      "LEGAL_ENTITY",
+      "SPV",
+      "PROMOTER",
+      "RECEIVER",
+      "RESOLUTION_APPLICANT",
+      "CONTRACTOR",
+      "AUTHORITY"
+    ],
+    "nameOnlyMergeAllowed": false
+  },
+  "search": {
+    "requiredFields": ["id", "entityType", "displayName", "marketIds", "url", "lastVerified"],
+    "supportedFields": ["projectName", "reraNumber", "brand", "legalPromoter", "sector", "market", "aliases"],
+    "aliasesRequireSource": true
+  },
+  "proof": {
+    "materialFieldStates": ["SUPPORTED", "ASSUMED", "UNAVAILABLE", "CONFLICTING", "STALE"],
+    "supportedFieldRequirements": ["sourceIds", "scope", "lastVerified", "confidence"],
+    "missingRepresentation": null,
+    "missingMayBecome": [],
+    "exactSourceLinksRequired": true
+  },
+  "rating": {
+    "publicStates": ["NR", "TOP_RATED"],
+    "minimumWeightedCoverage": 85,
+    "requiredCriticalGateCoverage": 100,
+    "minimumTopRatedScore": 80,
+    "minimumDimensions": {
+      "project": 75,
+      "builder": 70,
+      "location": 65
+    },
+    "requiredCurrentEvidence": ["QPR", "INDEPENDENT_CONSTRUCTION"],
+    "stopOverrideMustBeClear": true,
+    "partialScorePublicationAllowed": false,
+    "commercialInputsForbidden": ["payment", "sponsorship", "referral", "leadFee", "advertiser"]
+  },
+  "comparison": {
+    "maximumProjects": 4,
+    "missingDisplay": "Unavailable",
+    "nonEquivalentDisplay": "Not directly comparable",
+    "missingNumericDefaultAllowed": false,
+    "equivalenceRequires": ["metric", "unit", "scope", "effectiveDate", "sourceType"]
+  },
+  "publication": {
+    "confidenceLevels": ["HIGH", "MEDIUM", "LOW", "UNVERIFIED"],
+    "sourceUrlSchemes": ["https:"],
+    "naturalPersonFieldsForbidden": [
+      "applicantName",
+      "ownerName",
+      "phone",
+      "mobile",
+      "personalEmail",
+      "homeAddress",
+      "aadhaar",
+      "pan"
+    ],
+    "professionalCapacityExceptionRequiresLegalReview": true
+  }
+}

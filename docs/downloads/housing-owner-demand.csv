@@ -1,0 +1,4 @@
+"scenario","payrollJobs","principalsPer100PayrollJobs","principalHouseholds","localResidenceRate","corridorOwnerHouseholds","sector22dCaptureRate","sector22dOwnerHouseholds","segments","confidence","sourceIds"
+"Conservative","25000","1.5","375","0.6","225","0.25","56","{""sub60"":6,""from60to90"":11,""from90to150"":20,""above150"":19}","LOW-MEDIUM scenario assumption; not an observed owner census","[""src-136-projects-jobs"",""src-yeida-14-operational""]"
+"Base","55000","2.5","1375","0.7","963","0.35","337","{""sub60"":17,""from60to90"":51,""from90to150"":118,""above150"":151}","LOW-MEDIUM scenario assumption; not an observed owner census","[""src-136-projects-jobs"",""src-yeida-14-operational""]"
+"Bull","100000","3.5","3500","0.75","2625","0.45","1181","{""sub60"":35,""from60to90"":142,""from90to150"":354,""above150"":650}","LOW-MEDIUM scenario assumption; not an observed owner census","[""src-136-projects-jobs"",""src-yeida-14-operational""]"

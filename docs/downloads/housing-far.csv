@@ -1,0 +1,6 @@
+"use","far","coverage","density","height","evidence","sourceIds"
+"Group housing","3.00","35% up to 40,000 sqm; 40% above","Scheme/layout-specific","AAI clearance above 30m under 2010 rule; current NOCAS coordinate-specific","VERIFIED","[""src-yeida-building-regulations"",""src-aai-nocas""]"
+"Residential plots","Generally about 1.80 for 120-300 sqm bands","65-75% by plot-size band","More than 100 to 500 sqm: max 3 dwelling units","15m","VERIFIED table; exact band follows layout","[""src-yeida-building-regulations""]"
+"EWS/LIG authority housing","Project-specific","Project-specific","Project-specific","Project-specific","VERIFIED exemption from universal GH rules","[""src-yeida-building-regulations""]"
+"Mixed use","Constituent-use FAR with overall pocket cap","Use-specific","Layout-specific","Site-specific","VERIFIED","[""src-yeida-building-regulations""]"
+"Purchasable FAR","Discretionary up to maximum applicable FAR","Cannot exceed permitted coverage","Proportionate units may be allowed","AAI/fire/environment approvals remain","VERIFIED; not an allottee right","[""src-yeida-building-regulations""]"

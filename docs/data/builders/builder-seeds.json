@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-17",
+  "policy": "Entity/actor seeds only. No builder grade is published until phase, delivery, issue and financial evidence reaches the methodology gate.",
+  "actorCases": [
+    {
+      "caseId": "jaypee-infratech-resolution",
+      "displayName": "Jaypee Infratech resolution actors",
+      "markets": ["gbn", "noida", "greater-noida"],
+      "publicationStatus": "CASE_RESEARCH_QUEUE",
+      "evidenceConfidence": "LOW",
+      "actors": [
+        {"name": "Jaypee Infratech", "role": "ORIGINAL_PROMOTER", "legalEntityId": null},
+        {"name": "Suraksha resolution applicant", "role": "RESOLUTION_APPLICANT", "legalEntityId": null}
+      ],
+      "sourceIds": ["builder-src-jaypee-nclt", "builder-src-jaypee-sc"],
+      "lastVerified": "2026-08-17",
+      "blocker": "Exact orders and verified legal-entity identifiers are not yet attached."
+    },
+    {
+      "caseId": "amrapali-court-managed-projects",
+      "displayName": "Amrapali court-managed project actors",
+      "markets": ["gbn", "noida", "greater-noida"],
+      "publicationStatus": "CASE_EVIDENCE_PARTIAL",
+      "evidenceConfidence": "HIGH",
+      "actors": [
+        {"name": "Amrapali promoter entities", "role": "ORIGINAL_PROMOTER", "legalEntityId": null},
+        {"name": "Supreme Court-appointed Court Receiver", "role": "COURT_RECEIVER", "legalEntityId": null},
+        {"name": "NBCC", "role": "CONSTRUCTION_AGENCY", "legalEntityId": null}
+      ],
+      "sourceIds": ["builder-src-amrapali-sc"],
+      "lastVerified": "2026-08-17",
+      "blocker": "Project-by-project promoter and actor relationships remain incomplete."
+    },
+    {
+      "caseId": "supertech-insolvency-entities",
+      "displayName": "Supertech insolvency entity review",
+      "markets": ["gbn", "noida", "greater-noida", "yeida"],
+      "publicationStatus": "CASE_RESEARCH_QUEUE",
+      "evidenceConfidence": "LOW",
+      "actors": [
+        {"name": "Supertech project entities", "role": "ORIGINAL_PROMOTER", "legalEntityId": null},
+        {"name": "Insolvency professional", "role": "IRP_RP", "legalEntityId": null}
+      ],
+      "sourceIds": ["builder-src-supertech-ibbi"],
+      "lastVerified": "2026-08-17",
+      "blocker": "Exact proceeding records and phase/SPV scope are not yet attached."
+    }
+  ],
+  "builders": [
+    {
+      "builderId": "godrej-properties",
+      "displayName": "Godrej Properties",
+      "markets": ["gbn", "noida", "greater-noida"],
+      "publicationStatus": "ENTITY_VERIFIED_PROJECT_LINKS_INCOMPLETE",
+      "evidenceConfidence": "MEDIUM",
+      "sourceIds": ["builder-src-godrej-investor"],
+      "lastVerified": "2026-08-17",
+      "actorNote": "Listed entity verified; project/SPV links require official RERA evidence.",
+      "rating": null
+    },
+    {
+      "builderId": "dlf",
+      "displayName": "DLF",
+      "markets": ["gbn"],
+      "publicationStatus": "ENTITY_VERIFIED_PROJECT_LINKS_INCOMPLETE",
+      "evidenceConfidence": "MEDIUM",
+      "sourceIds": ["builder-src-dlf-investor"],
+      "lastVerified": "2026-08-17",
+      "actorNote": "Listed entity verified; no city-specific profile published without project evidence.",
+      "rating": null
+    },
+    {
+      "builderId": "max-estates",
+      "displayName": "Max Estates",
+      "markets": ["gbn", "noida"],
+      "publicationStatus": "ENTITY_VERIFIED_PROJECT_LINKS_INCOMPLETE",
+      "evidenceConfidence": "MEDIUM",
+      "sourceIds": ["builder-src-max-investor"],
+      "lastVerified": "2026-08-17",
+      "actorNote": "Listed entity verified; project/SPV links remain phase-specific.",
+      "rating": null
+    },
+    {
+      "builderId": "eldeco",
+      "displayName": "Eldeco",
+      "markets": ["gbn", "greater-noida", "yeida"],
+      "publicationStatus": "PARTIAL_GBN_LINKAGE",
+      "evidenceConfidence": "MEDIUM",
+      "sourceIds": ["builder-src-eldeco-corporate", "src-rera-project-register"],
+      "lastVerified": "2026-08-17",
+      "actorNote": "Corporate evidence and selected YEIDA RERA links exist; broader SPV mapping remains incomplete.",
+      "rating": null
+    }
+  ],
+  "sources": [
+    {
+      "id": "builder-src-jaypee-nclt",
+      "title": "NCLT IBA-77/PB/2017",
+      "publisher": "National Company Law Tribunal",
+      "url": "https://nclt.gov.in/",
+      "strength": "LOW",
+      "exactRecord": false,
+      "retrievedAt": "2026-08-17",
+      "documentSha256": null
+    },
+    {
+      "id": "builder-src-jaypee-sc",
+      "title": "Supreme Court W.P.(C) 744/2017 case record",
+      "publisher": "Supreme Court of India",
+      "url": "https://www.sci.gov.in/",
+      "strength": "LOW",
+      "exactRecord": false,
+      "retrievedAt": "2026-08-17",
+      "documentSha256": null
+    },
+    {
+      "id": "builder-src-amrapali-sc",
+      "title": "Supreme Court Amrapali order dated 26 August 2019",
+      "publisher": "Supreme Court of India",
+      "url": "https://api.sci.gov.in/supremecourt/2017/30157/30157_2017_4_301_16397_Order_26-Aug-2019.pdf",
+      "strength": "HIGH",
+      "exactRecord": true,
+      "retrievedAt": "2026-08-17",
+      "documentSha256": "5a6e7c8d9ca81a3d93ffeffe8e4fc7c7b599bd840284062a1562390b0f1e906e"
+    },
+    {
+      "id": "builder-src-supertech-ibbi",
+      "title": "IBBI insolvency records search",
+      "publisher": "Insolvency and Bankruptcy Board of India",
+      "url": "https://ibbi.gov.in/",
+      "strength": "LOW",
+      "exactRecord": false,
+      "retrievedAt": "2026-08-17",
+      "documentSha256": null
+    },
+    {
+      "id": "builder-src-godrej-investor",
+      "title": "Godrej Properties investor disclosures",
+      "publisher": "Godrej Properties Limited",
+      "url": "https://www.godrejproperties.com/investors",
+      "strength": "MEDIUM",
+      "exactRecord": false,
+      "retrievedAt": "2026-08-17",
+      "documentSha256": null
+    },
+    {
+      "id": "builder-src-dlf-investor",
+      "title": "DLF investor disclosures",
+      "publisher": "DLF Limited",
+      "url": "https://www.dlf.in/investor",
+      "strength": "MEDIUM",
+      "exactRecord": false,
+      "retrievedAt": "2026-08-17",
+      "documentSha256": null
+    },
+    {
+      "id": "builder-src-max-investor",
+      "title": "Max Estates investor disclosures",
+      "publisher": "Max Estates Limited",
+      "url": "https://maxestates.in/investors/",
+      "strength": "MEDIUM",
+      "exactRecord": false,
+      "retrievedAt": "2026-08-17",
+      "documentSha256": null
+    },
+    {
+      "id": "builder-src-eldeco-corporate",
+      "title": "Eldeco corporate project disclosures",
+      "publisher": "Eldeco Group",
+      "url": "https://eldeco.co.in/",
+      "strength": "MEDIUM",
+      "exactRecord": false,
+      "retrievedAt": "2026-08-17",
+      "documentSha256": null
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "relationshipTypes": [
+    "EVIDENCE_RECORD_TO_AUTHORITY_PLOT",
+    "RERA_PROJECT_TO_FULL_PARCEL",
+    "RERA_PROJECT_TO_PARENT_PARCEL"
+  ],
+  "matchMethods": [
+    "EXACT_IDENTIFIER_REVIEWED",
+    "NORMALIZED_IDENTIFIER_REVIEWED",
+    "SPATIAL_REVIEWED",
+    "AREA_AND_CONTEXT_REVIEWED"
+  ],
+  "requiredFields": [
+    "linkId",
+    "entityId",
+    "entityName",
+    "gisAuthority",
+    "gisObjectId",
+    "uniquePlotId",
+    "plotIdentifier",
+    "sector",
+    "reraNumber",
+    "relationshipType",
+    "matchMethod",
+    "matchScope",
+    "confidenceLevel",
+    "validFrom",
+    "validTo",
+    "sourceIds",
+    "reviewedAt",
+    "caveat"
+  ]
+}
+

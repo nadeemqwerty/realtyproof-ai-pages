@@ -1,0 +1,202 @@
+{
+  "generatedAt": "2026-08-16T17:18:30+00:00",
+  "privacy": "Natural-person names and addresses are not requested or stored.",
+  "sources": {
+    "noida": {
+      "map": "https://onemapup.nic.in/NOIDA/Map.aspx",
+      "service": "https://onemapup.nic.in/server/rest/services/noidaapplication/noida_new/MapServer",
+      "retrievedAt": "2026-08-16T02:24:18+00:00"
+    },
+    "gnida": {
+      "map": "https://onemapup.nic.in/gnida/Map.aspx",
+      "service": "https://onemapup.nic.in/server/rest/services/GNIDA/GNIDA_Web/MapServer",
+      "retrievedAt": "2026-08-16T02:24:18+00:00"
+    },
+    "yeida": {
+      "map": "https://onemap.yamunaexpresswayauthority.com/yeida/citizen",
+      "service": "https://onemap.yamunaexpresswayauthority.com/server/rest/services/YEIDA/Planning/MapServer",
+      "retrievedAt": "2026-08-16T17:18:30+00:00"
+    }
+  },
+  "layers": [
+    {
+      "authority": "noida",
+      "category": "industrial",
+      "file": "data/plots/noida-industrial.geojson",
+      "count": 12022
+    },
+    {
+      "authority": "noida",
+      "category": "commercial",
+      "file": "data/plots/noida-commercial.geojson",
+      "count": 1837
+    },
+    {
+      "authority": "noida",
+      "category": "institutional",
+      "file": "data/plots/noida-institutional.geojson",
+      "count": 1324
+    },
+    {
+      "authority": "noida",
+      "category": "group-housing",
+      "file": "data/plots/noida-group-housing.geojson",
+      "count": 1274
+    },
+    {
+      "authority": "noida",
+      "category": "it-ites",
+      "file": "data/plots/noida-it-ites.geojson",
+      "count": 0
+    },
+    {
+      "authority": "gnida",
+      "category": "industrial",
+      "file": "data/plots/gnida-industrial.geojson",
+      "count": 2951
+    },
+    {
+      "authority": "gnida",
+      "category": "commercial",
+      "file": "data/plots/gnida-commercial.geojson",
+      "count": 780
+    },
+    {
+      "authority": "gnida",
+      "category": "institutional",
+      "file": "data/plots/gnida-institutional.geojson",
+      "count": 1100
+    },
+    {
+      "authority": "gnida",
+      "category": "group-housing",
+      "file": "data/plots/gnida-group-housing.geojson",
+      "count": 97
+    },
+    {
+      "authority": "gnida",
+      "category": "it-ites",
+      "file": "data/plots/gnida-it-ites.geojson",
+      "count": 269
+    },
+    {
+      "authority": "yeida",
+      "category": "industrial",
+      "file": "data/plots/yeida-industrial.geojson",
+      "count": 3503
+    },
+    {
+      "authority": "yeida",
+      "category": "commercial",
+      "file": "data/plots/yeida-commercial.geojson",
+      "count": 186
+    },
+    {
+      "authority": "yeida",
+      "category": "institutional",
+      "file": "data/plots/yeida-institutional.geojson",
+      "count": 527
+    },
+    {
+      "authority": "yeida",
+      "category": "residential",
+      "file": "data/plots/yeida-residential.geojson",
+      "count": 30759
+    },
+    {
+      "authority": "yeida",
+      "category": "logistics",
+      "file": "data/plots/yeida-logistics.geojson",
+      "count": 0
+    },
+    {
+      "authority": "yeida",
+      "category": "mixed-use",
+      "file": "data/plots/yeida-mixed-use.geojson",
+      "count": 50
+    },
+    {
+      "authority": "yeida",
+      "category": "airport-aviation",
+      "file": "data/plots/yeida-airport-aviation.geojson",
+      "count": 0
+    },
+    {
+      "authority": "yeida",
+      "category": "special-development",
+      "file": "data/plots/yeida-special-development.geojson",
+      "count": 0
+    },
+    {
+      "authority": "yeida",
+      "category": "riverfront",
+      "file": "data/plots/yeida-riverfront.geojson",
+      "count": 0
+    },
+    {
+      "authority": "yeida",
+      "category": "hospitality",
+      "file": "data/plots/yeida-hospitality.geojson",
+      "count": 0
+    },
+    {
+      "authority": "yeida",
+      "category": "sector-boundaries",
+      "file": "data/plots/yeida-sector-boundaries.geojson",
+      "count": 99
+    },
+    {
+      "authority": "yeida",
+      "category": "residential-masterplan",
+      "file": "data/plots/yeida-residential-masterplan.geojson",
+      "count": 74
+    },
+    {
+      "authority": "yeida",
+      "category": "airport-masterplan",
+      "file": "data/plots/yeida-airport-masterplan.geojson",
+      "count": 2
+    },
+    {
+      "authority": "yeida",
+      "category": "logistics-masterplan",
+      "file": "data/plots/yeida-logistics-masterplan.geojson",
+      "count": 10
+    },
+    {
+      "authority": "yeida",
+      "category": "hospitality-masterplan",
+      "file": "data/plots/yeida-hospitality-masterplan.geojson",
+      "count": 5
+    },
+    {
+      "authority": "yeida",
+      "category": "roads-masterplan",
+      "file": "data/plots/yeida-roads-masterplan.geojson",
+      "count": 46
+    },
+    {
+      "authority": "yeida",
+      "category": "rera-project-parcels",
+      "file": "data/plots/yeida-rera-project-parcels.geojson",
+      "count": 11
+    }
+  ],
+  "yeida": {
+    "status": "live",
+    "portal": "https://onemap.yamunaexpresswayauthority.com/yeida/citizen",
+    "detail": "Exported through the portal's citizen browser context. Personal contacts, addresses, proprietorship names and unclassified allottee names are excluded.",
+    "tokenExpires": 1786904281303
+  },
+  "reraYeida": {
+    "status": "published",
+    "mappedAt": "2026-08-16",
+    "mappingRows": 19,
+    "uniqueParcels": 11,
+    "scope": "Private/promoter Sector 22D records with identifier, parent-parcel or spatial evidence",
+    "sourceFile": "data/evidence/yeida-sector22d-residential-source.geojson",
+    "sourceSha256": "6dc7cf36799b5f9cb79fabbb1839f556327a7a8ad700a1daee9748271ac58e89",
+    "sector22dFeatureCount": 1898,
+    "rps02ParcelCount": 828
+  }
+}

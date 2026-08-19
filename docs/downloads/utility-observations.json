@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "datasetId": "yeida-utilities",
+  "generatedAt": "2026-08-17",
+  "status": "PARTIAL_SOURCE_ONLY",
+  "records": [],
+  "gap": "Tender evidence exists, but active connections, consumption and occupancy aggregates remain unavailable."
+}
+

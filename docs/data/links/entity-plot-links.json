@@ -1,0 +1,1348 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-17",
+  "policy": "Only independently reviewed links are published. Narrative-number extraction and brand-only matching are prohibited.",
+  "links": [
+    {
+      "linkId": "link-plot-historical-rgi-32-54",
+      "entityId": "evidence-record:plot-historical-rgi-32-54",
+      "entityName": "Current legal entity unresolved",
+      "gisAuthority": "YEIDA",
+      "gisObjectId": 2629,
+      "uniquePlotId": "PLNGINDUSTRIAL2629",
+      "plotIdentifier": "54",
+      "sector": "32",
+      "reraNumber": null,
+      "relationshipType": "EVIDENCE_RECORD_TO_AUTHORITY_PLOT",
+      "matchMethod": "EXACT_IDENTIFIER_REVIEWED",
+      "matchScope": "full-parcel",
+      "confidenceLevel": "HIGH",
+      "validFrom": null,
+      "validTo": null,
+      "sourceIds": [
+        "src-yeida-status-2015",
+        "src-yeida-onemap-current"
+      ],
+      "reviewedAt": "2026-08-17",
+      "caveat": "Exact plot 54 and Sector 32 match, reviewed against the authority polygon."
+    },
+    {
+      "linkId": "link-plot-mdp-krish-biomedicals",
+      "entityId": "evidence-record:plot-mdp-krish-biomedicals",
+      "entityName": "Exact leaseholding entity unresolved. Candidate 1: Krish Biomedicals Private Limited (CIN U33110DL2014PTC271717), reported struck off. Candidate 2: the separate active Krish Biomedicals Industry Private Limited (CIN U18204UP2012PTC053095). Do not select either without the allotment/lease deed.",
+      "gisAuthority": "YEIDA",
+      "gisObjectId": 59,
+      "uniquePlotId": "PLNGINDUSTRIAL59",
+      "plotIdentifier": "49",
+      "sector": "28",
+      "reraNumber": null,
+      "relationshipType": "EVIDENCE_RECORD_TO_AUTHORITY_PLOT",
+      "matchMethod": "EXACT_IDENTIFIER_REVIEWED",
+      "matchScope": "full-parcel",
+      "confidenceLevel": "HIGH",
+      "validFrom": null,
+      "validTo": null,
+      "sourceIds": [
+        "src-digital-health-krish",
+        "src-krish-inauguration",
+        "src-krish-company",
+        "src-corp-krish",
+        "src-yeida-onemap-current"
+      ],
+      "reviewedAt": "2026-08-17",
+      "caveat": "Exact plot 49 and Sector 28 match, reviewed against the authority polygon."
+    },
+    {
+      "linkId": "link-plot-mdp-avience-biomedicals",
+      "entityId": "evidence-record:plot-mdp-avience-biomedicals",
+      "entityName": "Avience Biomedicals Limited (CIN U74999DL2019PLC359158; formerly Avience Biomedicals Private Limited)",
+      "gisAuthority": "YEIDA",
+      "gisObjectId": 93,
+      "uniquePlotId": "PLNGINDUSTRIAL93",
+      "plotIdentifier": "70",
+      "sector": "28",
+      "reraNumber": null,
+      "relationshipType": "EVIDENCE_RECORD_TO_AUTHORITY_PLOT",
+      "matchMethod": "EXACT_IDENTIFIER_REVIEWED",
+      "matchScope": "full-parcel",
+      "confidenceLevel": "HIGH",
+      "validFrom": null,
+      "validTo": null,
+      "sourceIds": [
+        "src-toi-mdp-named-allottees",
+        "src-impressive-mdp-review",
+        "src-avience-rhp",
+        "src-yeida-onemap-current"
+      ],
+      "reviewedAt": "2026-08-17",
+      "caveat": "Exact plot 70 and Sector 28 match, reviewed against the authority polygon."
+    },
+    {
+      "linkId": "link-rera-5e3692ba7cca63be",
+      "entityId": "corporate-363e29c2e324",
+      "entityName": "Purvanchal Projects Private Limited",
+      "gisAuthority": "YEIDA",
+      "gisObjectId": 6260,
+      "uniquePlotId": "PLNGRESIDENTIAL6260",
+      "plotIdentifier": "GH-1A/1",
+      "sector": "22D",
+      "reraNumber": "UPRERAPRJ746863/04/2025",
+      "relationshipType": "RERA_PROJECT_TO_FULL_PARCEL",
+      "matchMethod": "EXACT_IDENTIFIER_REVIEWED",
+      "matchScope": "full-parcel",
+      "confidenceLevel": "HIGH",
+      "validFrom": null,
+      "validTo": null,
+      "sourceIds": [
+        "src-rera-project-register",
+        "src-yeida-onemap-current"
+      ],
+      "reviewedAt": "2026-08-17",
+      "caveat": "Exact RERA/GIS identifier. YEIDA GIS incorrectly labels the parcel vacant, so GIS status is not used as project status."
+    },
+    {
+      "linkId": "link-rera-d6667780b1774cea",
+      "entityId": "corporate-2c51d24d4a54",
+      "entityName": "Eldeco Goodliving Properties Limited",
+      "gisAuthority": "YEIDA",
+      "gisObjectId": 6261,
+      "uniquePlotId": "PLNGRESIDENTIAL6261",
+      "plotIdentifier": "GH-1A/2",
+      "sector": "22D",
+      "reraNumber": "UPRERAPRJ921261/05/2025",
+      "relationshipType": "RERA_PROJECT_TO_PARENT_PARCEL",
+      "matchMethod": "EXACT_IDENTIFIER_REVIEWED",
+      "matchScope": "parent-parcel",
+      "confidenceLevel": "HIGH",
+      "validFrom": null,
+      "validTo": null,
+      "sourceIds": [
+        "src-rera-project-register",
+        "src-yeida-onemap-current"
+      ],
+      "reviewedAt": "2026-08-17",
+      "caveat": "Exact parent parcel; the project footprint inside the parcel is not separately represented."
+    },
+    {
+      "linkId": "link-rera-852759bb74194dd0",
+      "entityId": "corporate-10749b0feab0",
+      "entityName": "Eldeco Sohna Projects Limited",
+      "gisAuthority": "YEIDA",
+      "gisObjectId": 6256,
+      "uniquePlotId": "PLNGRESIDENTIAL6256",
+      "plotIdentifier": "GH-1C/1",
+      "sector": "22D",
+      "reraNumber": "UPRERAPRJ752382/09/2025",
+      "relationshipType": "RERA_PROJECT_TO_FULL_PARCEL",
+      "matchMethod": "NORMALIZED_IDENTIFIER_REVIEWED",
+      "matchScope": "full-parcel",
+      "confidenceLevel": "HIGH",
+      "validFrom": null,
+      "validTo": null,
+      "sourceIds": [
+        "src-rera-project-register",
+        "src-yeida-onemap-current"
+      ],
+      "reviewedAt": "2026-08-17",
+      "caveat": "Leading-zero normalization only."
+    },
+    {
+      "linkId": "link-rera-bea1ff09c25021b0",
+      "entityId": "corporate-10749b0feab0",
+      "entityName": "Eldeco Sohna Projects Limited",
+      "gisAuthority": "YEIDA",
+      "gisObjectId": 6258,
+      "uniquePlotId": "PLNGRESIDENTIAL6258",
+      "plotIdentifier": "GH-1B/1",
+      "sector": "22D",
+      "reraNumber": "UPRERAPRJ125342/02/2026",
+      "relationshipType": "RERA_PROJECT_TO_FULL_PARCEL",
+      "matchMethod": "NORMALIZED_IDENTIFIER_REVIEWED",
+      "matchScope": "full-parcel",
+      "confidenceLevel": "HIGH",
+      "validFrom": null,
+      "validTo": null,
+      "sourceIds": [
+        "src-rera-project-register",
+        "src-yeida-onemap-current"
+      ],
+      "reviewedAt": "2026-08-17",
+      "caveat": "Spacing, hyphen and leading-zero normalization only."
+    },
+    {
+      "linkId": "link-rera-b66ffeaee7d372a8",
+      "entityId": "corporate-8735bca5266b",
+      "entityName": "VVIP Infrahome Private Limited",
+      "gisAuthority": "YEIDA",
+      "gisObjectId": 6259,
+      "uniquePlotId": "PLNGRESIDENTIAL6259",
+      "plotIdentifier": "GH-1B/2",
+      "sector": "22D",
+      "reraNumber": "UPRERAPRJ677791/02/2026",
+      "relationshipType": "RERA_PROJECT_TO_FULL_PARCEL",
+      "matchMethod": "NORMALIZED_IDENTIFIER_REVIEWED",
+      "matchScope": "full-parcel",
+      "confidenceLevel": "HIGH",
+      "validFrom": null,
+      "validTo": null,
+      "sourceIds": [
+        "src-rera-project-register",
+        "src-yeida-onemap-current"
+      ],
+      "reviewedAt": "2026-08-17",
+      "caveat": "Leading-zero normalization only."
+    },
+    {
+      "linkId": "link-rera-ae69474323959cea",
+      "entityId": "corporate-aa8c64fe0b0e",
+      "entityName": "Arihant Urban Space Private Limited",
+      "gisAuthority": "YEIDA",
+      "gisObjectId": 6291,
+      "uniquePlotId": "PLNGRESIDENTIAL6291",
+      "plotIdentifier": "GH-11",
+      "sector": "22D",
+      "reraNumber": "UPRERAPRJ974543/02/2026",
+      "relationshipType": "RERA_PROJECT_TO_FULL_PARCEL",
+      "matchMethod": "EXACT_IDENTIFIER_REVIEWED",
+      "matchScope": "full-parcel",
+      "confidenceLevel": "HIGH",
+      "validFrom": null,
+      "validTo": null,
+      "sourceIds": [
+        "src-rera-project-register",
+        "src-yeida-onemap-current"
+      ],
+      "reviewedAt": "2026-08-17",
+      "caveat": "Exact identifier; the official tripartite sublease corroborates parcel and lease references."
+    },
+    {
+      "linkId": "link-rera-62d39cacfb68d1bd",
+      "entityId": "corporate-d93421f61796",
+      "entityName": "Gaursons Promoters Private Limited",
+      "gisAuthority": "YEIDA",
+      "gisObjectId": 6292,
+      "uniquePlotId": "PLNGRESIDENTIAL6292",
+      "plotIdentifier": "GH-12",
+      "sector": "22D",
+      "reraNumber": "UPRERAPRJ622344/11/2025",
+      "relationshipType": "RERA_PROJECT_TO_PARENT_PARCEL",
+      "matchMethod": "EXACT_IDENTIFIER_REVIEWED",
+      "matchScope": "parent-parcel",
+      "confidenceLevel": "HIGH",
+      "validFrom": null,
+      "validTo": null,
+      "sourceIds": [
+        "src-rera-project-register",
+        "src-yeida-onemap-current"
+      ],
+      "reviewedAt": "2026-08-17",
+      "caveat": "Exact parent parcel; the Phase-1 boundary is not separately represented."
+    },
+    {
+      "linkId": "link-rera-db096c6dbdb07df0",
+      "entityId": "corporate-7a27575c52c0",
+      "entityName": "Gaursons India Private Limited",
+      "gisAuthority": "YEIDA",
+      "gisObjectId": 6293,
+      "uniquePlotId": "PLNGRESIDENTIAL6293",
+      "plotIdentifier": "GH-13",
+      "sector": "22D",
+      "reraNumber": "UPRERAPRJ950965/07/2026",
+      "relationshipType": "RERA_PROJECT_TO_PARENT_PARCEL",
+      "matchMethod": "EXACT_IDENTIFIER_REVIEWED",
+      "matchScope": "parent-parcel",
+      "confidenceLevel": "HIGH",
+      "validFrom": null,
+      "validTo": null,
+      "sourceIds": [
+        "src-rera-project-register",
+        "src-yeida-onemap-current"
+      ],
+      "reviewedAt": "2026-08-17",
+      "caveat": "Exact parent parcel; the Phase-1 development footprint requires sanctioned-plan extraction."
+    },
+    {
+      "linkId": "link-rera-57d2cf4d941a0ff5",
+      "entityId": "corporate-9fe594126be5",
+      "entityName": "Logix Buildestate Private Limited",
+      "gisAuthority": "YEIDA",
+      "gisObjectId": 4858,
+      "uniquePlotId": "PLNGRESIDENTIAL4858",
+      "plotIdentifier": "TS-1B",
+      "sector": "22D",
+      "reraNumber": "UPRERAPRJ467686/09/2025",
+      "relationshipType": "RERA_PROJECT_TO_PARENT_PARCEL",
+      "matchMethod": "EXACT_IDENTIFIER_REVIEWED",
+      "matchScope": "parent-parcel",
+      "confidenceLevel": "HIGH",
+      "validFrom": null,
+      "validTo": null,
+      "sourceIds": [
+        "src-rera-project-register",
+        "src-yeida-onemap-current"
+      ],
+      "reviewedAt": "2026-08-17",
+      "caveat": "Exact parent township parcel; the commercial C-1 subdivision is absent from the residential GIS layer."
+    },
+    {
+      "linkId": "link-rera-cd2ab32fddccdaa1",
+      "entityId": "corporate-9fe594126be5",
+      "entityName": "Logix Buildestate Private Limited",
+      "gisAuthority": "YEIDA",
+      "gisObjectId": 4858,
+      "uniquePlotId": "PLNGRESIDENTIAL4858",
+      "plotIdentifier": "TS-1B",
+      "sector": "22D",
+      "reraNumber": "UPRERAPRJ442226/10/2024",
+      "relationshipType": "RERA_PROJECT_TO_PARENT_PARCEL",
+      "matchMethod": "NORMALIZED_IDENTIFIER_REVIEWED",
+      "matchScope": "parent-parcel",
+      "confidenceLevel": "HIGH",
+      "validFrom": null,
+      "validTo": null,
+      "sourceIds": [
+        "src-rera-project-register",
+        "src-yeida-onemap-current"
+      ],
+      "reviewedAt": "2026-08-17",
+      "caveat": "Leading-zero normalization; TS-1B is shared by multiple registrations."
+    },
+    {
+      "linkId": "link-rera-71fd36c007a242f8",
+      "entityId": "corporate-d7045018af3c",
+      "entityName": "Oasis Realtech Private Limited",
+      "gisAuthority": "YEIDA",
+      "gisObjectId": 4858,
+      "uniquePlotId": "PLNGRESIDENTIAL4858",
+      "plotIdentifier": "TS-1B",
+      "sector": "22D",
+      "reraNumber": "UPRERAPRJ585804/01/2025",
+      "relationshipType": "RERA_PROJECT_TO_PARENT_PARCEL",
+      "matchMethod": "NORMALIZED_IDENTIFIER_REVIEWED",
+      "matchScope": "parent-parcel",
+      "confidenceLevel": "MEDIUM",
+      "validFrom": null,
+      "validTo": null,
+      "sourceIds": [
+        "src-rera-project-register",
+        "src-yeida-onemap-current"
+      ],
+      "reviewedAt": "2026-08-17",
+      "caveat": "Only the TS-1B parent exists in GIS; the GH-01/project-phase footprint is absent."
+    },
+    {
+      "linkId": "link-rera-a94b73c1c6c15b66",
+      "entityId": "corporate-d7045018af3c",
+      "entityName": "Oasis Realtech Private Limited",
+      "gisAuthority": "YEIDA",
+      "gisObjectId": 4858,
+      "uniquePlotId": "PLNGRESIDENTIAL4858",
+      "plotIdentifier": "TS-1B",
+      "sector": "22D",
+      "reraNumber": "UPRERAPRJ6908",
+      "relationshipType": "RERA_PROJECT_TO_PARENT_PARCEL",
+      "matchMethod": "SPATIAL_REVIEWED",
+      "matchScope": "parent-parcel",
+      "confidenceLevel": "LOW",
+      "validFrom": null,
+      "validTo": null,
+      "sourceIds": [
+        "src-rera-project-register",
+        "src-yeida-onemap-current"
+      ],
+      "reviewedAt": "2026-08-17",
+      "caveat": "Current official page has no parcel; association depends on the Phase-2 project-family evidence."
+    },
+    {
+      "linkId": "link-rera-15529a74a5efce73",
+      "entityId": "corporate-32fbc97b318f",
+      "entityName": "Ajay Realcon India LLP",
+      "gisAuthority": "YEIDA",
+      "gisObjectId": 4855,
+      "uniquePlotId": "PLNGRESIDENTIAL4855",
+      "plotIdentifier": "TS-2",
+      "sector": "22D",
+      "reraNumber": "UPRERAPRJ683816/04/2024",
+      "relationshipType": "RERA_PROJECT_TO_PARENT_PARCEL",
+      "matchMethod": "NORMALIZED_IDENTIFIER_REVIEWED",
+      "matchScope": "parent-parcel",
+      "confidenceLevel": "MEDIUM",
+      "validFrom": null,
+      "validTo": null,
+      "sourceIds": [
+        "src-rera-project-register",
+        "src-yeida-onemap-current"
+      ],
+      "reviewedAt": "2026-08-17",
+      "caveat": "Only parent TS-2 exists in GIS; P5/P6 and TS-02/A boundaries are absent."
+    },
+    {
+      "linkId": "link-rera-de1ae01f59f59aa8",
+      "entityId": "corporate-98d62de0ba4b",
+      "entityName": "ATS Realty Private Limited",
+      "gisAuthority": "YEIDA",
+      "gisObjectId": 4855,
+      "uniquePlotId": "PLNGRESIDENTIAL4855",
+      "plotIdentifier": "TS-2",
+      "sector": "22D",
+      "reraNumber": "UPRERAPRJ918",
+      "relationshipType": "RERA_PROJECT_TO_PARENT_PARCEL",
+      "matchMethod": "NORMALIZED_IDENTIFIER_REVIEWED",
+      "matchScope": "parent-parcel",
+      "confidenceLevel": "MEDIUM",
+      "validFrom": null,
+      "validTo": null,
+      "sourceIds": [
+        "src-rera-project-register",
+        "src-yeida-onemap-current"
+      ],
+      "reviewedAt": "2026-08-17",
+      "caveat": "Only parent TS-2 is mapped; P7 cannot be isolated."
+    },
+    {
+      "linkId": "link-rera-00bb6bb04abc4fa6",
+      "entityId": "corporate-98d62de0ba4b",
+      "entityName": "ATS Realty Private Limited",
+      "gisAuthority": "YEIDA",
+      "gisObjectId": 4855,
+      "uniquePlotId": "PLNGRESIDENTIAL4855",
+      "plotIdentifier": "TS-2",
+      "sector": "22D",
+      "reraNumber": "UPRERAPRJ556048/03/2025",
+      "relationshipType": "RERA_PROJECT_TO_PARENT_PARCEL",
+      "matchMethod": "NORMALIZED_IDENTIFIER_REVIEWED",
+      "matchScope": "parent-parcel",
+      "confidenceLevel": "MEDIUM",
+      "validFrom": null,
+      "validTo": null,
+      "sourceIds": [
+        "src-rera-project-register",
+        "src-yeida-onemap-current"
+      ],
+      "reviewedAt": "2026-08-17",
+      "caveat": "Likely TS-2 subdivision; GIS has no A-subdivision boundary."
+    },
+    {
+      "linkId": "link-rera-7758dcbaa4e41612",
+      "entityId": "corporate-b37cbed1513d",
+      "entityName": "Supertech Township Project Limited",
+      "gisAuthority": "YEIDA",
+      "gisObjectId": 5308,
+      "uniquePlotId": "PLNGRESIDENTIAL5308",
+      "plotIdentifier": "TS-5",
+      "sector": "22D",
+      "reraNumber": "UPRERAPRJ5848",
+      "relationshipType": "RERA_PROJECT_TO_PARENT_PARCEL",
+      "matchMethod": "SPATIAL_REVIEWED",
+      "matchScope": "parent-parcel",
+      "confidenceLevel": "MEDIUM",
+      "validFrom": null,
+      "validTo": null,
+      "sourceIds": [
+        "src-rera-project-register",
+        "src-rera-project-map",
+        "src-yeida-onemap-current"
+      ],
+      "reviewedAt": "2026-08-17",
+      "caveat": "Official RERA map coordinate lies inside TS-5; no current address or phase boundary."
+    },
+    {
+      "linkId": "link-rera-e8b7e56dcc5fa100",
+      "entityId": "corporate-b37cbed1513d",
+      "entityName": "Supertech Township Project Limited",
+      "gisAuthority": "YEIDA",
+      "gisObjectId": 5308,
+      "uniquePlotId": "PLNGRESIDENTIAL5308",
+      "plotIdentifier": "TS-5",
+      "sector": "22D",
+      "reraNumber": "UPRERAPRJ5863",
+      "relationshipType": "RERA_PROJECT_TO_PARENT_PARCEL",
+      "matchMethod": "SPATIAL_REVIEWED",
+      "matchScope": "parent-parcel",
+      "confidenceLevel": "MEDIUM",
+      "validFrom": null,
+      "validTo": null,
+      "sourceIds": [
+        "src-rera-project-register",
+        "src-rera-project-map",
+        "src-yeida-onemap-current"
+      ],
+      "reviewedAt": "2026-08-17",
+      "caveat": "Official RERA map coordinate lies inside TS-5; no project-phase footprint."
+    },
+    {
+      "linkId": "link-rera-43db60ae99451651",
+      "entityId": "corporate-b37cbed1513d",
+      "entityName": "Supertech Township Project Limited",
+      "gisAuthority": "YEIDA",
+      "gisObjectId": 5308,
+      "uniquePlotId": "PLNGRESIDENTIAL5308",
+      "plotIdentifier": "TS-5",
+      "sector": "22D",
+      "reraNumber": "UPRERAPRJ403642",
+      "relationshipType": "RERA_PROJECT_TO_PARENT_PARCEL",
+      "matchMethod": "SPATIAL_REVIEWED",
+      "matchScope": "parent-parcel",
+      "confidenceLevel": "MEDIUM",
+      "validFrom": null,
+      "validTo": null,
+      "sourceIds": [
+        "src-rera-project-register",
+        "src-rera-project-map",
+        "src-yeida-onemap-current"
+      ],
+      "reviewedAt": "2026-08-17",
+      "caveat": "Official RERA map coordinate lies inside TS-5; no project-phase footprint."
+    },
+    {
+      "linkId": "link-rera-19a645738a91319f",
+      "entityId": "corporate-b37cbed1513d",
+      "entityName": "Supertech Township Project Limited",
+      "gisAuthority": "YEIDA",
+      "gisObjectId": 5308,
+      "uniquePlotId": "PLNGRESIDENTIAL5308",
+      "plotIdentifier": "TS-5",
+      "sector": "22D",
+      "reraNumber": "UPRERAPRJ5854",
+      "relationshipType": "RERA_PROJECT_TO_PARENT_PARCEL",
+      "matchMethod": "SPATIAL_REVIEWED",
+      "matchScope": "parent-parcel",
+      "confidenceLevel": "LOW",
+      "validFrom": null,
+      "validTo": null,
+      "sourceIds": [
+        "src-rera-project-register",
+        "src-rera-project-map",
+        "src-yeida-onemap-current"
+      ],
+      "reviewedAt": "2026-08-17",
+      "caveat": "The current RERA master also assigns UPRERAPRJ5854 to Arqis Mall; archived certificate required."
+    },
+    {
+      "linkId": "link-rera-fcc4268a93db100c",
+      "entityId": "corporate-2b2438551047",
+      "entityName": "Green Bay Infrastructure Private Limited",
+      "gisAuthority": "YEIDA",
+      "gisObjectId": 6262,
+      "uniquePlotId": "PLNGRESIDENTIAL6262",
+      "plotIdentifier": "TS-6",
+      "sector": "22D",
+      "reraNumber": "UPRERAPRJ9320",
+      "relationshipType": "RERA_PROJECT_TO_PARENT_PARCEL",
+      "matchMethod": "SPATIAL_REVIEWED",
+      "matchScope": "parent-parcel",
+      "confidenceLevel": "LOW",
+      "validFrom": null,
+      "validTo": null,
+      "sourceIds": [
+        "src-rera-project-register",
+        "src-yeida-onemap-current"
+      ],
+      "reviewedAt": "2026-08-17",
+      "caveat": "Current official detail has no address or coordinate; TS-6 is not independently established by the current primary page."
+    },
+    {
+      "linkId": "link-rera-011689a8f5327a7b",
+      "entityId": "corporate-022f564e0314",
+      "entityName": "IITL-Nimbus The Palm Village",
+      "gisAuthority": "YEIDA",
+      "gisObjectId": 6272,
+      "uniquePlotId": "PLNGRESIDENTIAL6272",
+      "plotIdentifier": "GH-03",
+      "sector": "22A",
+      "reraNumber": "UPRERAPRJ558356/04/2024",
+      "relationshipType": "RERA_PROJECT_TO_FULL_PARCEL",
+      "matchMethod": "EXACT_IDENTIFIER_REVIEWED",
+      "matchScope": "full-parcel",
+      "confidenceLevel": "HIGH",
+      "validFrom": null,
+      "validTo": null,
+      "sourceIds": [
+        "src-rera-project-register",
+        "src-yeida-onemap-current"
+      ],
+      "reviewedAt": "2026-08-17",
+      "caveat": "Exact RERA/GIS parcel; the registry label lacks a verified corporate suffix and geometry is not included in the Sector 22D map subset."
+    },
+    {
+      "linkId": "link-rera-08ae7232c752383b",
+      "entityId": "corporate-425eb4e1ea2b",
+      "entityName": "Three C Homes Private Limited",
+      "gisAuthority": "YEIDA",
+      "gisObjectId": 6264,
+      "uniquePlotId": "PLNGRESIDENTIAL6264",
+      "plotIdentifier": "GH-1",
+      "sector": "22A",
+      "reraNumber": "UPRERAPRJ913692/03/2025",
+      "relationshipType": "RERA_PROJECT_TO_PARENT_PARCEL",
+      "matchMethod": "NORMALIZED_IDENTIFIER_REVIEWED",
+      "matchScope": "parent-parcel",
+      "confidenceLevel": "HIGH",
+      "validFrom": null,
+      "validTo": null,
+      "sourceIds": [
+        "src-rera-project-register",
+        "src-yeida-onemap-current"
+      ],
+      "reviewedAt": "2026-08-17",
+      "caveat": "Shared parent GH-1 also claimed by The Elysium; exclusive footprint unavailable."
+    },
+    {
+      "linkId": "link-rera-729f3597b47bc4fe",
+      "entityId": "corporate-13b0f2df1171",
+      "entityName": "Omnis Developers Private Limited",
+      "gisAuthority": "YEIDA",
+      "gisObjectId": 6264,
+      "uniquePlotId": "PLNGRESIDENTIAL6264",
+      "plotIdentifier": "GH-1",
+      "sector": "22A",
+      "reraNumber": "UPRERAPRJ969677/03/2024",
+      "relationshipType": "RERA_PROJECT_TO_PARENT_PARCEL",
+      "matchMethod": "NORMALIZED_IDENTIFIER_REVIEWED",
+      "matchScope": "parent-parcel",
+      "confidenceLevel": "HIGH",
+      "validFrom": null,
+      "validTo": null,
+      "sourceIds": [
+        "src-rera-project-register",
+        "src-yeida-onemap-current"
+      ],
+      "reviewedAt": "2026-08-17",
+      "caveat": "Same GIS parent as ACE Verde; exclusive boundaries are unresolved."
+    },
+    {
+      "linkId": "link-rera-6032abf11a88f2dd",
+      "entityId": "corporate-425eb4e1ea2b",
+      "entityName": "Three C Homes Private Limited",
+      "gisAuthority": "YEIDA",
+      "gisObjectId": 6273,
+      "uniquePlotId": "PLNGRESIDENTIAL6273",
+      "plotIdentifier": "TS-1",
+      "sector": "22A",
+      "reraNumber": "UPRERAPRJ248777/03/2025",
+      "relationshipType": "RERA_PROJECT_TO_PARENT_PARCEL",
+      "matchMethod": "NORMALIZED_IDENTIFIER_REVIEWED",
+      "matchScope": "parent-parcel",
+      "confidenceLevel": "HIGH",
+      "validFrom": null,
+      "validTo": null,
+      "sourceIds": [
+        "src-rera-project-register",
+        "src-yeida-onemap-current"
+      ],
+      "reviewedAt": "2026-08-17",
+      "caveat": "Exact parent township after zero normalization; internal plotted footprint absent."
+    },
+    {
+      "linkId": "link-rera-3ee69e8217acf579",
+      "entityId": "corporate-425eb4e1ea2b",
+      "entityName": "Three C Homes Private Limited",
+      "gisAuthority": "YEIDA",
+      "gisObjectId": 6273,
+      "uniquePlotId": "PLNGRESIDENTIAL6273",
+      "plotIdentifier": "TS-1",
+      "sector": "22A",
+      "reraNumber": "UPRERAPRJ939595/03/2025",
+      "relationshipType": "RERA_PROJECT_TO_PARENT_PARCEL",
+      "matchMethod": "NORMALIZED_IDENTIFIER_REVIEWED",
+      "matchScope": "parent-parcel",
+      "confidenceLevel": "MEDIUM",
+      "validFrom": null,
+      "validTo": null,
+      "sourceIds": [
+        "src-rera-project-register",
+        "src-yeida-onemap-current"
+      ],
+      "reviewedAt": "2026-08-17",
+      "caveat": "Only TS-1 parent is available; the commercial C1 polygon is absent."
+    }
+  ],
+  "reviewQueue": [
+    {
+      "candidateId": "candidate-plot-nia-concession",
+      "recordId": "plot-nia-concession",
+      "entityName": "Yamuna International Airport Pvt Ltd",
+      "claimedPlot": "Jewar airport concession site",
+      "claimedSector": null,
+      "status": "UNRESOLVED",
+      "reason": "No independently reviewed exact authority-plot link is available.",
+      "sourceIds": [
+        "src-nia-operations",
+        "src-nia-concession"
+      ]
+    },
+    {
+      "candidateId": "candidate-plot-filmcity-phase1",
+      "recordId": "plot-filmcity-phase1",
+      "entityName": "Bayview Bhutani Film City Pvt Ltd",
+      "claimedPlot": "Film City Phase 1",
+      "claimedSector": "21",
+      "status": "UNRESOLVED",
+      "reason": "No independently reviewed exact authority-plot link is available.",
+      "sourceIds": [
+        "src-filmcity-spv",
+        "src-filmcity-handover",
+        "src-filmcity-finance-pending"
+      ]
+    },
+    {
+      "candidateId": "candidate-plot-vivo-24a",
+      "recordId": "plot-vivo-24a",
+      "entityName": "Vivo Mobile India Pvt Ltd",
+      "claimedPlot": "Vivo manufacturing site",
+      "claimedSector": "24A",
+      "status": "UNRESOLVED",
+      "reason": "No independently reviewed exact authority-plot link is available.",
+      "sourceIds": [
+        "src-vivo-start",
+        "src-vivo-dixon"
+      ]
+    },
+    {
+      "candidateId": "candidate-plot-patanjali-24a",
+      "recordId": "plot-patanjali-24a",
+      "entityName": "Exact landholding SPV unresolved",
+      "claimedPlot": "Patanjali group industrial campus",
+      "claimedSector": "24A",
+      "status": "UNRESOLVED",
+      "reason": "No independently reviewed exact authority-plot link is available.",
+      "sourceIds": [
+        "src-patanjali-sublease",
+        "src-yeida-14-operational"
+      ]
+    },
+    {
+      "candidateId": "candidate-plot-surya-29",
+      "recordId": "plot-surya-29",
+      "entityName": "Surya Global Flexi Films Pvt Ltd",
+      "claimedPlot": "Surya Global Flexi Films facility",
+      "claimedSector": "29",
+      "status": "UNRESOLVED",
+      "reason": "No independently reviewed exact authority-plot link is available.",
+      "sourceIds": [
+        "src-yeida-14-operational"
+      ]
+    },
+    {
+      "candidateId": "candidate-plot-avery-32",
+      "recordId": "plot-avery-32",
+      "entityName": "Avery Dennison India Pvt Ltd",
+      "claimedPlot": "Avery Dennison facility",
+      "claimedSector": "32",
+      "status": "UNRESOLVED",
+      "reason": "No independently reviewed exact authority-plot link is available.",
+      "sourceIds": [
+        "src-yeida-14-operational"
+      ]
+    },
+    {
+      "candidateId": "candidate-plot-bikanerwala",
+      "recordId": "plot-bikanerwala",
+      "entityName": "Bikanerwala Foods Pvt Ltd",
+      "claimedPlot": "Bikanerwala food-processing facility",
+      "claimedSector": null,
+      "status": "UNRESOLVED",
+      "reason": "No independently reviewed exact authority-plot link is available.",
+      "sourceIds": [
+        "src-yeida-14-operational"
+      ]
+    },
+    {
+      "candidateId": "candidate-plot-mtandt-32",
+      "recordId": "plot-mtandt-32",
+      "entityName": "Mtandt Ltd",
+      "claimedPlot": "Mtandt fabrication facility",
+      "claimedSector": "32",
+      "status": "UNRESOLVED",
+      "reason": "No independently reviewed exact authority-plot link is available.",
+      "sourceIds": [
+        "src-yeida-14-operational"
+      ]
+    },
+    {
+      "candidateId": "candidate-plot-historical-ramsons-32-54a",
+      "recordId": "plot-historical-ramsons-32-54a",
+      "entityName": "Current legal entity/status unresolved",
+      "claimedPlot": "54A",
+      "claimedSector": "32",
+      "status": "UNRESOLVED",
+      "reason": "Identifier formatting and historical legal-entity reconciliation remain unresolved.",
+      "sourceIds": [
+        "src-yeida-status-2015"
+      ]
+    },
+    {
+      "candidateId": "candidate-plot-historical-tr-sawhney-32",
+      "recordId": "plot-historical-tr-sawhney-32",
+      "entityName": "T.R. Sawhney Motor Pvt Ltd",
+      "claimedPlot": "6, 7, 8, 9/1",
+      "claimedSector": "32",
+      "status": "UNRESOLVED",
+      "reason": "The evidence record aggregates multiple plot identifiers and cannot be linked to one polygon.",
+      "sourceIds": [
+        "src-yeida-status-2015"
+      ]
+    },
+    {
+      "candidateId": "candidate-plot-mdp-ti-medical",
+      "recordId": "plot-mdp-ti-medical",
+      "entityName": "TI Medical Private Limited (CIN U33110TN2005PTC186177; formerly Lotus Surgicals Private Limited)",
+      "claimedPlot": "Plot number not publicly disclosed",
+      "claimedSector": "28",
+      "status": "UNRESOLVED",
+      "reason": "No independently reviewed exact authority-plot link is available.",
+      "sourceIds": [
+        "src-toi-ti-medical",
+        "src-premier-medical",
+        "src-medical-park-progress",
+        "src-corp-ti-medical"
+      ]
+    },
+    {
+      "candidateId": "candidate-plot-mdp-premier-medical",
+      "recordId": "plot-mdp-premier-medical",
+      "entityName": "Premier Medical Systems And Devices Private Ltd (CIN U65910DL1987PTC027888)",
+      "claimedPlot": "Plot number not publicly disclosed",
+      "claimedSector": "28",
+      "status": "UNRESOLVED",
+      "reason": "No independently reviewed exact authority-plot link is available.",
+      "sourceIds": [
+        "src-premier-medical",
+        "src-corp-premier"
+      ]
+    },
+    {
+      "candidateId": "candidate-plot-mdp-auxein-medical",
+      "recordId": "plot-mdp-auxein-medical",
+      "entityName": "Auxein Medical Private Limited (CIN U33110DL2012PTC241539) is the probable registry match",
+      "claimedPlot": "Plot number not publicly disclosed",
+      "claimedSector": "28",
+      "status": "UNRESOLVED",
+      "reason": "No independently reviewed exact authority-plot link is available.",
+      "sourceIds": [
+        "src-medical-device-park",
+        "src-india-infra-mdp-allottees",
+        "src-corp-auxein"
+      ]
+    },
+    {
+      "candidateId": "candidate-plot-mdp-heidelco-medicore",
+      "recordId": "plot-mdp-heidelco-medicore",
+      "entityName": "Heidelco Medicore Private Limited (CIN U52100UP2013PTC056558)",
+      "claimedPlot": "Plot number not publicly disclosed",
+      "claimedSector": "28",
+      "status": "UNRESOLVED",
+      "reason": "No independently reviewed exact authority-plot link is available.",
+      "sourceIds": [
+        "src-medical-device-park",
+        "src-india-infra-mdp-allottees",
+        "src-toi-mdp-letters",
+        "src-corp-heidelco"
+      ]
+    },
+    {
+      "candidateId": "candidate-plot-mdp-qline-biotech",
+      "recordId": "plot-mdp-qline-biotech",
+      "entityName": "Q-Line Biotech Limited (CIN U74120UP2010PLC042528)",
+      "claimedPlot": "Plot number not publicly disclosed",
+      "claimedSector": "28",
+      "status": "UNRESOLVED",
+      "reason": "No independently reviewed exact authority-plot link is available.",
+      "sourceIds": [
+        "src-india-infra-mdp-allottees",
+        "src-toi-mdp-named-allottees",
+        "src-qline-facility",
+        "src-qline-rhp"
+      ]
+    },
+    {
+      "candidateId": "candidate-plot-mdp-romsons",
+      "recordId": "plot-mdp-romsons",
+      "entityName": "Romsons Group Private Limited (CIN U24236UP1977PTC004511) is the supported match; spelling in the 2023 source is inconsistent",
+      "claimedPlot": "Plot number not publicly disclosed",
+      "claimedSector": "28",
+      "status": "UNRESOLVED",
+      "reason": "No independently reviewed exact authority-plot link is available.",
+      "sourceIds": [
+        "src-toi-mdp-named-allottees",
+        "src-india-infra-mdp-allottees",
+        "src-corp-romsons"
+      ]
+    },
+    {
+      "candidateId": "candidate-plot-mdp-genuine-medica",
+      "recordId": "plot-mdp-genuine-medica",
+      "entityName": "Genuine Medica Private Limited (CIN U74899DL1998PTC092849) is the probable registry match",
+      "claimedPlot": "Plot number not publicly disclosed",
+      "claimedSector": "28",
+      "status": "UNRESOLVED",
+      "reason": "No independently reviewed exact authority-plot link is available.",
+      "sourceIds": [
+        "src-india-infra-mdp-allottees",
+        "src-corp-genuine"
+      ]
+    },
+    {
+      "candidateId": "candidate-plot-mdp-vanguard-diagnostics",
+      "recordId": "plot-mdp-vanguard-diagnostics",
+      "entityName": "Probable registry match to the TOI shorthand: Vanguard Diagnostics Private Limited (CIN U33110DL2015PTC276193); leaseholding entity unverified",
+      "claimedPlot": "Plot number not publicly disclosed",
+      "claimedSector": "28",
+      "status": "UNRESOLVED",
+      "reason": "No independently reviewed exact authority-plot link is available.",
+      "sourceIds": [
+        "src-toi-mdp-named-allottees",
+        "src-corp-vanguard"
+      ]
+    },
+    {
+      "candidateId": "candidate-plot-mdp-biorad-medisys",
+      "recordId": "plot-mdp-biorad-medisys",
+      "entityName": "Probable registry match to the TOI shorthand: Biorad Medisys Private Limited (CIN U33111MH2000PTC265335); leaseholding entity unverified",
+      "claimedPlot": "Plot number not publicly disclosed",
+      "claimedSector": "28",
+      "status": "UNRESOLVED",
+      "reason": "No independently reviewed exact authority-plot link is available.",
+      "sourceIds": [
+        "src-toi-mdp-named-allottees",
+        "src-corp-biorad"
+      ]
+    },
+    {
+      "candidateId": "candidate-plot-mdp-allengers",
+      "recordId": "plot-mdp-allengers",
+      "entityName": "Probable registry match to the TOI shorthand: Allengers Medical Systems Limited (CIN U33111DL1992PLC154688); leaseholding entity unverified",
+      "claimedPlot": "Plot number not publicly disclosed",
+      "claimedSector": "28",
+      "status": "UNRESOLVED",
+      "reason": "No independently reviewed exact authority-plot link is available.",
+      "sourceIds": [
+        "src-toi-mdp-named-allottees",
+        "src-corp-allengers"
+      ]
+    },
+    {
+      "candidateId": "candidate-plot-mdp-betamed",
+      "recordId": "plot-mdp-betamed",
+      "entityName": "Unresolved; no defensible Indian legal-entity/CIN match was found for the shorthand used by TOI",
+      "claimedPlot": "Plot number not publicly disclosed",
+      "claimedSector": "28",
+      "status": "UNRESOLVED",
+      "reason": "No independently reviewed exact authority-plot link is available.",
+      "sourceIds": [
+        "src-toi-mdp-named-allottees"
+      ]
+    },
+    {
+      "candidateId": "candidate-plot-mdp-diasys",
+      "recordId": "plot-mdp-diasys",
+      "entityName": "Probable Indian-subsidiary match to the TOI shorthand: DiaSys Diagnostics India Private Limited (CIN U74999MH2013PTC248371); leaseholding entity unverified",
+      "claimedPlot": "Plot number not publicly disclosed",
+      "claimedSector": "28",
+      "status": "UNRESOLVED",
+      "reason": "No independently reviewed exact authority-plot link is available.",
+      "sourceIds": [
+        "src-toi-mdp-named-allottees",
+        "src-corp-diasys"
+      ]
+    },
+    {
+      "candidateId": "candidate-plot-mdp-epsilon",
+      "recordId": "plot-mdp-epsilon",
+      "entityName": "Unresolved; the abbreviated allottee name cannot be tied safely to one Indian company/LLP",
+      "claimedPlot": "Plot number not publicly disclosed",
+      "claimedSector": "28",
+      "status": "UNRESOLVED",
+      "reason": "No independently reviewed exact authority-plot link is available.",
+      "sourceIds": [
+        "src-toi-mdp-named-allottees"
+      ]
+    },
+    {
+      "candidateId": "candidate-plot-mdp-unresolved-remainder",
+      "recordId": "plot-mdp-unresolved-remainder",
+      "entityName": "Unique legal-entity remainder is not computable from published aggregates",
+      "claimedPlot": "118 of 120 exact plot numbers unresolved",
+      "claimedSector": "28",
+      "status": "UNRESOLVED",
+      "reason": "No independently reviewed exact authority-plot link is available.",
+      "sourceIds": [
+        "src-fpj-mdp-progress",
+        "src-toi-mdp-120",
+        "src-krish-inauguration"
+      ]
+    },
+    {
+      "candidateId": "candidate-plot-cesc-green-power-may2026",
+      "recordId": "plot-cesc-green-power-may2026",
+      "entityName": "CESC Green Power Limited",
+      "claimedPlot": "Plot number not publicly disclosed",
+      "claimedSector": "8D",
+      "status": "UNRESOLVED",
+      "reason": "No independently reviewed exact authority-plot link is available.",
+      "sourceIds": [
+        "src-investup-may2026",
+        "src-may2026-ht",
+        "src-fortune-yeida-investments"
+      ]
+    },
+    {
+      "candidateId": "candidate-plot-integrated-batteries-may2026",
+      "recordId": "plot-integrated-batteries-may2026",
+      "entityName": "Integrated Batteries India Private Limited",
+      "claimedPlot": "Plot number and sector not publicly disclosed",
+      "claimedSector": null,
+      "status": "UNRESOLVED",
+      "reason": "No independently reviewed exact authority-plot link is available.",
+      "sourceIds": [
+        "src-investup-may2026",
+        "src-may2026-ht",
+        "src-fortune-yeida-investments"
+      ]
+    },
+    {
+      "candidateId": "candidate-plot-arsenal-infosolutions-may2026",
+      "recordId": "plot-arsenal-infosolutions-may2026",
+      "entityName": "Arsenal Infosolutions Private Limited",
+      "claimedPlot": "Plot number and area not publicly disclosed",
+      "claimedSector": "16A",
+      "status": "UNRESOLVED",
+      "reason": "No independently reviewed exact authority-plot link is available.",
+      "sourceIds": [
+        "src-investup-may2026",
+        "src-may2026-toi",
+        "src-fortune-yeida-investments",
+        "src-arsenal-profile"
+      ]
+    },
+    {
+      "candidateId": "candidate-plot-virtual-employee-may2026",
+      "recordId": "plot-virtual-employee-may2026",
+      "entityName": "Virtual Employee Private Limited",
+      "claimedPlot": "Plot number, sector and area not publicly disclosed",
+      "claimedSector": null,
+      "status": "UNRESOLVED",
+      "reason": "No independently reviewed exact authority-plot link is available.",
+      "sourceIds": [
+        "src-investup-may2026",
+        "src-may2026-prokerala",
+        "src-fortune-yeida-investments",
+        "src-virtual-employee-profile"
+      ]
+    },
+    {
+      "candidateId": "candidate-plot-amadeus-india-may2026",
+      "recordId": "plot-amadeus-india-may2026",
+      "entityName": "Amadeus India Private Limited",
+      "claimedPlot": "Plot number, sector and area not publicly disclosed",
+      "claimedSector": null,
+      "status": "UNRESOLVED",
+      "reason": "No independently reviewed exact authority-plot link is available.",
+      "sourceIds": [
+        "src-investup-may2026",
+        "src-may2026-prokerala",
+        "src-amadeus-india-profile",
+        "src-amadeus-bird"
+      ]
+    },
+    {
+      "candidateId": "candidate-plot-quarks-technosoft-may2026",
+      "recordId": "plot-quarks-technosoft-may2026",
+      "entityName": "Quarks Technosoft Private Limited",
+      "claimedPlot": "Plot number, sector and area not publicly disclosed",
+      "claimedSector": null,
+      "status": "UNRESOLVED",
+      "reason": "No independently reviewed exact authority-plot link is available.",
+      "sourceIds": [
+        "src-investup-may2026",
+        "src-may2026-prokerala",
+        "src-quarks-profile",
+        "src-quarks-scale"
+      ]
+    },
+    {
+      "candidateId": "candidate-plot-sainath-sales-may2026",
+      "recordId": "plot-sainath-sales-may2026",
+      "entityName": "Sainath Sales and Services Private Limited",
+      "claimedPlot": "Plot number, sector and area not publicly disclosed",
+      "claimedSector": null,
+      "status": "UNRESOLVED",
+      "reason": "No independently reviewed exact authority-plot link is available.",
+      "sourceIds": [
+        "src-investup-may2026",
+        "src-may2026-prokerala"
+      ]
+    },
+    {
+      "candidateId": "candidate-plot-summercool-may2026",
+      "recordId": "plot-summercool-may2026",
+      "entityName": "Summercool Home Appliances Limited",
+      "claimedPlot": "Plot number, sector and area not publicly disclosed",
+      "claimedSector": null,
+      "status": "UNRESOLVED",
+      "reason": "No independently reviewed exact authority-plot link is available.",
+      "sourceIds": [
+        "src-investup-may2026",
+        "src-may2026-prokerala"
+      ]
+    },
+    {
+      "candidateId": "candidate-plot-angility-elektrotekniks-may2026",
+      "recordId": "plot-angility-elektrotekniks-may2026",
+      "entityName": "Angility Elektrotekniks Private Limited",
+      "claimedPlot": "Plot number, sector and area not publicly disclosed",
+      "claimedSector": null,
+      "status": "UNRESOLVED",
+      "reason": "No independently reviewed exact authority-plot link is available.",
+      "sourceIds": [
+        "src-investup-may2026",
+        "src-may2026-prokerala"
+      ]
+    },
+    {
+      "candidateId": "candidate-plot-sahu-attire-may2026",
+      "recordId": "plot-sahu-attire-may2026",
+      "entityName": "Sahu International Attire Private Limited",
+      "claimedPlot": "Plot number, sector and area not publicly disclosed",
+      "claimedSector": null,
+      "status": "UNRESOLVED",
+      "reason": "No independently reviewed exact authority-plot link is available.",
+      "sourceIds": [
+        "src-investup-may2026",
+        "src-may2026-prokerala",
+        "src-sahu-attire-profile"
+      ]
+    },
+    {
+      "candidateId": "candidate-plot-sept2025-general-msme-unresolved",
+      "recordId": "plot-sept2025-general-msme-unresolved",
+      "entityName": "Unresolved aggregate; natural persons and proprietors excluded",
+      "claimedPlot": "22 successful plots; official result page unavailable",
+      "claimedSector": "29 / 32 / 33",
+      "status": "UNRESOLVED",
+      "reason": "No independently reviewed exact authority-plot link is available.",
+      "sourceIds": [
+        "src-themed-49",
+        "src-industrial-8000-brochure",
+        "src-yeida-property-archive"
+      ]
+    },
+    {
+      "candidateId": "candidate-plot-sept2025-toy-unresolved",
+      "recordId": "plot-sept2025-toy-unresolved",
+      "entityName": "Unresolved aggregate; natural persons and proprietors excluded",
+      "claimedPlot": "2 successful plots; official result page unavailable",
+      "claimedSector": "29 / 32 / 33; exact mapping unavailable",
+      "status": "UNRESOLVED",
+      "reason": "No independently reviewed exact authority-plot link is available.",
+      "sourceIds": [
+        "src-themed-49",
+        "src-industrial-8000-brochure",
+        "src-yeida-property-archive"
+      ]
+    },
+    {
+      "candidateId": "candidate-plot-sept2025-apparel-unresolved",
+      "recordId": "plot-sept2025-apparel-unresolved",
+      "entityName": "Unresolved aggregate; natural persons and proprietors excluded",
+      "claimedPlot": "8 successful plots; official result page unavailable",
+      "claimedSector": "29 / 32 / 33; exact mapping unavailable",
+      "status": "UNRESOLVED",
+      "reason": "No independently reviewed exact authority-plot link is available.",
+      "sourceIds": [
+        "src-themed-49",
+        "src-industrial-8000-brochure",
+        "src-yeida-property-archive"
+      ]
+    },
+    {
+      "candidateId": "candidate-plot-sept2025-handicraft-unresolved",
+      "recordId": "plot-sept2025-handicraft-unresolved",
+      "entityName": "Unresolved aggregate; natural persons and proprietors excluded",
+      "claimedPlot": "5 successful plots; official result page unavailable",
+      "claimedSector": "29 / 32 / 33; exact mapping unavailable",
+      "status": "UNRESOLVED",
+      "reason": "No independently reviewed exact authority-plot link is available.",
+      "sourceIds": [
+        "src-themed-49",
+        "src-industrial-8000-brochure",
+        "src-yeida-property-archive"
+      ]
+    },
+    {
+      "candidateId": "candidate-plot-sept2025-mdp-unresolved",
+      "recordId": "plot-sept2025-mdp-unresolved",
+      "entityName": "Unresolved aggregate; natural persons and proprietors excluded",
+      "claimedPlot": "12 draw-result plots; official eligibility/result page unavailable",
+      "claimedSector": "28",
+      "status": "UNRESOLVED",
+      "reason": "No independently reviewed exact authority-plot link is available.",
+      "sourceIds": [
+        "src-themed-49",
+        "src-mdp-2025-brochure",
+        "src-yeida-property-archive"
+      ]
+    },
+    {
+      "candidateId": "candidate-plot-hotel-equasocio-sector29",
+      "recordId": "plot-hotel-equasocio-sector29",
+      "entityName": "Exact legal suffix requires the allotment instrument",
+      "claimedPlot": "Hotel plot number not publicly disclosed",
+      "claimedSector": "29",
+      "status": "UNRESOLVED",
+      "reason": "No independently reviewed exact authority-plot link is available.",
+      "sourceIds": [
+        "src-sector29-hotels"
+      ]
+    },
+    {
+      "candidateId": "candidate-plot-hotel-net2source-sector29",
+      "recordId": "plot-hotel-net2source-sector29",
+      "entityName": "Exact Indian allottee legal entity requires the allotment instrument",
+      "claimedPlot": "Hotel plot number not publicly disclosed",
+      "claimedSector": "29",
+      "status": "UNRESOLVED",
+      "reason": "No independently reviewed exact authority-plot link is available.",
+      "sourceIds": [
+        "src-sector29-hotels"
+      ]
+    },
+    {
+      "candidateId": "candidate-plot-hotel-balaji-enterprises-sector29",
+      "recordId": "plot-hotel-balaji-enterprises-sector29",
+      "entityName": "Business constitution unresolved; no natural-person identity published",
+      "claimedPlot": "Hotel plot number not publicly disclosed",
+      "claimedSector": "29",
+      "status": "UNRESOLVED",
+      "reason": "No independently reviewed exact authority-plot link is available.",
+      "sourceIds": [
+        "src-sector29-hotels"
+      ]
+    },
+    {
+      "candidateId": "candidate-plot-hotel-ranchor-infra-sector29",
+      "recordId": "plot-hotel-ranchor-infra-sector29",
+      "entityName": "Exact legal suffix requires the allotment instrument",
+      "claimedPlot": "Hotel plot number not publicly disclosed",
+      "claimedSector": "29",
+      "status": "UNRESOLVED",
+      "reason": "No independently reviewed exact authority-plot link is available.",
+      "sourceIds": [
+        "src-sector29-hotels"
+      ]
+    },
+    {
+      "candidateId": "candidate-plot-bpcl-sector18",
+      "recordId": "plot-bpcl-sector18",
+      "entityName": "Bharat Petroleum Corporation Ltd",
+      "claimedPlot": "Fuel-station plot",
+      "claimedSector": "18",
+      "status": "UNRESOLVED",
+      "reason": "No independently reviewed exact authority-plot link is available.",
+      "sourceIds": [
+        "src-sector29-hotels"
+      ]
+    },
+    {
+      "candidateId": "candidate-plot-university-mangalayatan-22e",
+      "recordId": "plot-university-mangalayatan-22e",
+      "entityName": "Acharya Kund Kund Educational Society",
+      "claimedPlot": "Institutional plot number not publicly disclosed",
+      "claimedSector": "22E",
+      "status": "UNRESOLVED",
+      "reason": "No independently reviewed exact authority-plot link is available.",
+      "sourceIds": [
+        "src-sector22e-universities"
+      ]
+    },
+    {
+      "candidateId": "candidate-plot-university-amity-22e",
+      "recordId": "plot-university-amity-22e",
+      "entityName": "Exact landholding trust/society/company requires the allotment instrument",
+      "claimedPlot": "Institutional plot number not publicly disclosed",
+      "claimedSector": "22E",
+      "status": "UNRESOLVED",
+      "reason": "No independently reviewed exact authority-plot link is available.",
+      "sourceIds": [
+        "src-sector22e-universities"
+      ]
+    },
+    {
+      "candidateId": "candidate-plot-university-mgm-22e",
+      "recordId": "plot-university-mgm-22e",
+      "entityName": "Exact landholding trust/society/company requires the allotment instrument",
+      "claimedPlot": "Institutional plot number not publicly disclosed",
+      "claimedSector": "22E",
+      "status": "UNRESOLVED",
+      "reason": "No independently reviewed exact authority-plot link is available.",
+      "sourceIds": [
+        "src-sector22e-universities"
+      ]
+    },
+    {
+      "candidateId": "candidate-plot-jaypee-sports-city",
+      "recordId": "plot-jaypee-sports-city",
+      "entityName": "Jaiprakash Associates Ltd",
+      "claimedPlot": "Sports City master allotment",
+      "claimedSector": "19 / 25",
+      "status": "UNRESOLVED",
+      "reason": "No independently reviewed exact authority-plot link is available.",
+      "sourceIds": [
+        "src-cag-yeida"
+      ]
+    },
+    {
+      "candidateId": "candidate-plot-supertech-township-22d",
+      "recordId": "plot-supertech-township-22d",
+      "entityName": "Supertech Township Projects Limited",
+      "claimedPlot": "Township parcel; linked housing register reports TS-05",
+      "claimedSector": "22D",
+      "status": "UNRESOLVED",
+      "reason": "No independently reviewed exact authority-plot link is available.",
+      "sourceIds": [
+        "src-cag-yeida",
+        "src-supertech-sunworld-cancel",
+        "src-supertech-cirp"
+      ]
+    },
+    {
+      "candidateId": "candidate-plot-sunworld-infrastructure-22d",
+      "recordId": "plot-sunworld-infrastructure-22d",
+      "entityName": "Exact allottee legal suffix requires the allotment instrument",
+      "claimedPlot": "Township parcel number not publicly disclosed",
+      "claimedSector": "22D",
+      "status": "UNRESOLVED",
+      "reason": "No independently reviewed exact authority-plot link is available.",
+      "sourceIds": [
+        "src-cag-yeida",
+        "src-supertech-sunworld-cancel"
+      ]
+    },
+    {
+      "candidateId": "candidate-plot-orris-ats-chain-22d",
+      "recordId": "plot-orris-ats-chain-22d",
+      "entityName": "Parcel-level chain unresolved",
+      "claimedPlot": "Township parcel and subleases",
+      "claimedSector": "22D",
+      "status": "UNRESOLVED",
+      "reason": "No independently reviewed exact authority-plot link is available.",
+      "sourceIds": [
+        "src-cag-yeida",
+        "src-rera-ats-allure"
+      ]
+    },
+    {
+      "candidateId": "candidate-developer-county-yamuna-expressway",
+      "recordId": null,
+      "entityName": "County Yamuna Expressway",
+      "claimedPlot": null,
+      "claimedSector": "22D",
+      "status": "UNRESOLVED",
+      "reason": "No exact or known-alias UP-RERA registration, promoter legal entity, YEIDA allotment/lease document or plot identifier was found in the official refresh.",
+      "sourceIds": [
+        "src-rera-project-register",
+        "src-yeida-group-housing-current"
+      ]
+    }
+  ]
+}

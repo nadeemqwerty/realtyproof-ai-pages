@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 2,
+  "confidenceLevels": ["HIGH", "MEDIUM", "LOW", "UNVERIFIED"],
+  "crossVerificationStatuses": [
+    "VERIFIED",
+    "NOT_VERIFIED",
+    "MULTI_SOURCE_UNASSESSED",
+    "SINGLE_SOURCE"
+  ],
+  "sourceClasses": [
+    "OFFICIAL",
+    "REGULATORY",
+    "CORPORATE",
+    "LEGAL",
+    "RESEARCH",
+    "MEDIA",
+    "MARKET",
+    "EMPLOYMENT",
+    "OTHER"
+  ],
+  "collections": {
+    "plots": {
+      "required": ["id", "plot", "use", "legalEntity", "stage", "currentState", "sourceStrength", "confidence", "confidenceLevel", "crossVerificationStatus", "verifiedAt", "lastVerified", "sourceIds", "marketIds", "marketAssignmentMethod", "marketAssignmentConfidence", "marketAssignmentReviewedAt"],
+      "nullable": ["sector", "area", "allotmentDate", "leaseDate", "possessionDate", "lat", "lon"]
+    },
+    "companies": {
+      "required": ["id", "name", "legalEntity", "facilityName", "activity", "location", "stage", "currentState", "confidence", "confidenceLevel", "crossVerificationStatus", "verifiedAt", "lastVerified", "sourceIds", "marketIds", "marketAssignmentMethod", "marketAssignmentConfidence", "marketAssignmentReviewedAt"],
+      "nullable": ["sector", "capexClaim", "localJobClaim", "commissioningTarget", "lat", "lon"]
+    },
+    "interestEvents": {
+      "required": ["id", "company", "legalEntity", "instrument", "stage", "currentState", "confidence", "confidenceLevel", "crossVerificationStatus", "verifiedAt", "lastVerified", "sourceIds", "marketIds", "marketAssignmentMethod", "marketAssignmentConfidence", "marketAssignmentReviewedAt"],
+      "nullable": ["date", "proposedLand", "proposedCapex", "proposedJobs", "expiry", "convertedTo", "lat", "lon"]
+    },
+    "housingProjects": {
+      "required": ["id", "name", "promoter", "sector", "stage", "currentState", "constructionState", "confidence", "confidenceLevel", "crossVerificationStatus", "verifiedAt", "lastVerified", "sourceIds", "marketIds", "marketAssignmentMethod", "marketAssignmentConfidence", "marketAssignmentReviewedAt"],
+      "nullable": ["legalEntity", "plot", "rera", "possessionRevisions", "rentalEvidence", "lat", "lon"]
+    },
+    "infrastructure": {
+      "required": ["id", "name", "mode", "milestone", "stage", "currentState", "evidenceDate", "housingRelevance", "confidence", "confidenceLevel", "crossVerificationStatus", "verifiedAt", "lastVerified", "sourceIds", "marketIds", "marketAssignmentMethod", "marketAssignmentConfidence", "marketAssignmentReviewedAt"],
+      "nullable": ["purpose", "officialApprovals", "funding", "failedAttempts", "dependencies", "realisticWindow", "lat", "lon"]
+    },
+    "clusters": {
+      "required": ["id", "name", "purpose", "stage", "currentState", "failedAttempts", "confidence", "confidenceLevel", "crossVerificationStatus", "verifiedAt", "lastVerified", "sourceIds", "marketIds", "marketAssignmentMethod", "marketAssignmentConfidence", "marketAssignmentReviewedAt"],
+      "nullable": ["mode", "milestone", "officialApprovals", "funding", "dependencies", "realisticWindow", "evidenceDate", "lat", "lon"]
+    },
+    "timelineEvents": {
+      "required": ["id", "title", "date", "stage", "summary", "impact", "confidence", "confidenceLevel", "crossVerificationStatus", "verifiedAt", "lastVerified", "sourceIds", "marketIds", "marketAssignmentMethod", "marketAssignmentConfidence", "marketAssignmentReviewedAt"],
+      "nullable": ["currentState", "lat", "lon"]
+    },
+    "sources": {
+      "required": ["id", "title", "publisher", "url", "date", "publishedDateLabel", "accessed", "accessedAt", "type", "sourceClass", "strength", "crossVerified", "usedFor", "usageCount", "retentionStatus"],
+      "nullable": ["publishedAt", "notes"]
+    }
+  }
+}

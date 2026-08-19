@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "datasetId": "up-rera-progress",
+  "generatedAt": "2026-08-18",
+  "status": "MANUAL_ACCESS_REQUIRED",
+  "records": [],
+  "gap": "The canonical official register is live, but project-specific QPR and OC/CC retrieval is CAPTCHA-bound and awaits bounded manual collection, document hashing and privacy/evidence review."
+}

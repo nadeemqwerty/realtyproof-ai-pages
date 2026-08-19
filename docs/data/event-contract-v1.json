@@ -1,0 +1,236 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://realtyproof.ai/contracts/evidence-event-outbox-v1.json",
+  "title": "RealtyProof reviewed evidence-change outbox",
+  "description": "Local POC contract. Events are deterministic, recipient-free, and publishable only after explicit evidence review and release approval.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "contractVersion",
+    "generatedAt",
+    "releaseId",
+    "publishable",
+    "counts",
+    "inputs",
+    "events"
+  ],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "contractVersion": { "const": "1.0.0" },
+    "generatedAt": { "type": "string", "format": "date-time" },
+    "releaseId": {
+      "type": ["string", "null"],
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]*$"
+    },
+    "publishable": { "type": "boolean" },
+    "counts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "snapshotDiffFilesScanned",
+        "snapshotChangesScanned",
+        "canonicalRecordsScanned",
+        "canonicalSupersedingRecords",
+        "eligibleChanges",
+        "emittedEvents",
+        "skipped"
+      ],
+      "properties": {
+        "snapshotDiffFilesScanned": { "type": "integer", "minimum": 0 },
+        "snapshotChangesScanned": { "type": "integer", "minimum": 0 },
+        "canonicalRecordsScanned": { "type": "integer", "minimum": 0 },
+        "canonicalSupersedingRecords": { "type": "integer", "minimum": 0 },
+        "eligibleChanges": { "type": "integer", "minimum": 0 },
+        "emittedEvents": { "type": "integer", "minimum": 0 },
+        "skipped": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "snapshotMissingExplicitReview",
+            "snapshotMissingApprovedRelease",
+            "snapshotMissingSourceIds",
+            "snapshotUnknownSourceIds",
+            "canonicalWithoutSupersedes",
+            "canonicalReleaseNotApproved",
+            "canonicalMissingPriorVersion"
+          ],
+          "properties": {
+            "snapshotMissingExplicitReview": { "type": "integer", "minimum": 0 },
+            "snapshotMissingApprovedRelease": { "type": "integer", "minimum": 0 },
+            "snapshotMissingSourceIds": { "type": "integer", "minimum": 0 },
+            "snapshotUnknownSourceIds": { "type": "integer", "minimum": 0 },
+            "canonicalWithoutSupersedes": { "type": "integer", "minimum": 0 },
+            "canonicalReleaseNotApproved": { "type": "integer", "minimum": 0 },
+            "canonicalMissingPriorVersion": { "type": "integer", "minimum": 0 }
+          }
+        }
+      }
+    },
+    "inputs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["path", "sha256"],
+        "properties": {
+          "path": { "type": "string", "pattern": "^(data|docs)/" },
+          "sha256": { "$ref": "#/$defs/sha256" }
+        }
+      }
+    },
+    "events": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/event" }
+    }
+  },
+  "$defs": {
+    "sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "scope": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "id"],
+      "properties": {
+        "type": {
+          "enum": ["GLOBAL", "MARKET", "AUTHORITY", "PROJECT", "LAYER", "RECORD"]
+        },
+        "id": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9:/._-]*$"
+        }
+      }
+    },
+    "event": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "eventVersion",
+        "eventId",
+        "idempotencyKey",
+        "eventType",
+        "subjectType",
+        "subjectId",
+        "field",
+        "oldValueHash",
+        "newValueHash",
+        "scope",
+        "sourceIds",
+        "observedAt",
+        "effectiveDate",
+        "reviewedAt",
+        "severity",
+        "reviewStatus",
+        "releaseId",
+        "supersedesEventId",
+        "retractsEventId",
+        "dedupeKey",
+        "payloadHash"
+      ],
+      "properties": {
+        "eventVersion": { "const": 1 },
+        "eventId": {
+          "type": "string",
+          "pattern": "^evt_[a-f0-9]{64}$"
+        },
+        "idempotencyKey": {
+          "type": "string",
+          "pattern": "^idem_[a-f0-9]{64}$"
+        },
+        "eventType": {
+          "enum": ["EVIDENCE_CHANGED", "EVIDENCE_RETRACTED"]
+        },
+        "subjectType": {
+          "enum": ["CANONICAL_RECORD", "GIS_LAYER", "EVIDENCE_ASSERTION"]
+        },
+        "subjectId": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9:/._-]*$"
+        },
+        "field": {
+          "type": "string",
+          "pattern": "^[A-Za-z][A-Za-z0-9._-]*$"
+        },
+        "oldValueHash": {
+          "oneOf": [
+            { "$ref": "#/$defs/sha256" },
+            { "type": "null" }
+          ]
+        },
+        "newValueHash": {
+          "oneOf": [
+            { "$ref": "#/$defs/sha256" },
+            { "type": "null" }
+          ]
+        },
+        "scope": { "$ref": "#/$defs/scope" },
+        "sourceIds": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          }
+        },
+        "observedAt": { "type": "string", "format": "date-time" },
+        "effectiveDate": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "reviewedAt": { "type": "string", "format": "date-time" },
+        "severity": {
+          "enum": ["INFO", "LOW", "MEDIUM", "HIGH", "CRITICAL"]
+        },
+        "reviewStatus": {
+          "enum": ["REVIEWED", "APPROVED", "RETRACTED"]
+        },
+        "releaseId": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]*$"
+        },
+        "supersedesEventId": {
+          "oneOf": [
+            {
+              "type": "string",
+              "pattern": "^evt_[a-f0-9]{64}$"
+            },
+            { "type": "null" }
+          ]
+        },
+        "retractsEventId": {
+          "oneOf": [
+            {
+              "type": "string",
+              "pattern": "^evt_[a-f0-9]{64}$"
+            },
+            { "type": "null" }
+          ]
+        },
+        "dedupeKey": {
+          "type": "string",
+          "pattern": "^dedupe_[a-f0-9]{64}$"
+        },
+        "payloadHash": { "$ref": "#/$defs/sha256" }
+      }
+    }
+  },
+  "x-policies": {
+    "reviewedOnly": true,
+    "approvedReleaseRequired": true,
+    "rawScrapeDifferencesPublishable": false,
+    "recipientDataAllowed": false,
+    "networkDeliveryIncluded": false,
+    "valueStorage": "HASH_ONLY",
+    "commercialInfluenceForbidden": [
+      "rating",
+      "payment",
+      "sponsorship",
+      "referral",
+      "leadFee",
+      "advertiser"
+    ]
+  }
+}

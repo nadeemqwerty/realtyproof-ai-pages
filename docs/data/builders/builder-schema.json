@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "builderRequired": [
+    "builderId",
+    "displayName",
+    "markets",
+    "publicationStatus",
+    "evidenceConfidence",
+    "sourceIds",
+    "lastVerified"
+  ],
+  "actorCaseRequired": [
+    "caseId",
+    "displayName",
+    "markets",
+    "publicationStatus",
+    "evidenceConfidence",
+    "actors",
+    "sourceIds",
+    "lastVerified",
+    "blocker"
+  ],
+  "issueTypes": [
+    "IDENTITY_GOVERNANCE",
+    "RERA_COMPLIANCE",
+    "DELIVERY_DELAY",
+    "LAND_AUTHORITY_DUES",
+    "FINANCIAL_STRESS",
+    "INSOLVENCY",
+    "LITIGATION",
+    "CONSTRUCTION_SAFETY",
+    "ENVIRONMENT",
+    "BUYER_SERVICE"
+  ],
+  "actorRoles": [
+    "ORIGINAL_PROMOTER",
+    "CURRENT_PROMOTER",
+    "CO_PROMOTER",
+    "DEVELOPMENT_MANAGER",
+    "RESOLUTION_APPLICANT",
+    "COURT_RECEIVER",
+    "IRP_RP",
+    "CONSTRUCTION_AGENCY",
+    "AUTHORITY"
+  ]
+}

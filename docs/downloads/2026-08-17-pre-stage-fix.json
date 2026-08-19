@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-08-17T06:35:00Z",
+  "purpose": "Pre-lifecycle-derivation-fix baseline",
+  "manifestSha256": "2736dc0dbbe90a4e48c242b69ce71ed04a797e672d7aee017f17db0760716dda",
+  "generatedAt": "2026-08-16T17:18:30+00:00",
+  "layerCounts": {
+    "noida/industrial": 12022,
+    "noida/commercial": 1837,
+    "noida/institutional": 1324,
+    "noida/group-housing": 1274,
+    "noida/it-ites": 0,
+    "gnida/industrial": 2951,
+    "gnida/commercial": 780,
+    "gnida/institutional": 1100,
+    "gnida/group-housing": 97,
+    "gnida/it-ites": 269,
+    "yeida/industrial": 3503,
+    "yeida/commercial": 186,
+    "yeida/institutional": 527,
+    "yeida/residential": 30759,
+    "yeida/logistics": 0,
+    "yeida/mixed-use": 50,
+    "yeida/airport-aviation": 0,
+    "yeida/special-development": 0,
+    "yeida/riverfront": 0,
+    "yeida/hospitality": 0,
+    "yeida/sector-boundaries": 99,
+    "yeida/residential-masterplan": 74,
+    "yeida/airport-masterplan": 2,
+    "yeida/logistics-masterplan": 10,
+    "yeida/hospitality-masterplan": 5,
+    "yeida/roads-masterplan": 46,
+    "yeida/rera-project-parcels": 11
+  },
+  "yeidaExecutionStages": {
+    "industrial": {
+      "allotted": 1457,
+      "vacant": 458,
+      "lease-recorded": 645,
+      "functional-evidence": 2,
+      "possession-recorded": 936,
+      "nonsaleble": 1,
+      "reserved": 2,
+      "unknown": 2
+    },
+    "commercial": {
+      "vacant": 186
+    },
+    "institutional": {
+      "vacant": 354,
+      "allotted": 173
+    },
+    "residential": {
+      "vacant": 1428,
+      "allotted": 18836,
+      "lease-recorded": 10493,
+      "nonsaleble": 2
+    },
+    "logistics": {},
+    "mixed-use": {
+      "vacant": 45,
+      "lease-recorded": 3,
+      "nonsaleble": 2
+    },
+    "airport-aviation": {},
+    "special-development": {},
+    "riverfront": {},
+    "hospitality": {},
+    "sector-boundaries": {
+      "planning": 99
+    },
+    "residential-masterplan": {
+      "planning": 74
+    },
+    "airport-masterplan": {
+      "planning": 2
+    },
+    "logistics-masterplan": {
+      "planning": 10
+    },
+    "hospitality-masterplan": {
+      "planning": 5
+    },
+    "roads-masterplan": {
+      "planning": 46
+    },
+    "rera-project-parcels": {
+      "(missing)": 11
+    }
+  }
+}
