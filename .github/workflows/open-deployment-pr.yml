@@ -6,7 +6,7 @@ on:
       - "deploy/**"
 
 permissions:
-  contents: read
+  contents: write
   pull-requests: write
 
 jobs:
@@ -14,6 +14,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Validate deployment provenance
         shell: bash
@@ -35,6 +37,33 @@ jobs:
           test -f "$prior_path"
           [[ "$(jq -er '.releaseId' "$prior_path")" == "$prior_id" ]]
           [[ "$(jq -er '.rollback.targetReleaseId' docs/downloads/active-release.json)" == "$prior_id" ]]
+
+      - name: Record bot verification as the final push
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          release_id="$(jq -er '.releaseId' DEPLOYMENT-PROVENANCE.json)"
+          content_digest="$(jq -er '.contentDigest' DEPLOYMENT-PROVENANCE.json)"
+          jq -n \
+            --arg releaseId "$release_id" \
+            --arg contentDigest "$content_digest" \
+            --arg verifiedBranchCommit "$GITHUB_SHA" \
+            --argjson workflowRunId "$GITHUB_RUN_ID" \
+            '{
+              schemaVersion: 1,
+              kind: "realtyproof.deploymentVerification",
+              releaseId: $releaseId,
+              contentDigest: $contentDigest,
+              verifiedBranchCommit: $verifiedBranchCommit,
+              workflowRunId: $workflowRunId
+            }' > DEPLOYMENT-AUTOMATION.json
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add DEPLOYMENT-AUTOMATION.json
+          git commit -m "ci: record deployment verification"
+          git push origin "HEAD:$GITHUB_REF_NAME"
 
       - name: Open bot-authored deployment PR
         env:
