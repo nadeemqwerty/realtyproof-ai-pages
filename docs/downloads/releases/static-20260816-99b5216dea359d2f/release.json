@@ -1,8 +1,8 @@
 {
   "schemaVersion": 3,
   "kind": "realtyproof.staticRelease",
-  "releaseId": "static-20260816-f4571f4398159e53",
-  "contentHash": "f4571f4398159e5345d05240ff09dcd18b56030ee069952c4f9090e4e66ebf5f",
+  "releaseId": "static-20260816-99b5216dea359d2f",
+  "contentHash": "99b5216dea359d2f96a831c702bcc524c7ea7a3a41503307f936f974a856b591",
   "sourceManifest": {
     "path": "downloads/release-manifest.json",
     "sha256": "f0558afc1112a87b2c6fc0335091a817d0fe6d88ce7f97a38307e56b25ba0959",
@@ -13,13 +13,13 @@
     "static": {
       "source": "current workspace public static allowlist",
       "files": 286,
-      "bytes": 44445543,
-      "hash": "918e345ba73f698e6b8f20d1d1e22f9ad133042093dda1aa2ecec6af345e9e88",
+      "bytes": 44449353,
+      "hash": "4e0469b3f0bb8e4b29e4a8c8908811654639f329506900b221037411dea5b819",
       "entries": [
         {
           "path": "assets/app.js",
-          "bytes": 122283,
-          "sha256": "d9edc7c5c46861f5087500bfbe991c63e716ffe1149723ef83d7742ef7b2db04",
+          "bytes": 126093,
+          "sha256": "92d7a11aa71f49cefec7f376a8da02308d765dd185d519b530eb1c46bc44fca2",
           "sourceBundle": "static"
         },
         {
@@ -1909,15 +1909,15 @@
   },
   "staticArtifact": {
     "files": 286,
-    "bytes": 44445543,
-    "hash": "918e345ba73f698e6b8f20d1d1e22f9ad133042093dda1aa2ecec6af345e9e88",
+    "bytes": 44449353,
+    "hash": "4e0469b3f0bb8e4b29e4a8c8908811654639f329506900b221037411dea5b819",
     "includeGisGeojson": false,
     "policy": "Normal static artifacts include public site files, bounded viewport chunks, and small JSON/CSV downloads. Original full-layer GeoJSON is referenced by hash and excluded unless --include-gis-geojson is explicitly used.",
     "entries": [
       {
         "path": "assets/app.js",
-        "bytes": 122283,
-        "sha256": "d9edc7c5c46861f5087500bfbe991c63e716ffe1149723ef83d7742ef7b2db04",
+        "bytes": 126093,
+        "sha256": "92d7a11aa71f49cefec7f376a8da02308d765dd185d519b530eb1c46bc44fca2",
         "sourceBundle": "static"
       },
       {

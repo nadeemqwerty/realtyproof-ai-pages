@@ -2,12 +2,12 @@
   "schemaVersion": 1,
   "kind": "realtyproof.activeStaticRelease",
   "active": {
-    "releaseId": "static-20260816-f4571f4398159e53",
-    "releasePath": "downloads/releases/static-20260816-f4571f4398159e53/release.json",
-    "contentHash": "f4571f4398159e5345d05240ff09dcd18b56030ee069952c4f9090e4e66ebf5f",
+    "releaseId": "static-20260816-99b5216dea359d2f",
+    "releasePath": "downloads/releases/static-20260816-99b5216dea359d2f/release.json",
+    "contentHash": "99b5216dea359d2f96a831c702bcc524c7ea7a3a41503307f936f974a856b591",
     "sourceManifestSha256": "f0558afc1112a87b2c6fc0335091a817d0fe6d88ce7f97a38307e56b25ba0959",
     "sourceGeneratedAt": "2026-08-16T17:18:30+00:00",
-    "staticArtifactHash": "918e345ba73f698e6b8f20d1d1e22f9ad133042093dda1aa2ecec6af345e9e88",
+    "staticArtifactHash": "4e0469b3f0bb8e4b29e4a8c8908811654639f329506900b221037411dea5b819",
     "includeGisGeojson": false
   },
   "prior": {

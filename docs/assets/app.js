@@ -47,7 +47,16 @@
   }
   data.meta.edition = `${activeMarketDefinition.label} Intelligence`;
   const executionStages = window.YEIDA_EXECUTION_STAGES?.stages || [];
+  const marketAssignments = window.REALTYPROOF_MARKET_ASSIGNMENTS?.assignments || {};
   const watchlistKey = "realtyproof-evidence-watchlist-v1";
+
+  function assignedMarketIds(record) {
+    if (Array.isArray(record.marketIds) && record.marketIds.length) {
+      return record.marketIds;
+    }
+    const assigned = marketAssignments[record.id]?.marketIds;
+    return Array.isArray(assigned) && assigned.length ? assigned : ["gbn"];
+  }
 
   function marketUrl(url) {
     return `${url}${url.includes("?") ? "&" : "?"}market=${encodeURIComponent(activeMarket)}`;
@@ -55,7 +64,7 @@
 
   function projectCatalog() {
     const sourceMap = new Map(rawData.sources.map((source) => [source.id, source]));
-    return (rawData.launchRatings?.researchQueue || [])
+    const launchProjects = (rawData.launchRatings?.researchQueue || [])
       .filter((project) => (project.marketIds || []).includes(activeMarket))
       .map((project) => ({
         ...project,
@@ -69,6 +78,47 @@
           ? "Unavailable — coverage is not a recommendation"
           : `${project.evidenceCoverage}% — coverage is not a recommendation`
       }));
+    const housingProjects = (rawData.housingProjects || [])
+      .map((project) => {
+        const marketIds = assignedMarketIds(project);
+        const criticalMissing = Array.isArray(project.riskFlags) && project.riskFlags.length
+          ? project.riskFlags
+          : ["Current QPR, legal completion, all-in cost and comparable deed evidence"];
+        return {
+          id: project.id,
+          projectName: project.name,
+          reraNumber: project.rera || null,
+          marketIds,
+          location: [
+            project.sector ? `Sector ${project.sector}` : null,
+            project.plot
+          ].filter(Boolean).join(" · ") || "Unavailable",
+          legalPromoter: project.promoter || null,
+          legalPromoterLabel: project.promoter || "Unavailable",
+          phase: project.stage
+            ? `Published ${project.stage} housing record`
+            : "Published housing record",
+          delivery: project.possession || project.constructionState || "Unavailable",
+          price: project.priceEvidence || "Unavailable",
+          evidenceCoverage: null,
+          evidenceLabel: `${project.coverage || "Unavailable"} — coverage is not a recommendation`,
+          criticalMissing,
+          ratingStatus: "NR",
+          ratingReason:
+            "Current evidence does not satisfy the rating gates for QPR, independent construction, legal completion, all-in cost and comparable deeds.",
+          confidence: project.confidence || "UNVERIFIED",
+          lastVerified: project.lastVerified || rawData.meta.asOf,
+          sourceIds: project.sourceIds || [],
+          sources: (project.sourceIds || [])
+            .map((id) => sourceMap.get(id))
+            .filter(Boolean),
+          marketLabel: activeMarketDefinition.label
+        };
+      })
+      .filter((project) => project.marketIds.includes(activeMarket));
+    return [...new Map(
+      [...launchProjects, ...housingProjects].map((project) => [project.id, project])
+    ).values()];
   }
 
   function projectUrl(id) {
@@ -403,12 +453,15 @@
       <p class="project-location">${escapeHtml(project.location)} · ${escapeHtml(project.marketLabel)}</p>
       <dl class="project-facts">
         <div><dt>RERA</dt><dd>${escapeHtml(project.reraNumber || "Unavailable")}</dd></div>
-        <div><dt>Legal promoter</dt><dd>${escapeHtml(project.legalPromoterLabel)}</dd></div>
+        <div><dt>Published promoter</dt><dd>${escapeHtml(project.legalPromoterLabel)}</dd></div>
         <div><dt>Delivery evidence</dt><dd>${escapeHtml(project.delivery)}</dd></div>
         <div><dt>Known price / cost</dt><dd>${escapeHtml(project.price)}</dd></div>
         <div><dt>Evidence coverage</dt><dd>${escapeHtml(project.evidenceLabel)}</dd></div>
         <div><dt>Freshness</dt><dd>Verified ${escapeHtml(project.lastVerified)}</dd></div>
       </dl>
+      ${project.legalPromoterLabel !== "Unavailable"
+        ? "<p class=\"data-note\">Published promoter is not a group/SPV, financial-strength or delivery finding.</p>"
+        : ""}
       <p><strong>Main gap / risk:</strong> ${escapeHtml(project.criticalMissing[0] || project.ratingReason)}</p>
       <p class="data-note">Rating: NR · Not Rated. ${escapeHtml(project.ratingReason)}</p>
       <div class="project-actions">
@@ -1109,9 +1162,9 @@
         ${projects.length ? table([
           { label: "Identity", render: (row) => `${escapeHtml(row.projectName)} · ${escapeHtml(row.phase)} · ${escapeHtml(row.reraNumber || "Unavailable")}` },
           { label: "Location", render: (row) => `${escapeHtml(row.location || "Unavailable")} · ${escapeHtml(row.marketLabel)}` },
-          { label: "Price / all-in cost", render: () => "Unavailable" },
-          { label: "Delivery", render: () => "Unavailable" },
-          { label: "Builder / legal promoter", render: (row) => escapeHtml(row.legalPromoterLabel || "Unavailable") },
+          { label: "Published price evidence", render: (row) => escapeHtml(row.price || "Unavailable") },
+          { label: "Published delivery evidence", render: (row) => escapeHtml(row.delivery || "Unavailable") },
+          { label: "Published promoter", render: (row) => escapeHtml(row.legalPromoterLabel || "Unavailable") },
           { label: "Evidence gaps / freshness", render: (row) => `${escapeHtml(row.criticalMissing[0] || "Unavailable")} · verified ${escapeHtml(row.lastVerified || "Unavailable")}` },
           { label: "Comparison basis", render: () => "Not directly comparable" },
           { label: "Calculator handoff", render: (row) => `<a class="entity-link" href="${marketUrl(`${root}/pages/calculator.html?project=${encodeURIComponent(row.id)}`)}">Open with unavailable inputs →</a>` },
@@ -1119,7 +1172,7 @@
           { label: "Action", render: (row) => `<button type="button" class="watch-toggle" data-compare-project="${escapeHtml(row.id)}" aria-pressed="true">Remove</button>` }
         ], projects) : `${emptyState("Select up to four projects from the Projects index to compare them here.")}
           <p><a class="button-link" href="${marketUrl(`${root}/pages/projects.html`)}">Browse projects to compare</a></p>`}
-        <p class="data-note">Unavailable is not zero. Product records do not establish equivalent price, delivery, cost or map measurements. Returns require explicit user inputs until critical project evidence is published.</p>
+        <p class="data-note">Unavailable is not zero. Published price may be marketing or asking-price evidence, not all-in cost or a registered deed; declared delivery is not proof of completion, OC/CC or occupancy; promoter labels do not establish group/SPV strength. Returns require explicit user inputs until critical project evidence is published.</p>
       </section>
       <section class="panel">
         <p class="eyebrow">Saved projects</p>
@@ -1753,6 +1806,10 @@
     const selected = readWatchlist();
     const saved = selected.savedProjects.includes(project.id);
     const compared = selected.projects.includes(project.id);
+    const promoterAvailable =
+      project.legalPromoterLabel && project.legalPromoterLabel !== "Unavailable";
+    const priceAvailable = project.price && project.price !== "Unavailable";
+    const deliveryAvailable = project.delivery && project.delivery !== "Unavailable";
     const sourceCards = project.sources.length ? project.sources.map((source) => `
       <article>
         <h3><a href="${escapeHtml(source.url)}" target="_blank" rel="noopener">${escapeHtml(source.title)}</a></h3>
@@ -1777,7 +1834,7 @@
           <div class="detail-field"><span>Project / phase</span><div>${escapeHtml(project.projectName)} · ${escapeHtml(project.phase)}</div></div>
           <div class="detail-field"><span>RERA registration</span><div>${escapeHtml(project.reraNumber || "Unavailable")}</div></div>
           <div class="detail-field"><span>Location</span><div>${escapeHtml(project.location)}</div></div>
-          <div class="detail-field"><span>Legal promoter</span><div>Unavailable</div></div>
+          <div class="detail-field"><span>Published promoter</span><div>${escapeHtml(project.legalPromoterLabel || "Unavailable")}</div></div>
         </div>
       </section>
       <section class="panel callout">
@@ -1794,24 +1851,29 @@
       <section class="two-column">
         <article class="panel">
           <p class="eyebrow">Price evidence</p>
-          <h2>Unavailable</h2>
-          <p>No sourced price, all-in cost components or comparable deed evidence is published for this project record.</p>
+          <h2>${escapeHtml(project.price || "Unavailable")}</h2>
+          <p>${priceAvailable
+            ? "Published price evidence may be marketing or asking-price evidence. It is not an all-in cost or comparable registered deed unless explicitly stated."
+            : "No sourced price, all-in cost components or comparable deed evidence is published for this project record."}</p>
         </article>
         <article class="panel">
           <p class="eyebrow">Delivery layers</p>
           <div class="detail-grid">
-            <div class="detail-field"><span>Declared RERA completion</span><div>Unavailable</div></div>
+            <div class="detail-field"><span>Published delivery / possession evidence</span><div>${escapeHtml(project.delivery || "Unavailable")}</div></div>
             <div class="detail-field"><span>QPR / construction</span><div>Unavailable</div></div>
             <div class="detail-field"><span>OC / CC</span><div>Unavailable</div></div>
             <div class="detail-field"><span>Handover / occupancy</span><div>Unavailable</div></div>
           </div>
+          ${deliveryAvailable ? "<p class=\"data-note\">A declared date or published possession statement is not proof of completion, OC/CC or occupancy.</p>" : ""}
         </article>
       </section>
       <section class="two-column">
         <article class="panel">
           <p class="eyebrow">Builder / entity</p>
-          <h2>Unavailable</h2>
-          <p>The linked disclosure establishes a published project identity only. It does not publish a legal-promoter or SPV relationship in the current static contract.</p>
+          <h2>${escapeHtml(project.legalPromoterLabel || "Unavailable")}</h2>
+          <p>${promoterAvailable
+            ? "The published promoter label is evidence-bound, but it does not establish group-wide delivery, financial strength, litigation outcome or every SPV relationship."
+            : "The linked disclosure establishes a published project identity only. It does not publish a legal-promoter or SPV relationship in the current static contract."}</p>
         </article>
         <article class="panel">
           <p class="eyebrow">Map handoff</p>
