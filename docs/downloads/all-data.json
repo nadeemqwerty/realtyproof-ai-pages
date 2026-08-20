@@ -6927,18 +6927,18 @@
       "unitMix": "Marketed 3/4 BHK; about 1,166 units reported",
       "possession": "RERA completion 2028-12-28",
       "constructionState": "Under construction",
-      "priceEvidence": "Marketing evidence only; official cost sheet and quarterly progress require refresh",
+      "priceEvidence": "Marketing evidence only; reviewed certificate facts do not establish an all-in buyer cost",
       "transactionEvidence": "No deed-level resale market",
       "rentalEvidence": null,
       "stage": "construction",
-      "currentState": "Major 2028 RERA completion-date cohort; construction evidence is not completion evidence",
+      "currentState": "Major 2028 RERA completion-date cohort with six quarters of reviewed document-declared certificate facts; these are not independent site or completion evidence",
       "coverage": "PARTIAL",
       "riskFlags": [
         "Price evidence is marketing-led",
-        "Construction progress requires quarterly RERA verification"
+        "Reviewed certificate facts are not independent construction or completion verification"
       ],
       "confidence": "MEDIUM",
-      "lastVerified": "2026-08-15",
+      "lastVerified": "2026-08-20",
       "sourceIds": [
         "src-rera-ace-terra",
         "src-ace-terra"
@@ -6948,7 +6948,7 @@
       "lat": null,
       "lon": null,
       "confidenceLevel": "MEDIUM",
-      "verifiedAt": "2026-08-15",
+      "verifiedAt": "2026-08-20",
       "crossVerificationStatus": "MULTI_SOURCE_UNASSESSED",
       "marketIds": [
         "gbn",

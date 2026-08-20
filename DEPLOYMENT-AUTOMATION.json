@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "kind": "realtyproof.deploymentVerification",
-  "releaseId": "static-20260816-c0f1aca3d1329b10",
-  "contentDigest": "81ba9fe90e7f621cb34f703501255d5641189a95e1db66d5c99eaf30255ef957",
-  "verifiedBranchCommit": "ed7776bbcdf17e799781ef84b254920e0eef579c",
-  "workflowRunId": 32294287459
+  "releaseId": "static-20260816-9b3716617819f158",
+  "contentDigest": "edca621f9d460a028b301082b6b7309a47126de13d8d645c081b35eb484017b1",
+  "verifiedBranchCommit": "7aaaf4e5c73dd1f883209ac1c20f345a3a88e0dd",
+  "workflowRunId": 32327577361
 }
