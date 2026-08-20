@@ -48,7 +48,54 @@
   data.meta.edition = `${activeMarketDefinition.label} Intelligence`;
   const executionStages = window.YEIDA_EXECUTION_STAGES?.stages || [];
   const marketAssignments = window.REALTYPROOF_MARKET_ASSIGNMENTS?.assignments || {};
+  const reraProgress = window.REALTYPROOF_RERA_PROGRESS || { records: [] };
   const watchlistKey = "realtyproof-evidence-watchlist-v1";
+  const reraFactLabels = {
+    ENGINEER_ESTIMATED_TOTAL_COMPLETION_COST: "Engineer-estimated completion cost",
+    ENGINEER_ESTIMATED_ACTUAL_COST_INCURRED: "Engineer-estimated actual cost incurred",
+    ENGINEER_WORK_DONE_PERCENT: "Engineer-declared work done",
+    ENGINEER_WORK_VALUE_PERCENT_OF_ESTIMATED_COST: "Work value versus estimated cost",
+    CA_ACTUAL_SPEND_ADMISSIBLE_FOR_SEPARATE_ACCOUNT_WITHDRAWAL:
+      "CA-certified actual spend admissible for withdrawal",
+    ENGINEER_TABLE_DERIVED_ADMISSIBLE_EXPENDITURE:
+      "Engineer table-derived admissible expenditure",
+    ARCHITECT_SEWERAGE_SUBCOMPONENT_PROGRESS_PERCENT:
+      "Architect-declared sewerage subcomponent progress"
+  };
+  const reraFactsByProject = new Map();
+  for (const record of reraProgress.records || []) {
+    if (!reraFactsByProject.has(record.projectId)) {
+      reraFactsByProject.set(record.projectId, []);
+    }
+    reraFactsByProject.get(record.projectId).push(record);
+  }
+  for (const facts of reraFactsByProject.values()) {
+    facts.sort((left, right) =>
+      `${reraQuarterKey(left)}|${left.semanticFactType}|${left.recordId}`.localeCompare(
+        `${reraQuarterKey(right)}|${right.semanticFactType}|${right.recordId}`
+      )
+    );
+  }
+
+  function reraQuarterKey(record) {
+    const end = String(record.reportingQuarter || "").split(" To ").at(-1);
+    const match = end?.match(/^(\d{2})-(\d{2})-(\d{4})$/);
+    return match ? `${match[3]}-${match[2]}-${match[1]}` : end || "";
+  }
+
+  function reraFactValue(record) {
+    const value = Number(record.value).toLocaleString("en-IN", {
+      maximumFractionDigits: 4
+    });
+    return `${value}${record.unit ? ` ${record.unit}` : ""}`;
+  }
+
+  function reraFactSummary(facts) {
+    const quarters = new Set(facts.map((fact) => fact.reportingQuarter)).size;
+    return facts.length
+      ? `${facts.length} reviewed facts · ${quarters} quarters`
+      : "Unavailable";
+  }
 
   function assignedMarketIds(record) {
     if (Array.isArray(record.marketIds) && record.marketIds.length) {
@@ -116,9 +163,21 @@
         };
       })
       .filter((project) => project.marketIds.includes(activeMarket));
-    return [...new Map(
+    const combined = [...new Map(
       [...launchProjects, ...housingProjects].map((project) => [project.id, project])
     ).values()];
+    return combined.map((project) => {
+      const reraFacts = reraFactsByProject.get(project.id) || [];
+      return {
+        ...project,
+        reraFacts,
+        reraFactSummary: reraFactSummary(reraFacts),
+        latestReraQuarter: reraFacts.at(-1)?.reportingQuarter || null,
+        ratingReason: reraFacts.length
+          ? "Reviewed document-declared RERA facts are linked, but independent construction, legal completion, all-in cost and comparable deed gates remain unmet."
+          : project.ratingReason
+      };
+    });
   }
 
   function projectUrl(id) {
@@ -432,6 +491,11 @@
       project.location,
       project.marketLabel,
       project.legalPromoter,
+      ...project.reraFacts.flatMap((fact) => [
+        reraFactLabels[fact.semanticFactType],
+        fact.reportingQuarter,
+        fact.caveat
+      ]),
       ...project.sources.map((source) => source.publisher)
     ].filter(Boolean).join(" ").toLocaleLowerCase();
     return searchable.includes(query.toLocaleLowerCase());
@@ -456,6 +520,9 @@
         <div><dt>Published promoter</dt><dd>${escapeHtml(project.legalPromoterLabel)}</dd></div>
         <div><dt>Delivery evidence</dt><dd>${escapeHtml(project.delivery)}</dd></div>
         <div><dt>Known price / cost</dt><dd>${escapeHtml(project.price)}</dd></div>
+        <div><dt>Reviewed RERA facts</dt><dd>${project.reraFacts.length
+          ? `<a class="entity-link" href="${projectUrl(project.id)}#rera-facts">${escapeHtml(project.reraFactSummary)}</a>`
+          : "Unavailable"}</dd></div>
         <div><dt>Evidence coverage</dt><dd>${escapeHtml(project.evidenceLabel)}</dd></div>
         <div><dt>Freshness</dt><dd>Verified ${escapeHtml(project.lastVerified)}</dd></div>
       </dl>
@@ -497,6 +564,9 @@
     if (state.filter === "identity") {
       projects = projects.filter((project) => project.reraNumber);
     }
+    if (state.filter === "rera-facts") {
+      projects = projects.filter((project) => project.reraFacts.length);
+    }
     if (state.sort === "name") {
       projects.sort((a, b) => a.projectName.localeCompare(b.projectName));
     } else {
@@ -525,6 +595,7 @@
             <select name="filter">
               <option value="all" ${state.filter === "all" ? "selected" : ""}>All published records</option>
               <option value="identity" ${state.filter === "identity" ? "selected" : ""}>RERA identity published</option>
+              <option value="rera-facts" ${state.filter === "rera-facts" ? "selected" : ""}>Reviewed RERA facts linked</option>
               <option value="missing" ${state.filter === "missing" ? "selected" : ""}>Critical evidence missing</option>
             </select>
           </label>
@@ -542,7 +613,7 @@
     <section data-project-results aria-live="polite">${renderProjectResults()}</section>
     <section class="panel callout">
       <h2>Partial is a valid result.</h2>
-      <p>Price, all-in costs, OC/CC, QPRs, independent construction evidence and comparable deeds are unavailable in this slice. No project is recommended or ranked.</p>
+      <p>Reviewed QPR facts appear only where explicitly linked. All-in buyer costs, OC/CC, independent construction evidence and comparable deeds remain unavailable unless separately published. No project is recommended or ranked.</p>
     </section>`;
   }
 
@@ -1165,6 +1236,9 @@
           { label: "Published price evidence", render: (row) => escapeHtml(row.price || "Unavailable") },
           { label: "Published delivery evidence", render: (row) => escapeHtml(row.delivery || "Unavailable") },
           { label: "Published promoter", render: (row) => escapeHtml(row.legalPromoterLabel || "Unavailable") },
+          { label: "Reviewed RERA facts", render: (row) => row.reraFacts.length
+            ? `<a class="entity-link" href="${projectUrl(row.id)}#rera-facts">${escapeHtml(row.reraFactSummary)} →</a>`
+            : "Unavailable" },
           { label: "Evidence gaps / freshness", render: (row) => `${escapeHtml(row.criticalMissing[0] || "Unavailable")} · verified ${escapeHtml(row.lastVerified || "Unavailable")}` },
           { label: "Comparison basis", render: () => "Not directly comparable" },
           { label: "Calculator handoff", render: (row) => `<a class="entity-link" href="${marketUrl(`${root}/pages/calculator.html?project=${encodeURIComponent(row.id)}`)}">Open with unavailable inputs →</a>` },
@@ -1802,6 +1876,30 @@
     return escapeHtml(value);
   }
 
+  function renderReraFacts(project) {
+    if (!project.reraFacts.length) {
+      return `<section class="panel" id="rera-facts">
+        <p class="eyebrow">Reviewed RERA facts</p>
+        <h2>Unavailable</h2>
+        <p>No basis-aware reviewed certificate facts are linked to this project record.</p>
+      </section>`;
+    }
+    const facts = project.reraFacts.map((fact) => `
+      <article data-rera-fact>
+        <h3>${escapeHtml(reraFactLabels[fact.semanticFactType] || fact.semanticFactType)}</h3>
+        <p><strong>${escapeHtml(reraFactValue(fact))}</strong> · ${escapeHtml(fact.reportingQuarter)}</p>
+        <p>${escapeHtml(fact.caveat)}</p>
+        <small>${escapeHtml(fact.sourceDocumentType.replaceAll("_", " "))} · page ${fact.sourcePage} · document <code>${escapeHtml(fact.sourceDocumentSha256.slice(0, 12))}…</code></small>
+      </article>`).join("");
+    return `<section class="panel" id="rera-facts">
+      <p class="eyebrow">Reviewed RERA facts</p>
+      <h2>${escapeHtml(project.reraFactSummary)}</h2>
+      <p>These are exact, user-approved, document-declared certificate facts. They are not independent site verification, OC/CC, occupancy, title, inventory, rating or recommendation evidence.</p>
+      <div class="source-cards">${facts}</div>
+      <p><a class="button-link" href="${root}/downloads/rera-progress.json">Download all reviewed RERA facts</a></p>
+    </section>`;
+  }
+
   function renderProjectProof(project) {
     const selected = readWatchlist();
     const saved = selected.savedProjects.includes(project.id);
@@ -1841,7 +1939,9 @@
         <p class="eyebrow">Rating state</p>
         <h2>NR · Not Rated</h2>
         <p>${escapeHtml(project.ratingReason)}</p>
-        <p class="data-note">No rating is shown because the current static record does not demonstrate all rating contract gates: current QPRs, independent construction evidence, all critical evidence and weighted coverage are unavailable.</p>
+        <p class="data-note">${project.reraFacts.length
+          ? "Reviewed document-declared QPR facts are present, but they do not satisfy independent construction, legal completion, all-in cost, critical-evidence and weighted-coverage rating gates."
+          : "No rating is shown because current QPRs, independent construction evidence, all critical evidence and weighted coverage are unavailable."}</p>
       </section>
       <section class="panel">
         <p class="eyebrow">Critical gaps / risks</p>
@@ -1860,13 +1960,16 @@
           <p class="eyebrow">Delivery layers</p>
           <div class="detail-grid">
             <div class="detail-field"><span>Published delivery / possession evidence</span><div>${escapeHtml(project.delivery || "Unavailable")}</div></div>
-            <div class="detail-field"><span>QPR / construction</span><div>Unavailable</div></div>
+            <div class="detail-field"><span>QPR / construction</span><div>${project.reraFacts.length
+              ? `<a class="entity-link" href="#rera-facts">${escapeHtml(project.reraFactSummary)}</a>`
+              : "Unavailable"}</div></div>
             <div class="detail-field"><span>OC / CC</span><div>Unavailable</div></div>
             <div class="detail-field"><span>Handover / occupancy</span><div>Unavailable</div></div>
           </div>
           ${deliveryAvailable ? "<p class=\"data-note\">A declared date or published possession statement is not proof of completion, OC/CC or occupancy.</p>" : ""}
         </article>
       </section>
+      ${renderReraFacts(project)}
       <section class="two-column">
         <article class="panel">
           <p class="eyebrow">Builder / entity</p>
